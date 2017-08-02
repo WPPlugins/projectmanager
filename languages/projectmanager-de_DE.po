@@ -1,0 +1,3027 @@
+# ProjectManager POT file.
+# Copyright (C) 2008 Kolja Schleich
+# This file is distributed under the same license as the WordPress package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/projectmanager\n"
+"POT-Creation-Date: 2009-02-05 22:08+0000\n"
+"PO-Revision-Date: 2015-07-23 18:38+0100\n"
+"Last-Translator: Kolja Schleich <kolja.schleich@googlemail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.7.1\n"
+
+#: lib/project.php
+msgid "%s Datasets"
+msgstr "%s Datensätze"
+
+#: admin/settings.php
+msgid "Set this option to add first user-owned dataset to profile edit page"
+msgstr "Setze diese Option, damit der erste Datensatz eines Nutzers im Profil angezeigt wird"
+
+#: admin/settings.php
+msgid "Set this option to prevent display of any project data in the frontend"
+msgstr "Aktiviere diese Option, um die Anzeige von Datensätzen im Frontend zu verhindern"
+
+#: simplemaps references
+#: admin/setting.php
+msgid "If you have at least one country formfield you can display a worldmap denoting the number of datasets by continents powered by the <a href='%s' target='%s' title=Simplemaps'>Free World Continent Map</a> from <a href='%s' target='%s' title='Simplemaps'>simplemaps</a>, based on the <a href='%s' target='%s' title='Interactive-Maps Plugin'>Interactive-Maps Plugin</a>."
+msgstr "Falls du mindestens ein Land Formularfeld eingegeben hast, kannst du eine Weltkarte mit der Anzahl Datensätze nach Kontinenten darstellen. Das wird mit Hilfe der <a href='%s' target='%s' title='Simplemaps'>Freie Weltkontinent Karte</a> von <a href='%s' target='%s' title='Simplemaps'>simplemaps</a>, basierend auf dem <a href='%s' target='%s' title='Interactive-Maps Plugin'>Interactive-Maps Plugin</a> realisiert."
+
+#: simplemaps references
+#: admin/tinymce/window.php
+msgid "Powered by the <a href='%s' target='%s' title=Simplemaps'>Free World Continent Map</a> from <a href='%s' target='%s' title='Simplemaps'>simplemaps</a>, based on the <a href='%s' target='%s' title='Interactive-Maps Plugin'>Interactive-Maps Plugin</a>."
+msgstr "Ermöglicht durch die <a href='%s' target='%s' title='Simplemaps'>Freie Weltkontinent Karte</a> von <a href='%s' target='%s' title='Simplemaps'>simplemaps</a>, basierend auf dem <a href='%s' target='%s' title='Interactive-Maps Plugin'>Interactive-Maps Plugin</a>."
+
+#: admin/settings.php
+msgid "Require dataset activation"
+msgstr "Benötige Datensatz Aktivierung"
+
+#: admin/settings.php
+msgid "Off"
+msgstr "Aus"
+
+#: admin/settings.php
+msgid "Frontend"
+msgstr "Frontend"
+
+#: admin/settings.php
+msgid "The Project page is used by the slideshow and maybe other plugins to set links"
+msgstr "Die Projekt Seite wird von der Slideshow und möglicherweise von anderen Plugins verwendet, um Links zu setzen"
+
+#: admin/settings.php
+msgid "Frontend & Backend"
+msgstr "Frontend & Backend"
+
+#: admin/settings.php
+msgid "Requires sending an email confirmation"
+msgstr "Benötigt das Senden einer Bestätigungsmail"
+
+#: admin/settings.php
+msgid "Use the tag [CONFIRMATION_LINK] in your confirmation text to insert the confirmation link."
+msgstr "Verwende den tag [CONFIRMATION_LINK] in deinem Bestätigungstext um den Bestätigungs-Link einzufügen."
+
+#: admin/settings.php
+msgid "The page is required for re-sending a onfirmation email from the admin panel"
+msgstr "Die Seite wird benötigt um aus dem Adminbereich heraus erneut eine Bestätigungsmail zu schicken"
+
+#: admin/settings.php
+msgid "Parent Project"
+msgstr "Eltern Projekt"
+
+#: admin/settings.php
+msgid "This project has children and cannot be a child project itself"
+msgstr "Dieses Projekt hat Kinder und kann selber kein Kind-Projekt sein"
+
+#: admin/admin.php
+msgid "Congratulations! This project has no orphaned media files."
+msgstr "Herzlichen Glückwunsch! Dieses Projekt hat keine verwaisten Mediendateien."
+
+#: admin/show-project.php
+msgid "E-Mail confirmation has been sent"
+msgstr "E-Mail Bestätigung wurde geschickt"
+
+#: admin/show-project.php
+msgid "E-Mail confirmations have been sent to the following dataset IDs: %s"
+msgstr "E-Mail Bestätigungen wurden an die folgenden Datensatz IDs verschickt: %s"
+
+#: admin/show-project.php
+msgid "An error occured while trying to send E-Mail confirmation. Did you set the frontend page containing the dataset form?"
+msgstr "Beim Senden der Bestätigungsemail ist ein Fehler aufgetreten. Hast du die Frontend Seite mit dem Datensatzformular gesetzt?"
+
+#: admin/admin.php (addDatasetShortcode())
+msgid "An error occured while trying to send E-Mail confirmation.
+msgstr "Beim Senden der Bestätigungsemail ist ein Fehler aufgetreten."
+
+#: admin/show-project.php
+msgid "Send Email Confirmation"
+msgstr "Schicke E-Mail Bestätigung"
+
+#: admin/show-project.php
+msgid "active"
+msgstr "aktiv"
+
+#: admin/show-project.php
+msgid "pending"
+msgstr "ausstehend"
+
+#: lib/shortcodes.php
+msgid "Confirmation successful"
+msgstr "Bestätigung erfolgreich"
+
+#: lib/shortcodes.php
+msgid "Confirmation failed"
+msgstr "Bestätigung schlug fehl"
+
+#: lib/core.php:getFormFieldtypes()
+msgid "Title Image"
+msgstr "Titelbild"
+
+#: admin/categories.php
+msgid "Add Category"
+msgstr "Kategorie hinzufügen"
+
+#: admin/categories.php
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+#: admin/categories.php
+msgid "%d category deleted"
+msgstr "%d Kategorie gelöscht"
+
+#:  admin/categories.php
+msgid "%d categories deleted"
+msgstr "%d Kategorien gelöscht"
+
+#: admin/admin.php
+msgid "Category added"
+msgstr "Kategorie hinzugefügt"
+
+#: admin/admin.php
+msgid "Category edited"
+msgstr "Kategorie bearbeitet"
+
+#: lib/pdf
+msgid "Multiple selections possible"
+msgstr "Mehrfachnennungen möglich"
+
+#: admin/formfields.php
+msgid "For details on formfield options see the <a href='%s'>Documentation</a>"
+msgstr "Für Details zu Formularfeld Optionen, siehe <a href='%s'>Dokumentation</a>"
+
+#: admin/formfields.php
+msgid "For details on formfield options see the Documentation"
+msgstr "Für Details zu Formularfeld Optionen, siehe Dokumentation"
+
+#: admin/formfields.php:
+msgid "Add Form Field"
+msgstr "Formularfeld hinzufügen"
+
+#: admin/formfields.php
+msgid "Download Formular as PDF"
+msgstr "Formular als PDF herunterladen"
+
+#: admin/formfields.php:
+msgid "The Options field is used to store meta-data of formfields. Separate values by ; to save options for selectable fields (i.e. dropdown, checkbox or radio list)."
+msgstr "Das Optionen Feld wird verwendet um Metadaten von Formularfeldern zu speichern. Trenne Werte mit ; um Optionen für selektierbare Felder (z.B. Dropdown, Checkbox- oder Radiolisten) zu speichern."
+
+#: admin/formfields.php:
+msgid "The Options field can be also used to set a maximum number of characters for given formfield in the format `max:XX`."
+msgstr "Das Optionen Feld kann auch verwendet werden, um eine maximale Anzahl Zeichen für ein Formularfeld im Format `max:XX` zu setzen."
+
+#: admin/formfields.php:
+msgid "The Options field can be also used to set a maximum number of characters for textfields and TinyMCE editors after which the data will be cut `limit:XX`."
+msgstr "Das Optionen Feld kann auch verwendet werden, um eine maximale Anzahl Zeichen für Textfelder und TinyMCE Editoren zu setzen ab dem der Inhalt gekürzt wird im Format `limit:XX` zu setzen."
+
+#: admin/admin.php:47 admin/admin.php:59
+msgid "Overview"
+msgstr "Übersicht"
+
+#: admin/admin.php:48 admin/dataset.php:22 admin/index.php:71
+#: admin/show-project.php:70
+msgid "Add Dataset"
+msgstr "Datensatz hinzufügen"
+
+#: admin/dataset-form.php
+msgid "Additional Options"
+msgstr "Zusätzliche Optionen"
+
+#: admin/dataset-form.php
+msgid "Sticky"
+msgstr "Sticky"
+
+#: admin/dataset-form.php
+msgid "Set this option to show dataset on top of list"
+msgstr "Setze diese Option, um den Datensatz immer oben auf der Liste anzuzeigen"
+
+#: admin/admin.php:49 admin/formfields.php:18 admin/formfields.php:20
+#: admin/show-project.php:69
+msgid "Form Fields"
+msgstr "Formularfelder"
+
+#: admin/admin.php:50 admin/admin.php:60 admin/admin.php:144
+#: admin/index.php:71 admin/settings.php:39 admin/settings.php:44
+#: admin/show-project.php:68
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/settings.php
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/admin.php:51 admin/dataset-form.php:68 admin/show-project.php:58
+#: admin/show-project.php:71 admin/show-project.php:127
+#: admin/show-project.php:137 admin/tinymce/window.php:48
+#: view/searchform.php:25
+msgid "Categories"
+msgstr "Kategorien"
+
+#: admin/admin.php:52 admin/import.php:16 admin/show-project.php:72
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: admin/import.php
+msgid "Import Project"
+msgstr "Projekt importieren"
+
+#: admin/admin.php: importProject()
+msgid "You have to select a project export file in php format"
+msgstr "Du musst eine Projekt Exportdatei im PHP Format auswählen"
+
+#: admin/admin.php: importProject()
+msgid "Project has been successfully imported"
+msgstr "Projekt wurde erfolgreich importiert"
+
+#: admin/admin.php:58 admin/admin.php:59
+msgid "Projects"
+msgstr "Projekte"
+
+msgid "Filter by %s"
+msgstr "Nach %s filtern"
+
+#: admin/admin.php:175 admin/show-project.php:162 admin/show-project.php:177
+#: lib/core.php:932
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: admin/admin.php:175
+msgid "Post"
+msgstr "Post"
+
+#: admin/admin.php:175 admin/formfields.php:56 admin/formfields.php:68
+#: admin/show-project.php:159 admin/show-project.php:173 lib/core.php:989
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/admin.php:175 admin/formfields.php:56 admin/formfields.php:68
+#: admin/show-project.php:159 admin/show-project.php:173
+#: admin/tinymce/window.php:198 lib/core.php:989
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin/tinymce/window.php
+msgid "Formfield"
+msgstr "Formularfeld"
+
+#: admin/tinymce/window.php
+msgid "Map"
+msgstr "Karte"
+
+#: admin/admin.php:175
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: admin/admin.php:175
+msgid "Page Revisions"
+msgstr "Seiten Revisionen"
+
+#: admin/admin.php:175
+msgid "Insert time"
+msgstr "Einfügungszeit"
+
+#: admin/admin.php:175 admin/formfields.php:56 admin/formfields.php:70
+msgid "Options"
+msgstr "Optionen"
+
+#: admin/admin.php:175 admin/formfields.php:77 admin/index.php:37
+#: admin/show-project.php:85
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin/show-project.php
+msgid "Actions"
+msgstr "Aktionen"
+
+#: admin/show-project.php
+msgid "View"
+msgstr "Ansehen"
+
+#: admin/dataset.php
+msgid "Dataset Details"
+msgstr "Datensatz Details"
+
+#: admin/show-project.php
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+#: admin/admin.php:238 admin/settings.php:28
+msgid "Settings saved"
+msgstr "Einstellungen gespeichert"
+
+#: admin/admin.php:308 admin/index.php:47 admin/index.php:56
+#: admin/show-project.php:30 lib/shortcodes.php:187
+msgid "ID"
+msgstr "ID"
+
+#: admin/admin.php:308 admin/dataset-form.php:4 admin/import.php:36
+#: admin/show-project.php:30 admin/show-project.php:53
+#: admin/show-project.php:125 admin/show-project.php:135
+#: admin/show-project.php:162 lib/shortcodes.php:187 view/list.php:27
+#: view/searchform.php:21
+msgid "Name"
+msgstr "Name"
+
+#: admin/admin.php:308
+msgid "Formfields"
+msgstr "Formularfelder"
+
+#: admin/admin.php:328
+msgid "Project added"
+msgstr "Projekt hinzugefügt"
+
+#: admin/admin.php:343
+msgid "Project updated"
+msgstr "Projekt aktualisiert"
+
+#: admin/admin.php
+msgid "Dataset columns must not be separated by comma as multiple categories use this delimiter"
+msgstr "Datensatz Spalten dürfen nicht durch Komma getrennt sein, da mehrere Kategorien dadurch getrennt werden"
+
+#: admin/admin.php:402
+#, php-format
+msgid "%d Datasets successfully imported"
+msgstr "%d Datensätze erfolgreich importiert"
+
+#: admin/admin.php:404
+msgid "The file is not readable"
+msgstr "Die Datei ist nicht lesbar"
+
+#: admin/admin.php:411
+msgid "The uploaded file seems to be empty"
+msgstr "Die hochgeladene Datei scheint leer zu sein"
+
+#: admin/admin.php:496
+msgid "New dataset added to the database."
+msgstr "Neuer Datensatz in die Datenbank eingetragen."
+
+#: admin/admin.php:498
+msgid "You don't have the permission to add datasets"
+msgstr "Du hast keine Berechtigung Datensätze hinzuzufügen"
+
+#: admin/admin.php:565
+msgid "Dataset updated."
+msgstr "Datensatz aktualisiert"
+
+#: admin/admin.php:
+msgid "You have to provide an image to upload"
+msgstr "Du musst ein Bild hochladen"
+
+#: admin/admin.php:
+msgid "You have to provide a name"
+msgstr "Du musst einen Namen angeben"
+
+#: admin/admin.php:
+msgid "Your name must not exceed 50 characters"
+msgstr "Deine Name darf nicht länger als 50 Zeichen sein"
+
+#: admin/admin.php:checkSubmittedFormData()
+msgid "The following error occured while submitting the data"
+msgstr "Beim Abschicken des Formulars is folgender Fehler aufgetreten"
+
+#: admin/admin.php:
+msgid "Mandatory field %s is empty"
+msgstr "Pflichtfeld %s ist leer"
+
+#: admin/admin.php:
+msgid "Mandatory field %s is missing"
+msgstr "Pflichtfeld %s fehlt"
+
+#: admin/admin.php:
+msgid "Mandatory field %s is incorrect"
+msgstr "Pflichtfeld %s ist nicht korrekt"
+
+#: admin/admin.php:
+msgid "Provided %s `%s` is not allowed"
+msgstr "Übergebene %s `%s` ist nicht erlaubt"
+
+#: admin/admin.php:
+msgid "Provided %s `%s` is already present in the database"
+msgstr "Übergebene % `%s` ist bereits in der Datenbank vorhanden"
+
+#: admin/admin.php:
+msgid "Provided %s `%s` is not a valid e-mail address"
+msgstr "Übergebene %s `%s` ist keine valide e-mail Adresse"
+
+#: admin/admin.php:
+msgid "Provided %s is longer than the allowed length of %s characters"
+msgstr "Übergebene(r) %s ist länger als die erlaubte Länge von %s Zeichen"
+
+#: admin/admin.php:567
+msgid "You don't have the permission to edit this dataset"
+msgstr "Du hast nicht die Berechtigung Datensätze zu bearbeiten"
+
+#: admin/admin.php:626
+msgid "File exists and is not uploaded. Set the overwrite option if you want to replace it."
+msgstr "Die Datei existiert bereits und wird nicht hochgeladen."
+
+#: admin/admin.php:649
+msgid "The file type is not supported."
+msgstr "Der Dateityp wird nicht unterstützt"
+
+#: admin/admin.php:731
+msgid "Form Fields updated"
+msgstr "Formularfelder aktualisiert"
+
+# admin/tinymce/window.php
+msgid "Counter"
+msgstr "Zähler"
+
+# admin/tinymce/window.php
+msgid "Count Field"
+msgstr "Zählfeld"
+
+# admin/tinymce/window.php
+msgid "Countries"
+msgstr "Länder"
+
+#: admin/admin.php:749 admin/index.php:24 admin/index.php:43
+#: admin/tinymce/window.php:31
+msgid "Projectmanager"
+msgstr "Projektmanager"
+
+#: admin/dataset-form.php:10
+msgid "Image"
+msgstr "Bild"
+
+#: admin/dataset-form.php:15
+msgid "Supported file types"
+msgstr "Unterstützte Dateitypen"
+
+#: admin/dataset-form.php:17
+msgid "Overwrite existing image"
+msgstr "Überschreibe existierendes Bild"
+
+#: admin/dataset-form.php:19
+msgid "Delete current image"
+msgstr "Lösche aktuelles Bild"
+
+#: admin/dataset-form.php:80
+msgid "Owner"
+msgstr "Besitzer"
+
+#: admin/dataset-form.php
+msgid "Nobody"
+msgstr "Niemand"
+
+#: admin/dataset.php:9
+msgid "Edit Dataset"
+msgstr "Datensatz bearbeiten"
+
+#: admin/dataset.php:38 admin/settings.php:18
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writeable by the server?"
+msgstr "Konnte Verzeichnis %s nicht erstellen. Ist das übergeordnete Verzeichnis schreibbar?"
+
+#: templates/dataset-form.php
+msgid "Try new code"
+msgstr "Versuche neuen Code"
+
+#: admin/formfields.php:29 admin/formfields.php:39
+msgid "Label"
+msgstr "Label"
+
+#: admin/formfields.php
+msgid "Label Type"
+msgstr "Label Typ"
+
+#: admin/formfields.php
+msgid "Linebreak"
+msgstr "Umbruch"
+
+#: admin/formfields.php:30 admin/formfields.php:40
+msgid "Type"
+msgstr "Typ"
+
+#: admin/formfields.php
+msgid "Parent"
+msgstr "Eltern"
+
+#: admin/formfields.php
+msgid "Mandatory"
+msgstr "Pflicht"
+
+#: admin/formfields.php
+msgid "Unique"
+msgstr "Einmalig"
+
+#: admin/formfields.php
+msgid "Private"
+msgstr "Privat"
+
+#: admin/formfields.php:31 admin/formfields.php:41
+msgid "Startpage"
+msgstr "Startseite"
+
+#: admin/formfields.php:32 admin/formfields.php:42 admin/show-project.php:34
+#: lib/shortcodes.php:191 lib/widget.php:155
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: admin/formfields.php:33 admin/formfields.php:43 admin/show-project.php:30
+#: lib/shortcodes.php:187
+msgid "Order By"
+msgstr "Sortieren"
+
+#: admin/formfields.php:77
+msgid "Delete formfield"
+msgstr "Formularfeld löschen"
+
+#: admin/formfields.php:83
+msgid "Add new formfield"
+msgstr "Neues Formularfeld hinzufügen"
+
+#: admin/formfields.php:84
+msgid "Save Form Fields"
+msgstr "Formularfelder speichern"
+
+#: admin/import.php
+msgid "You can export datasets in tab-delimited format or media files as zip archive"
+msgstr "Du kannst die Datensätze als tab-getrennte Datei oder Media Dateien als zip Archive exportieren"
+
+#: admin/import.php
+msgid "Datasets (CSV)"
+msgstr "Datensätze (CSV)"
+
+#: admin/import.php
+msgid "Datasets (PDF)"
+msgstr "Datensätze (PDF)"
+
+#: admin/import.php
+msgid "Media Files"
+msgstr "Mediadateien"
+
+#: admin/import.php:17 admin/import.php:52
+msgid "Import Datasets"
+msgstr "Datensätze importieren"
+
+#: admin/import.php
+msgid "Import Data"
+msgstr "Daten importieren"
+
+#: admin/import.php
+msgid "Import Media"
+msgstr "Mediadateien importieren"
+
+#: admin/import.php-format
+msgid "Upload Media"
+msgstr "Mediadatei hochladen"
+
+#: admin/import.php
+msgid "You can upload media files in zip format to the webserver"
+msgstr "Du kannst Mediadateien im zip-Format auf den Server hochladen"
+
+#: admin/admin.php
+msgid "You have to select a media file in zip format"
+msgstr "Du musst eine Mediadatei im zip Format auswählen"
+
+#: admin/admin.php
+msgid "Media file have been successfully imported"
+msgstr "Mediadateien wurden erfolgreich importiert"
+
+#: admin/admin.php
+msgid "Media zip file could not be unpacked"
+msgstr "Media zip Datei konnte nicht entpackt werden"
+
+#: admin/import.php:25
+msgid "File"
+msgstr "Datei"
+
+#: admin/import.php:28
+msgid "Delimiter"
+msgstr "Trennzeichen"
+
+#: admin/import.php:28
+msgid "For tab delimited files use TAB as delimiter"
+msgstr "Für tab getrennte Dateien, verwende TAB als Trennzeichen"
+
+#: admin/import.php:31
+msgid "Column Assignment"
+msgstr "Spalten Zuordnung"
+
+#: admin/import.php:32
+msgid "All FormFields need to be assigned, also if some contain no data."
+msgstr "Alle Formularfelder müssen zugeordnet werden, auch wenn einige keine Daten enthalten"
+
+#: admin/import.php:33
+msgid "Dates must have the format <strong>YYYY-MM-DD</strong>."
+msgstr "Daten müssen das Format <strong>JJJJ-MM-TT</strong> haben."
+
+#: admin/import.php:36 admin/import.php:40
+#, php-format
+msgid "Column %d"
+msgstr "Spalte %d"
+
+#: admin/import.php
+msgid "multiple categories separated by comma"
+msgstr "mehrere Kategorien müssen durch Komma getrennt sein"
+
+#: admin/import.php:57 admin/import.php:60
+msgid "Export Datasets"
+msgstr "Datensätze exportieren"
+
+#: admin/import.php
+msgid "Import & Export Data"
+msgstr "Daten importieren & exportieren"
+
+#: admin/import.php:62 admin/import.php:65
+msgid "Export Data"
+msgstr "Daten exportieren"
+
+#: admin/import.php
+msgid "Export Media"
+msgstr "Mediadateien exportieren"
+
+#: admin/show-project.php
+msgid "Find duplicated datasets"
+msgstr "Finde doppelte Datensätze"
+
+#: admin/index.php:48 admin/index.php:57 admin/tinymce/window.php:58
+#: admin/tinymce/window.php:89 admin/tinymce/window.php:119
+#: admin/tinymce/window.php:158
+msgid "Project"
+msgstr "Projekt"
+
+#: admin/index.php:49 admin/index.php:58
+msgid "Datasets"
+msgstr "Datensätze"
+
+#: admin/index.php:50 admin/index.php:59
+msgid "Action"
+msgstr "Aktion"
+
+#: admin/index.php:90 admin/index.php:96
+msgid "Add Project"
+msgstr "Projekt hinzufügen"
+
+#: admin/index.php:92 admin/settings.php:47 lib/widget.php:138
+msgid "Title"
+msgstr "Titel"
+
+#: admin/settings-global.php:5
+msgid "Global Settings"
+msgstr "Globale Einstellungen"
+
+#: admin/settings-global.php:6
+msgid "Color Scheme"
+msgstr "Farbschema"
+
+#: admin/settings-global.php:10
+msgid "Table Headers"
+msgstr "Tabellen Header"
+
+#: admin/settings-global.php:13
+msgid "Table Rows"
+msgstr "Tabellenzeilen"
+
+#: admin/settings-global.php:12
+msgid "Box Header"
+msgstr "Box Kopfbereich"
+
+#: admin/settings-global.php:20
+msgid "Dashboard Widget Support News"
+msgstr "Dashboard Widget Support Nachrichten"
+
+#: admin/settings-global.php:23
+msgid "Number of Support Threads"
+msgstr "Anzahl Support Threads"
+
+#: admin/settings-global.php:26
+msgid "Show Author"
+msgstr "Autor anzeigen"
+
+#: admin/settings-global.php:29
+msgid "Show Date"
+msgstr "Datum anzeigen"
+
+#: admin/settings-global.php:32
+msgid "Show Summary"
+msgstr "Zusammenfassung anzeigen"
+
+#: admin/settings-global.php:37
+msgid "Save Preferences"
+msgstr "Einstellungen speichern"
+
+#: admin/settings.php:50
+msgid "Datasets per page"
+msgstr "Datensätze pro Seite"
+
+#: admin/settings.php:34
+msgid "Set to -1 for no limit"
+msgstr "Setze auf -1, um alle Datensätze anzuzeigen"
+
+#: admin/settings.php:34
+msgid "Set to 0 for no limit"
+msgstr "Setze auf 0, um alle Datensätze anzuzeigen"
+
+#: admin/settings.php:53 functions.php:40
+msgid "Category"
+msgstr "Kategorie"
+
+#: admin/settings.php:53 admin/show-project.php:150 functions.php:32
+#: functions.php:88
+msgid "None"
+msgstr "Keine"
+
+#: admin/settings.php:56
+msgid "Sort Datasets by"
+msgstr "Datensätze sortieren nach"
+
+#: admin/settings.php:56
+msgid "Sort Datasets"
+msgstr "Datensätze sortieren"
+
+#: admin/settings.php:40
+msgid "Sort Categories"
+msgstr "Kategorien sortieren"
+
+#: admin/settings.php
+msgid "Category Selections"
+msgstr "Kategorien Auswahl"
+
+#: admin/settings.php
+msgid "Multiple Selections"
+msgstr "Mehrfachauswahl"
+
+#: admin/settings.php
+msgid "Only Single Category"
+msgstr "Nur einzelne Kategorie"
+
+#: admin/settings.php:59
+msgid "Use Widget"
+msgstr "Verwende Widget"
+
+#: admin/settings.php:62
+msgid "Top-level Menu"
+msgstr "Top-level Menu"
+
+#: admin/settings.php:62
+msgid "Set this option to add a direct link in the navigation panel."
+msgstr "Wähle diese Option, um einen direkten Link im Navigations-Panel zu setzen."
+
+#: admin/settings.php:65
+msgid "Hook into Profile"
+msgstr "In Profil einbinden"
+
+#: admin/settings.php:65
+msgid "Only one project can be hooked into the profile!"
+msgstr "Nur ein Projekt kann in das Profil eingebunden werden!"
+
+#: admin/settings.php:68
+msgid "Menu Icon"
+msgstr "Menu Icon"
+
+#: admin/settings.php:79
+msgid "Images"
+msgstr "Bilder"
+
+#: admin/settings.php:82
+msgid "Show Image"
+msgstr "Zeige Bild"
+
+#: admin/settings.php:
+msgid "Default Image"
+msgstr "Standardbild"
+
+#: admin/settings.php:
+msgid "Current Image:"
+msgstr "Aktuelles Bild:"
+
+#: admin/settings.php:85
+msgid "Thumbnail size"
+msgstr "Vorschaubild-Größe"
+
+#: admin/settings.php:77
+msgid "Tiny size"
+msgstr "Kleinstbild-Größe"
+
+#: admin/settings.php
+msgid "Crop image to exact dimensions"
+msgstr "Beschneide Bilder auf die exakte Größe"
+
+#: admin/settings.php:85 lib/widget.php:151
+msgid "Width"
+msgstr "Breite"
+
+#: admin/settings.php:85 lib/widget.php:152
+msgid "Height"
+msgstr "Höhe"
+
+#: admin/settings.php:88
+msgid "Medium size"
+msgstr "Mittlere Größe"
+
+#: admin/settings.php:80
+msgid "Large size"
+msgstr "Große Größe"
+
+#: admin/settings.php:88
+msgid "Max Width"
+msgstr "Max. Breite"
+
+#: admin/settings.php:88
+msgid "Max Height"
+msgstr "Max. Höhe"
+
+#: admin/settings.php
+msgid "Regenerate Thumbnails"
+msgstr "Thumbnails regenerieren"
+
+#: admin/settings.php
+msgid "Regenerate Thumbnails Now"
+msgstr "Thumbnails jetzt regenieren"
+
+#: admin/settings.php
+msgid "This will re-create all thumbnail images of this project. Depending on the number of images it could take some time."
+msgstr "Das wird alle Thumbnails des Projekte neu erstellen. Abhängig von der Anzahl der Bilder kann das  einige Zeit dauern."
+
+#: admin/admin.php:regenerateThumbnails()
+msgid "Project thumbnails regenerated. You should not reload this page, otherwise thumbnails will be again regenerated."
+msgstr "Projekt Thumbnails regeneriert. Du solltest diese Seite nicht neu laden, andernfalls werden die Thumbnails nochmal regeneriert."
+
+#: admin/settings.php:93
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: admin/show-project.php:34 lib/shortcodes.php:191
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: admin/show-project.php:34 lib/shortcodes.php:191
+msgid "Descending"
+msgstr "Absteigend"
+
+#: admin/show-project.php:63 view/searchform.php:31
+msgid "Search"
+msgstr "Suche"
+
+#: admin/show-project.php:91 view/tablenav.php:20
+msgid "View all categories"
+msgstr "Alle Kategorien anzeigen"
+
+#: admin/show-project.php:111
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Angezeigt %s&#8211;%s von %s"
+
+#: admin/show-project.php:177
+#, php-format
+msgid "Categories of %s"
+msgstr "Kategorien von %s"
+
+#: admin/show-project.php:188 view/gallery.php:54 view/list.php:57
+msgid "Nothing found"
+msgstr "Nichts gefunden"
+
+#: templates/testimonials-intro.php
+msgid "<span class='num'>%d</span> Supporters from <span class='num'>%d</span> Countries Already."
+msgstr "Bereits <span class='num'>%d</span> Unterstützer aus <span class='num'>%d</span> Ländern."
+
+#: templates/testimonials-intro.php
+msgid "Become part of our cause."
+msgstr "Werde Teil unserer Sache."
+
+#: templates/testimonials-intro.php
+msgid "List of supporters."
+msgstr "Liste der Unterstützer."
+
+#: admin/tinymce/window.php:46
+msgid "Simple Output"
+msgstr "Einfache Ausgabe"
+
+#: admin/tinymce/window.php:47
+msgid "Gallery"
+msgstr "Galerie"
+
+#: admin/tinymce/window.php:49
+msgid "Search Form"
+msgstr "Suchformular"
+
+#: admin/tinymce/window.php:61 admin/tinymce/window.php:92
+#: admin/tinymce/window.php:122 admin/tinymce/window.php:161
+msgid "No Project"
+msgstr "Kein Projekt"
+
+#: admin/tinymce/window.php:75 admin/tinymce/window.php:134
+msgid "Show as"
+msgstr "Zeige als"
+
+#: admin/tinymce/window.php:77
+msgid "Table"
+msgstr "Tabelle"
+
+#: admin/tinymce/window.php:78
+msgid "Unsorted List"
+msgstr "Unsortierte Liste"
+
+#: admin/tinymce/window.php:79
+msgid "Sorted List"
+msgstr "Sortierte Liste"
+
+#: admin/tinymce/window.php:108
+msgid "Columns"
+msgstr "Spalten"
+
+#: admin/tinymce/window.php:136
+msgid "Dropdown Menu"
+msgstr "Dropdown Menu"
+
+#: admin/tinymce/window.php:137
+msgid "List"
+msgstr "Liste"
+
+#: admin/tinymce/window.php:141 admin/tinymce/window.php:173
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: admin/tinymce/window.php:144 admin/tinymce/window.php:176
+msgid "Left"
+msgstr "Links"
+
+#: admin/tinymce/window.php:145 admin/tinymce/window.php:177
+msgid "Center"
+msgstr "Zentriert"
+
+#: admin/tinymce/window.php:146 admin/tinymce/window.php:178
+msgid "Right"
+msgstr "Rechts"
+
+#: admin/tinymce/window.php:183 lib/widget.php:139
+msgid "Display"
+msgstr "Anzeige"
+
+#: admin/tinymce/window.php:186
+msgid "Extend"
+msgstr "Erweitert"
+
+#: admin/tinymce/window.php:187
+msgid "Compact"
+msgstr "Kompakt"
+
+#: admin/tinymce/window.php:202
+msgid "Insert"
+msgstr "Einfügen"
+
+#: admin/upgrade.php:13
+msgid "Upgrade database structure..."
+msgstr "Aktualisieren der Datenbankstruktur..."
+
+#: admin/upgrade.php:81
+msgid "finished"
+msgstr "fertig"
+
+#: admin/upgrade.php:101 admin/upgrade.php:120
+msgid "Upgrade ProjectManager"
+msgstr "Projektmanager aktualisieren"
+
+#: admin/upgrade.php:102
+msgid "Your database for ProjectManager is out-of-date, and must be upgraded before you can continue."
+msgstr "Deine Datenbank für Projectmanager is veraltet und muss aktualisiert werden, bevor du weitermachen kannst."
+
+#: admin/upgrade.php:103
+msgid "The upgrade process may take a while, so please be patient."
+msgstr "Der Upgrade Prozesss kann eine Weile dauern, sei also geduldig."
+
+#: admin/upgrade.php:104
+msgid "Start upgrade now"
+msgstr "Aktualisierung jetzt starten"
+
+#: admin/upgrade.php:122
+msgid "Upgrade successful"
+msgstr "Aktualisierung erfolgreich"
+
+#: admin/upgrade.php:123
+msgid "Continue"
+msgstr "Weiter"
+
+#: lib/core.php
+msgid "Dataset Name"
+msgstr "Datensatz Name"
+
+#: lib/core.php
+msgid "Paragraph"
+msgstr "Absatz"
+
+#: lib/core.php:254
+msgid "Text"
+msgstr "Text"
+
+#: lib/core.php:254
+msgid "Textfield"
+msgstr "Textfeld"
+
+#: lib/core.php:254
+msgid "Country"
+msgstr "Land"
+
+#: lib/core.php
+msgid "Signature"
+msgstr "Unterschrift"
+
+#: lib/core.php:254
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: lib/core.php:254
+msgid "Date"
+msgstr "Datum"
+
+#: lib/core.php:254
+msgid "URL"
+msgstr "URL"
+
+#: lib/core.php:254
+msgid "Selection"
+msgstr "Dropdown Menu"
+
+#: lib/core.php:254
+msgid "Checkbox List"
+msgstr "Checkbox Liste"
+
+#: lib/core.php:254
+msgid "Radio List"
+msgstr "Radio Liste"
+
+#: lib/core.php:402
+msgid "Newsletter Options"
+msgstr "Newsletter Optionen"
+
+#: lib/core.php:893
+msgid "%s of %s"
+msgstr "%s von %s"
+
+#: lib/shortcodes.php:65
+#, php-format
+msgid "Could not load template %s.php"
+msgstr "Konnte template %s.php nicht laden"
+
+#: lib/widget.php:141
+msgid "All"
+msgstr "Alle"
+
+#: lib/widget.php:147
+msgid "Page"
+msgstr "Seite"
+
+#: lib/widget.php
+msgid "Random"
+msgstr "Zufällig"
+
+#: lib/widget.php
+msgid "Image Size"
+msgstr "Bildgröße"
+
+#: view/list.php:16
+#, php-format
+msgid "Search: %d of %d"
+msgstr "Suche: %d von %d"
+
+#: lib/shortcodes.php
+msgid "%s &mdash; Search: %d of %d"
+msgstr "%s &mdash; Suche: %d von %d"
+
+#: lib/shortcodes.php
+msgid "Submit"
+msgstr "Abschicken"
+
+#: lib/shortcodes.php
+msgid "Dataset added to the database"
+msgstr "Datensatz zur Datenbank hinzugefügt"
+
+#: admin/tinymce/window.php
+msgid "or"
+msgstr "oder"
+
+#: admin/tinymce/window.php
+msgid "Anker on same page"
+msgstr "Anker auf selber Seite"
+
+#: admin/tinymce/window.php
+msgid "Use Captcha"
+msgstr "Captcha verwenden"
+
+#: admin/tinymce/window.php
+msgid "Timeout"
+msgstr "Timeout"
+
+#: admin/tinymce/window.php
+msgid "minutes"
+msgstr "Minuten"
+
+#: lib/shortcodes.php
+msgid "Your session has expired"
+msgstr "Deine Sitzung ist abgelaufen"
+
+#: lib/shortcodes.php
+msgid "Something went wrong with the captcha"
+msgstr "Etwas ist mit dem Captcha falsch gelaufen"
+
+#: lib/shortcodes.php
+msgid "Wrong Captcha Code"
+msgstr "Falscher Captcha Code"
+
+#: lib/shortcodes.php
+msgid "Back to Formula"
+msgstr "Zurück zum Formular"
+
+#: lib/shortcodes.php
+msgid "Back to Homepage"
+msgstr "Zurück zur Homepage"
+
+#: view/single.php:13
+msgid "Back to list"
+msgstr "Zurück zur Übersicht"
+
+#: templates/dataset.php:14
+msgid "Previous dataset"
+msgstr "Vorheriger Datensatz"
+
+#: templates/dataset.php:14
+msgid "Next dataset"
+msgstr "Nächster Datensatz"
+
+#: view/single.php:16
+#, php-format
+msgid "Details of %s"
+msgstr "Details von %s"
+
+msgid "Extended Version"
+msgstr "Erweiterte Version"
+
+msgid "Compact Version"
+msgstr "Kompakte Version"
+
+msgid "Dataset"
+msgstr "Datensatz"
+
+msgid "No Dataset"
+msgstr "Kein Datensatz"
+
+msgid "Number of Columns"
+msgstr "Anzahl Spalten"
+
+msgid "Needed for multicolumn output, e.g. gallery"
+msgstr "Benötigt für Mehrspaltige Ausgabe, z.B. Galerie"
+
+#: admin/settings.php
+msgid "Used in Fancy Slideshow plugin"
+msgstr "Im Fancy Slideshow Plugin verwendet"
+
+#: admin/settings.php
+msgid "Scramble E-Mail Addresses on Website"
+msgstr "E-Mail Adressen auf Webseite chiffrieren"
+
+#: admin/settings.php
+msgid "Activate this to replace @ and . with [at] and [dot] to secure e-mail addresses on website"
+msgstr "Aktiviere diese Option, um E-Mail Adressen auf der Webseite durch Ersetzen von @ und . mit [at] und [dot] zu schützen"
+
+#: admin/admin.php:datasetOrderbyOptions(()
+msgid "Custom Order"
+msgstr "Eigene Reihenfolge"
+
+#: admin/admin.php:saveDatasetOrder()
+msgid "Dataset order saved"
+msgstr "Datensatz Reihenfolge gespeichert"
+
+#: admin/show-project.php
+msgid "Save Order"
+msgstr "Reihenfolge speichern"
+
+#: admin/show-project.php
+msgid "Number"
+msgstr "Nummer"
+
+msgid "Display all Datasets"
+msgstr "Alle Datensätze anzeigen"
+
+msgid "Child categories of this category are used for grouping of datasets"
+msgstr "Kind Kategorien dieser Kategorie werden zur Gruppierung der Datensätze verwendet"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Image Upload"
+msgstr "Bild Upload"
+
+msgid "The second checkbox controls image display in user profile"
+msgstr "Die zweite Checkbox kontrolliert die Bild-Anzeige im Benutzerprofil"
+
+msgid "Manual"
+msgstr "Manuell"
+
+msgid "Separate Options by newline. Click on <em>Save</em> when you are done."
+msgstr "Beginne für jede Option einen neue Zeile. Klicke auf <em>Speichern</em> wenn du fertig bist."
+
+msgid "Note: You will have to save the Formfields to finally save the otions to the database."
+msgstr "Achtung: Du musst die Formularfelder speichern, um die Optionen in der Datenbank zu speichern."
+
+msgid "Use <strong>NaN</strong> for no limit"
+msgstr "Benutze <strong>NaN</strong> für kein Limit"
+
+msgid "To order datasets manually there must be no limit on datasets."
+msgstr "Um Datensätze manuell so ordnen, darf kein Limit bei Datensätzen gesetzt sein."
+
+msgid "This Field has a callback attached which will get the data from somewhere else!"
+msgstr "Dieses Feld hat eine Callback Funktion angefügt, die die Daten von woanders holt!"
+
+msgid "See <a href='http://de2.php.net/manual/en/function.chmod.php'>http://de2.php.net/manual/en/function.chmod.php</a> for more information"
+msgstr "Siehe <a href='http://de2.php.net/manual/de/function.chmod.php'>http://de2.php.net/manual/de/function.chmod.php</a> für mehr Informationen"
+
+msgid "File permissions"
+msgstr "Datei Zugriffsrechte"
+
+msgid "Display datasets from ProjectManager"
+msgstr "Datensätze vom ProjektManager anzeigen"
+
+msgid "File Upload"
+msgstr "Datei-Upload"
+
+msgid "Current File"
+msgstr "Aktuelle Datei"
+
+msgid "Delete File"
+msgstr "Datei Löschen"
+
+msgid "Overwrite File"
+msgstr "Datei überschreiben"
+
+msgid "Numeric"
+msgstr "Numerisch"
+
+msgid "Currency"
+msgstr "Währung"
+
+msgid "Blind X"
+msgstr "Blende X"
+
+msgid "Blind Y"
+msgstr "Blende Y"
+
+msgid "Blind Z"
+msgstr "Blende Z"
+
+msgid "Cover"
+msgstr "Überziehen"
+
+msgid "Curtain X"
+msgstr "Rollo X"
+
+msgid "Curtain Y"
+msgstr "Rollo Y"
+
+msgid "Fade Zoom"
+msgstr "Fade Zoom"
+
+msgid "Scroll Horizontal"
+msgstr "Horizontal scrollen"
+
+msgid "Scroll Vertical"
+msgstr "Vertikal scrollen"
+
+msgid "Shuffle"
+msgstr "Mischen"
+
+msgid "Slide X"
+msgstr "Gleiten X"
+
+msgid "Slide Y"
+msgstr "Gleiten Y"
+
+msgid "Toss"
+msgstr "Schleudern"
+
+msgid "Turn Up"
+msgstr "Hoch wenden"
+
+msgid "Turn Down"
+msgstr "Runter wenden"
+
+msgid "Turn Left"
+msgstr "Links wenden"
+
+msgid "Turn Right"
+msgstr "Rechts wenden"
+
+msgid "Uncover"
+msgstr "Aufdecken"
+
+msgid "Wipe"
+msgstr "Wischen"
+
+msgid "User"
+msgstr "Benutzer"
+
+msgid "Add WP User"
+msgstr "WP Benutzer hinzufügen"
+
+msgid "You cannot add two datasets with same User ID"
+msgstr "Du kannst nicht zwei Datensätze mit gleicher Benutzer ID hinzufügen"
+
+msgid "You don't have permission to perform this task"
+msgstr "Du hast nicht die Berechtigung diese Aufgabe auszuführen"
+
+msgid "Internal Link"
+msgstr "Interner Verweis"
+
+#: lib/core.php:402 lib/widget.php:161
+msgid "Time"
+msgstr "Uhrzeit"
+
+#: lib/core.php
+msgid "Video"
+msgstr "Video"
+
+#: lib/core.php
+msgid "Dataset Image"
+msgstr "Datensatz Bild"
+
+msgid "Choose Project"
+msgstr "Wähle Projekt"
+
+msgid "Choose Project to Link"
+msgstr "Wähle Projekt zum Verlinken"
+
+msgid "Add Option"
+msgstr "Option Hinzufügen"
+
+#: special option
+msgid "Other"
+msgstr "Andere"
+
+msgid "Day"
+msgstr "Tag"
+
+msgid "Month"
+msgstr "Monat"
+
+msgid "Year"
+msgstr "Jahr"
+
+msgid "An Error Occured. Please Save FormFields and set Options afterwards"
+msgstr "Es ist ein Fehler aufgetreten. Bitte speichere die Formularfelder und setze die Optionen danach"
+
+#: admin/tinymce/window.php:
+msgid "Table with Image"
+msgstr "Tabelle mit Bild"
+
+# admin/tinymce/windows.php:
+msgid "Limit"
+msgstr "Limit"
+
+#: admin/tinymce/window.php:
+msgid "Show all datasets"
+msgstr "Alle Datensätze anzeigen"
+
+#: admin/admin.php:
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: lib/core:getCountryRegions()
+msgid "South America"
+msgstr "Südamerika"
+
+#: lib/core:getCountryRegions()
+msgid "North America"
+msgstr "Nordamerika"
+
+#: lib/core:getCountryRegions()
+msgid "Europe"
+msgstr "Europa"
+
+#: lib/core:getCountryRegions()
+msgid "Africa"
+msgstr "Afrika"
+
+#: lib/core:getCountryRegions()
+msgid "South Asia"
+msgstr "Südasien"
+
+#: lib/core:getCountryRegions()
+msgid "North Asia"
+msgstr "Nordasien"
+
+#: lib/core:getCountryRegions()
+msgid "Middle East"
+msgstr "Naher Osten"
+
+#: lib/core:getCountryRegions()
+msgid "Oceania"
+msgstr "Ozeanien"
+
+#: Countries Database
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: Countries Database
+msgid "Åland Islands"
+msgstr "Åland Inseln"
+
+#: Countries Database
+msgid "Albania"
+msgstr "Albanien"
+
+#: Countries Database
+msgid "Algeria"
+msgstr "Algerien"
+
+#: Countries Database
+msgid "American Samoa"
+msgstr "Amerikanisch Samoa"
+
+#: Countries Database
+msgid "Andorra"
+msgstr "Andorra"
+
+#: Countries Database
+msgid "Angola"
+msgstr "Angola"
+
+#: Countries Database
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: Countries Database
+msgid "Antigua and Barbuda"
+msgstr "Antigua und Barbuda"
+
+#: Countries Database
+msgid "Argentina"
+msgstr "Argentinien"
+
+#: Countries Database
+msgid "Armenia"
+msgstr "Armenien"
+
+#: Countries Database
+msgid "Aruba"
+msgstr "Aruba"
+
+#: Countries Database
+msgid "Australia"
+msgstr "Australien"
+
+#: Countries Database
+msgid "Austria"
+msgstr "Österreich"
+
+#: Countries Database
+msgid "Azerbaijan"
+msgstr "Aserbaidschan"
+
+#: Countries Database
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: Countries Database
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: Countries Database
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: Countries Database
+msgid "Barbados"
+msgstr "Barbados"
+
+#: Countries Database
+msgid "Belarus"
+msgstr "Weißrussland"
+
+#: Countries Database
+msgid "Belgium"
+msgstr "Belgien"
+
+#: Countries Database
+msgid "Belize"
+msgstr "Belize"
+
+#: Countries Database
+msgid "Benin"
+msgstr "Benin"
+
+#: Countries Database
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: Countries Database
+msgid "Bhutan"
+msgstr "Bihutan"
+
+#: Countries Database
+msgid "Bolivia (Plurinational State of)"
+msgstr "Bolivien"
+
+#: Countries Database
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Bonaire, Sint Eustatius und Saba"
+
+#: Countries Database
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien und Herzegowina"
+
+#: Countries Database
+msgid "Botswana"
+msgstr "Botswana"
+
+#: Countries Database
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: Countries Database
+msgid "British Virgin Islands"
+msgstr "Britishe Jungferninseln"
+
+#: Countries Database
+msgid "Brunei Darussalam"
+msgstr "Brunei"
+
+#: Countries Database
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: Countries Database
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: Countries Database
+msgid "Burundi"
+msgstr "Burundi"
+
+#: Countries Database
+msgid "Cabo Verde"
+msgstr "Kap Verde"
+
+#: Countries Database
+msgid "Cambodia"
+msgstr "Kambodscha"
+
+#: Countries Database
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: Countries Database
+msgid "Canada"
+msgstr "Kanada"
+
+#: Countries Database
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: Countries Database
+msgid "Central African Republic"
+msgstr "Zentralafrikanische Republik"
+
+#: Countries Database
+msgid "Chad"
+msgstr "Tschad"
+
+#: Countries Database
+msgid "Channel Islands"
+msgstr "Channel Islands"
+
+#: Countries Database
+msgid "Chile"
+msgstr "Chile"
+
+#: Countries Database
+msgid "China"
+msgstr "China"
+
+#: Countries Database
+msgid "China, Hong Kong Special Administrative Region"
+msgstr "China, Hong Kong"
+
+#: Countries Database
+msgid "China, Macao Special Administrative Region"
+msgstr "China, Macao"
+
+#: Countries Database
+msgid "Colombia"
+msgstr "Kolumbien"
+
+#: Countries Database
+msgid "Comoros"
+msgstr "Komoren"
+
+#: Countries Database
+msgid "Congo"
+msgstr "Kongo"
+
+#: Countries Database
+msgid "Cook Islands"
+msgstr "Cookinseln"
+
+#: Countries Database
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: Countries Database
+msgid "Côte d'Ivoire"
+msgstr "Elfenbeinküste"
+
+#: Countries Database
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: Countries Database
+msgid "Cuba"
+msgstr "Kuba"
+
+#: Countries Database
+msgid "Curaçao"
+msgstr "Curaçao"
+
+#: Countries Database
+msgid "Cyprus"
+msgstr "Zypern"
+
+#: Countries Database
+msgid "Czech Republic"
+msgstr "Tschechische Republik"
+
+#: Countries Database
+msgid "Democratic People's Republic of Korea"
+msgstr "Demokratische Volksrepublik Korea"
+
+#: Countries Database
+msgid "Democratic Republic of the Congo"
+msgstr "Demokratische Republik Kongo"
+
+#: Countries Database
+msgid "Denmark"
+msgstr "Dänemark"
+
+#: Countries Database
+msgid "Djibouti"
+msgstr "Dschibuti"
+
+#: Countries Database
+msgid "Dominica"
+msgstr "Dominica"
+
+#: Countries Database
+msgid "Dominican Republic"
+msgstr "Dominikanische Republik"
+
+#: Countries Database
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: Countries Database
+msgid "Egypt"
+msgstr "Ägypten"
+
+#: Countries Database
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: Countries Database
+msgid "Equatorial Guinea"
+msgstr "Äquatorial Guinea"
+
+#: Countries Database
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: Countries Database
+msgid "Estonia"
+msgstr "Estland"
+
+#: Countries Database
+msgid "Ethiopia"
+msgstr "Äthiopien"
+
+#: Countries Database
+msgid "Faeroe Islands"
+msgstr "Färöer"
+
+#: Countries Database
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandinseln"
+
+#: Countries Database
+msgid "Fiji"
+msgstr "Fiji"
+
+#: Countries Database
+msgid "Finland"
+msgstr "Finnland"
+
+#: Countries Database
+msgid "France"
+msgstr "Frankreich"
+
+#: Countries Database
+msgid "French Guiana"
+msgstr "Französisch-Guayana"
+
+#: Countries Database
+msgid "French Polynesia"
+msgstr "Französisch-Polynesien"
+
+#: Countries Database
+msgid "Gabon"
+msgstr "Gabon"
+
+#: Countries Database
+msgid "Gambia"
+msgstr "Gambia"
+
+#: Countries Database
+msgid "Georgia"
+msgstr "Georgien"
+
+#: Countries Database
+msgid "Germany"
+msgstr "Deutschland"
+
+#: Countries Database
+msgid "Ghana"
+msgstr "Ghana"
+
+#: Countries Database
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: Countries Database
+msgid "Greece"
+msgstr "Griechenland"
+
+#: Countries Database
+msgid "Greenland"
+msgstr "Grönland"
+
+#: Countries Database
+msgid "Grenada"
+msgstr "Grenada"
+
+#: Countries Database
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: Countries Database
+msgid "Guam"
+msgstr "Guam"
+
+#: Countries Database
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: Countries Database
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: Countries Database
+msgid "Guinea"
+msgstr "Guinea"
+
+#: Countries Database
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: Countries Database
+msgid "Guyana"
+msgstr "Guyana"
+
+#: Countries Database
+msgid "Haiti"
+msgstr "Haiti"
+
+#: Countries Database
+msgid "Holy See"
+msgstr "Heiliger Stuhl"
+
+#: Countries Database
+msgid "Honduras"
+msgstr "Honduras"
+
+#: Countries Database
+msgid "Hungary"
+msgstr "Ungarn"
+
+#: Countries Database
+msgid "Iceland"
+msgstr "Island"
+
+#: Countries Database
+msgid "India"
+msgstr "Indien"
+
+#: Countries Database
+msgid "Indonesia"
+msgstr "Indonesien"
+
+#: Countries Database
+msgid "Iran (Islamic Republic of)"
+msgstr "Iran"
+
+#: Countries Database
+msgid "Iraq"
+msgstr "Irak"
+
+#: Countries Database
+msgid "Ireland"
+msgstr "Irland"
+
+#: Countries Database
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: Countries Database
+msgid "Israel"
+msgstr "Israel"
+
+#: Countries Database
+msgid "Italy"
+msgstr "Italien"
+
+#: Countries Database
+msgid "Jamaica"
+msgstr "Jamaika"
+
+#: Countries Database
+msgid "Japan"
+msgstr "Japan"
+
+#: Countries Database
+msgid "Jersey"
+msgstr "Jersey"
+
+#: Countries Database
+msgid "Jordan"
+msgstr "Jordanien"
+
+#: Countries Database
+msgid "Kazakhstan"
+msgstr "Kasachstan"
+
+#: Countries Database
+msgid "Kenya"
+msgstr "Kenia"
+
+#: Countries Database
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: Countries Database
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: Countries Database
+msgid "Kyrgyzstan"
+msgstr "Kirgisistan"
+
+#: Countries Database
+msgid "Lao People's Democratic Republic"
+msgstr "Laos"
+
+#: Countries Database
+msgid "Latvia"
+msgstr "Lettland"
+
+#: Countries Database
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: Countries Database
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: Countries Database
+msgid "Liberia"
+msgstr "Liberia"
+
+#: Countries Database
+msgid "Libya"
+msgstr "Libyen"
+
+#: Countries Database
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: Countries Database
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: Countries Database
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: Countries Database
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: Countries Database
+msgid "Malawi"
+msgstr "Malawi"
+
+#: Countries Database
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: Countries Database
+msgid "Maldives"
+msgstr "Malediven"
+
+#: Countries Database
+msgid "Mali"
+msgstr "Mali"
+
+#: Countries Database
+msgid "Malta"
+msgstr "Malta"
+
+#: Countries Database
+msgid "Marshall Islands"
+msgstr "Marshallinseln"
+
+#: Countries Database
+msgid "Martinique"
+msgstr "Martinique"
+
+#: Countries Database
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+#: Countries Database
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: Countries Database
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: Countries Database
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: Countries Database
+msgid "Micronesia (Federated States of)"
+msgstr "Mikronesien"
+
+#: Countries Database
+msgid "Monaco"
+msgstr "Monaco"
+
+#: Countries Database
+msgid "Mongolia"
+msgstr "Mongolei"
+
+#: Countries Database
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: Countries Database
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: Countries Database
+msgid "Morocco"
+msgstr "Marokko"
+
+#: Countries Database
+msgid "Mozambique"
+msgstr "Mosambik"
+
+#: Countries Database
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: Countries Database
+msgid "Namibia"
+msgstr "Namibia"
+
+#: Countries Database
+msgid "Nauru"
+msgstr "Nauru"
+
+#: Countries Database
+msgid "Nepal"
+msgstr "Nepal"
+
+#: Countries Database
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#: Countries Database
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+#: Countries Database
+msgid "New Zealand"
+msgstr "Neuseeland"
+
+#: Countries Database
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: Countries Database
+msgid "Niger"
+msgstr "Niger"
+
+#: Countries Database
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: Countries Database
+msgid "Niue"
+msgstr "Niue"
+
+#: Countries Database
+msgid "Norfolk Island"
+msgstr "Norfolkinseln"
+
+#: Countries Database
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: Countries Database
+msgid "Norway"
+msgstr "Norwegen"
+
+#: Countries Database
+msgid "Oman"
+msgstr "Oman"
+
+#: Countries Database
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#:Countries Database
+msgid "Palestine"
+msgstr "Palästina"
+
+#: Countries Database
+msgid "Palau"
+msgstr "Palau"
+
+#: Countries Database
+msgid "Panama"
+msgstr "Panama"
+
+#: Countries Database
+msgid "Papua New Guinea"
+msgstr "Papua-Neuguinea"
+
+#: Countries Database
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: Countries Database
+msgid "Peru"
+msgstr "Peru"
+
+#: Countries Database
+msgid "Philippines"
+msgstr "Philippinen"
+
+#: Countries Database
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: Countries Database
+msgid "Poland"
+msgstr "Polen"
+
+#: Countries Database
+msgid "Portugal"
+msgstr "Portugal"
+
+#: Countries Database
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: Countries Database
+msgid "Qatar"
+msgstr "Katar"
+
+#: Countries Database
+msgid "Republic of Korea"
+msgstr "Republik Korea"
+
+#: Countries Database
+msgid "Republic of Moldova"
+msgstr "Moldawien"
+
+#: Countries Database
+msgid "Réunion"
+msgstr "Réunion"
+
+#: Countries Database
+msgid "Romania"
+msgstr "Rumänien"
+
+#: Countries Database
+msgid "Russian Federation"
+msgstr "Russland"
+
+#: Countries Database
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: Countries Database
+msgid "Saint Barthélemy"
+msgstr "Saint Barthélemy"
+
+#: Countries Database
+msgid "Saint Helena"
+msgstr "St. Helena"
+
+#: Countries Database
+msgid "Saint Kitts and Nevis"
+msgstr "St. Kitts und Nevis"
+
+#: Countries Database
+msgid "Saint Lucia"
+msgstr "St. Lucia"
+
+#: Countries Database
+msgid "Saint Martin (French part)"
+msgstr "St. Martin (Französischer Teil)"
+
+#: Countries Database
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre und Miquelon"
+
+#: Countries Database
+msgid "Saint Vincent and the Grenadines"
+msgstr "St. Vincent und die Grenadinen"
+
+#: Countries Database
+msgid "Samoa"
+msgstr "Samoa"
+
+#: Countries Database
+msgid "San Marino"
+msgstr "San Marino"
+
+#: Countries Database
+msgid "Sao Tome and Principe"
+msgstr "São Tomé und Príncipe"
+
+#: Countries Database
+msgid "Sark"
+msgstr "Sark"
+
+#: Countries Database
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabien"
+
+#: Countries Database
+msgid "Senegal"
+msgstr "Senegal"
+
+#: Countries Database
+msgid "Serbia"
+msgstr "Serbien"
+
+#: Countries Database
+msgid "Seychelles"
+msgstr "Seychellen"
+
+#: Countries Database
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: Countries Database
+msgid "Singapore"
+msgstr "Singapur"
+
+#: Countries Database
+msgid "Sint Maarten (Dutch part)"
+msgstr "Sint Maarten (Holländischer Teil)"
+
+#: Countries Database
+msgid "Slovakia"
+msgstr "Slowakei"
+
+#: Countries Database
+msgid "Slovenia"
+msgstr "Slowenien"
+
+#: Countries Database
+msgid "Solomon Islands"
+msgstr "Salomonen"
+
+#: Countries Database
+msgid "Somalia"
+msgstr "Somalia"
+
+#: Countries Database
+msgid "South Africa"
+msgstr "Südafrika"
+
+#: Countries Database
+msgid "South Sudan"
+msgstr "Südsudan"
+
+#: Countries Database
+msgid "Spain"
+msgstr "Spanien"
+
+#: Countries Database
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: Countries Database
+msgid "Sudan"
+msgstr "Sudan"
+
+#: Countries Database
+msgid "Suriname"
+msgstr "Suriname"
+
+#: Countries Database
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Svalbard and Jan Mayen"
+
+#: Countries Database
+msgid "Swaziland"
+msgstr "Swasiland"
+
+#: Countries Database
+msgid "Sweden"
+msgstr "Schweden"
+
+#: Countries Database
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: Countries Database
+msgid "Syrian Arab Republic"
+msgstr "Syrien"
+
+#: Countries Database
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: Countries Database
+msgid "Tajikistan"
+msgstr "Tadschikistan"
+
+#: Countries Database
+msgid "Thailand"
+msgstr "Thailand"
+
+#: Countries Database
+msgid "The former Yugoslav Republic of Macedonia"
+msgstr "Ehemalige jugoslawische Republik Mazedonien"
+
+#: Countries Database
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: Countries Database
+msgid "Togo"
+msgstr "Togo"
+
+#: Countries Database
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: Countries Database
+msgid "Tonga"
+msgstr "Tonga"
+
+#: Countries Database
+msgid "Trinidad and Tobago"
+msgstr "Trinidad und Tobago"
+
+#: Countries Database
+msgid "Tunisia"
+msgstr "Tunesien"
+
+#: Countries Database
+msgid "Turkey"
+msgstr "Türkei"
+
+#: Countries Database
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: Countries Database
+msgid "Turks and Caicos Islands"
+msgstr "Turks- und Caicosinseln"
+
+#: Countries Database
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: Countries Database
+msgid "Uganda"
+msgstr "Uganda"
+
+#: Countries Database
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: Countries Database
+msgid "United Arab Emirates"
+msgstr "Vereinigte Arabische Emirate"
+
+#: Countries Database
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr "Vereinigtes Königreich Großbritannien und Nordirland"
+
+#: Countries Database
+msgid "United Republic of Tanzania"
+msgstr "Vereinigte Republik Tansania"
+
+#: Countries Database
+msgid "United States of America"
+msgstr "Vereinigte Staaten von Amerika"
+
+#: Countries Database
+msgid "United States Virgin Islands"
+msgstr "Amerikanische Jungferninseln"
+
+#: Countries Database
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: Countries Database
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+#: Countries Database
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: Countries Database
+msgid "Venezuela (Bolivarian Republic of)"
+msgstr "Venezuela"
+
+#: Countries Database
+msgid "Viet Nam"
+msgstr "Vietnam"
+
+#: Countries Database
+msgid "Wallis and Futuna Islands"
+msgstr "Wallis und Futuna"
+
+#: Countries Database
+msgid "Western Sahara"
+msgstr "Westsahara"
+
+#: Countries Database
+msgid "Yemen"
+msgstr "Jemen"
+
+#: Countries Database
+msgid "Zambia"
+msgstr "Sambia"
+
+#: Countries Database
+msgid "Zimbabwe"
+msgstr "Simbabwe"
+
+# templates/dataset-form.php templates/dataset-form-petition.php
+msgid "Maximum of %d characters"
+msgstr "Maximal %d Zeichen"
+
+#: TinyMCE Button
+msgid "Show Selections"
+msgstr "Auswahlmenu anzeigen"
+
+#: TinyMCE Button
+msgid "Dataset Form"
+msgstr "Datensatz Formular"
+
+#: TinyMCE Button
+msgid "Number of datasets"
+msgstr "Anzahl Datensätze"
+
+#: TinyMCE Button
+msgid "Optional Text"
+msgstr "Optionaler Text"
+
+#: TinyMCE Button
+msgid "Petitions Landingpage"
+msgstr "Petitionen Landingpage"
+
+#: TinyMCE Button
+msgid "Formfield ID for Comment"
+msgstr "Formularfeld ID für Kommentar"
+
+#: TinyMCE Button
+msgid "City"
+msgstr "Stadt"
+
+#: TinyMCE Button
+msgid "Comment"
+msgstr "Kommentar"
+
+#: TinyMCE Button
+msgid "Signing Page ID"
+msgstr "Unterschreiben Seiten ID"
+
+#: TinyMCE Button
+msgid "Supporter Page ID"
+msgstr "Unterstützer Seiten ID"
+
+#: admin/documentation.php:7
+msgid "ProjectManager Documentation"
+msgstr "ProjectManager Dokumentation"
+
+#: admin/documentation.php:9
+msgid "Content"
+msgstr "Inhalt"
+
+#: admin/documentation.php:11 admin/documentation.php:21
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: admin/documentation.php:12 admin/documentation.php:198
+msgid "Templates"
+msgstr "Templates"
+
+#: admin/documentation.php:13 admin/documentation.php:254
+msgid "Template Tags"
+msgstr "Template Tags"
+
+#: admin/documentation.php:14 admin/documentation.php:267
+msgid "Access Control"
+msgstr "Zugangskontrolle"
+
+#: admin/documentation.php:15 admin/documentation.php:290
+msgid "Customization"
+msgstr "Anpassungen"
+
+#: admin/documentation.php:16
+msgid "Howto"
+msgstr "Howto"
+
+#: admin/documentation.php:20 admin/documentation.php:197
+#: admin/documentation.php:253 admin/documentation.php:266
+#: admin/documentation.php:285 admin/documentation.php:289
+#: admin/documentation.php:317 admin/documentation.php:327
+msgid "Top"
+msgstr "Oben"
+
+#: admin/documentation.php:24
+msgid "The main shortcode is to display datasets of a project. The following shows a minimal example. A complete list of arguments is described in the table below."
+msgstr "Der primäre Shortcode ist Datensätze eines Projektes anzuzeigen. Nachfolgend ein minimales Beispiel. Eine komplette Liste mit Argumenten ist in der untenstehenden Tabelle beschrieben."
+
+#: admin/documentation.php:30 admin/documentation.php:117
+#: admin/documentation.php:148 admin/documentation.php:179
+msgid "Parameter"
+msgstr "Parameter"
+
+#: admin/documentation.php:31 admin/documentation.php:118
+#: admin/documentation.php:149 admin/documentation.php:180
+#: admin/documentation.php:206
+msgid "Description"
+msgstr "Beschreibung"
+
+#: admin/documentation.php:32 admin/documentation.php:119
+#: admin/documentation.php:150 admin/documentation.php:181
+msgid "Possible Values"
+msgstr "Mögliche Werte"
+
+#: admin/documentation.php:34 admin/documentation.php:121
+#: admin/documentation.php:152 admin/documentation.php:183
+msgid "Optional"
+msgstr "Optional"
+
+#: admin/documentation.php:40 admin/documentation.php:127
+#: admin/documentation.php:158 admin/documentation.php:189
+msgid "ID of Project"
+msgstr "ID des Projektes"
+
+#: admin/documentation.php:43 admin/documentation.php:130
+#: admin/documentation.php:161 admin/documentation.php:192
+msgid "No"
+msgstr "Nein"
+
+#: admin/documentation.php:47
+msgid "Template file used to display"
+msgstr "Template Datei für Anzeige"
+
+#: admin/documentation.php:48
+msgid "<em>table</em>, <em>table-image</em>, <em>gallery</em>, <em>list</em> or template file without extension"
+msgstr "<em>table</em>, <em>table-image</em>, <em>gallery</em>, <em>list</em> oder Template Datei ohne Erweiterung"
+
+#: admin/documentation.php:50 admin/documentation.php:57
+#: admin/documentation.php:64 admin/documentation.php:71
+#: admin/documentation.php:78 admin/documentation.php:85
+#: admin/documentation.php:92 admin/documentation.php:99
+#: admin/documentation.php:106 admin/documentation.php:137
+#: admin/documentation.php:168
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/documentation.php:54
+msgid "Set this attribute to only display datasets of given category ID"
+msgstr "Setze dieses Attribut, um nur Datensätze einer bestimmten Kategorie ID anzuzeigen"
+
+#: admin/documentation.php:61
+msgid "order datasets by given field"
+msgstr "sortiere Datensätze nach Formularfeld"
+
+#: admin/documentation.php:62
+msgid "<em>name</em>, <em>id</em>, <em>formfields-ID</em> (replace ID with respective ID or <em>rand</em>. <em>rand</em> must be used together with the results attribute to limit the number of datastes."
+msgstr "<em>name</em>, <em>id</em>, <em>formfields-ID</em> (ersetze ID mit entsprechender ID oder <em>rand</em>. <em>rand</em> muss zusammen mit dem results Attribut verwendet werden, um die Anzahl der Datensätze zu limitieren."
+
+#: admin/documentation.php:68
+msgid "Ordering of datasets"
+msgstr "Sortierung der Datensätze"
+
+#: admin/documentation.php:75
+msgid "Toggle link to single dataset"
+msgstr "Steuere Link zum einzelnen Datensatz"
+
+#: admin/documentation.php:76
+msgid "<em>true</em>, <em>false</em>"
+msgstr "<em>true</em>, <em>false</em>"
+
+#: admin/documentation.php:82
+msgid "Toggle display of selection forms for categories and dataset ordering"
+msgstr "Steuere Anzeige des Selektions-Menüs für Kategorien und Datensatz Sortiereung"
+
+#: admin/documentation.php:89
+msgid "Limit number of datasets"
+msgstr "Limitiere die Anzahl Datensätze"
+
+#: admin/documentation.php:96
+msgid "Filter datasets for formfield ID. Must be used together with <em>field_value</em>."
+msgstr "Filtere Datensätze nach Formularfeld ID. Muss zusammen mit <em>field_value</em> verwendet werden."
+
+#: admin/documentation.php:103
+msgid "Filter datasets for formfield value. Must be used together with <em>field_id</em>."
+msgstr "Filtere Datensätze nach Formularfeld Wert. Muss zusammen mit <em>field_id</em> verwendet werden."
+
+#: admin/documentation.php:112
+msgid "A single dataset can be displayed with the following code"
+msgstr "Ein einzelner Datensatz kann mit folgendem Code angezeigt werden"
+
+#: admin/documentation.php:134 admin/documentation.php:165
+msgid "Template to use"
+msgstr "Zu verwendendes Template"
+
+#: admin/documentation.php:174
+msgid "It is possible to include the dataset input form with the following code"
+msgstr "Man kann das Datensatz Formular mit folgendem Code anzeigen"
+
+#: admin/documentation.php
+msgid "It is possible to include the number datasets or countries"
+msgstr "Man kann die Anzahl Datensätze oder Länder anzeigen"
+
+#: admin/documentation.php
+msgid "Database Field to retrieve counts for"
+msgstr "Datenbankfeld das gezählt werden soll"
+
+#: admin/documentation.php
+msgid "additional text"
+msgstr "zusätzlicher Text"
+
+#: admin/documentation.php
+msgid "It is possible to include global search results page by simply putting the following shortcode into a page or post"
+msgstr "Man kann die Ergebnisse der globalen Suche auf einer Seite oder in einem Post mit folgendem Shortcode anzeigen"
+
+#: admin/documentation.php
+msgid "ID of country formfield"
+msgstr "ID des Land Formularfeldes"
+
+#: admin/documentation.php
+msgid "Dataset label text"
+msgstr "Datensatz Labeltext"
+
+#: admin/documentation.php
+msgid "It is possible to include testimonials"
+msgstr "Man kann testimonials anzeigen"
+
+#: admin/documentation.php
+msgid "Formfield ID containing comment"
+msgstr "Formularfeld ID mit Kommentar"
+
+#: admin/documentation.php
+msgid "Formfield ID containing country"
+msgstr "Formularfeld ID mit Land"
+
+#: admin/documentation.php
+msgid "Formfield ID containing city"
+msgstr "Formularfeld ID mit Stadt"
+
+#: admin/documentation.php
+msgid "Number of datasets to display in intro template"
+msgstr "Anzahl Datensätze, die im Intro Template angezeigt werden sollen"
+
+#: admin/documentation.php
+msgid "Number of columns in intro template"
+msgstr "Anzahl Spalten im Intro Template"
+
+#: admin/documentation.php
+msgid "Page ID containing datasetform"
+msgstr "Seiten ID mit Datensatz Formular"
+
+#: admin/documentation.php
+msgid "Page ID containing list of testimonials"
+msgstr "Seiten ID mit Testimonials Liste"
+
+#: admin/documentation.php:199
+msgid "Templates are special files that are used to display plugin data in the website frontend. They reside in the following directory"
+msgstr "Templates sind spezielle Dateien, die verwendet werden, um die Daten im Frontend der Webseite anzuzeigen. Sie befinden sich in folgendem Verzeichnis"
+
+#: admin/documentation.php:201
+msgid "The following table lists all available default templates"
+msgstr "Die nachfolgende Tabelle listet alle verfügbaren Standard Templates auf"
+
+#: admin/documentation.php:205 admin/tinymce/window.php:78
+msgid "Template"
+msgstr "Template"
+
+#: admin/documentation.php:212
+msgid "Tabular display of datasets"
+msgstr "Tabellenanzeige der Datensätze"
+
+#: admin/documentation.php:217
+msgid "Show datasets as photo gallery"
+msgstr "Zeige Datensätze als Fotogalerie"
+
+#: admin/documentation.php
+msgid "List display of datasets"
+msgstr "Listenanzeige der Datensätze"
+
+#: admin/documentation.php:222
+msgid "Tabular display of datasets with small image"
+msgstr "Tabellenanzeige der Datensätze mit kleinem Bild"
+
+#: admin/documentation.php:227
+msgid "Display dropdown selections for categories and dataset sorting"
+msgstr "Zeige Dropdown Menü für Kategorien und Datensatzsortierung an"
+
+#: admin/documentation.php:232
+msgid "Dataset input formular"
+msgstr "Datensatz Eingabeformular"
+
+#: admin/documentation.php:241
+msgid "Search formular"
+msgstr "Suchformular"
+
+#: admin/documentation.php
+msgid "gallery view of datasets specifically for testimonials or petitions"
+msgstr "Galerieanzeige für Datensätze spezifisch für Testimonials oder Petitionen"
+
+#: admin/documentation.php
+msgid "list view of datasets specifically for testimonials or petitions"
+msgstr "Listenanzeige für Datensätze spezifisch für Testimonials oder Petitionen"
+
+#: admin/documentation.php
+msgid "landing page specifically for testimonials or petitions displaying random datasets"
+msgstr "Landungsseite spezifisch für Testimonials oder Petitionen mit zufälligen Datensätzen"
+
+#: admin/documentation.php:245
+msgid "If you want to modify existing templates copy it to"
+msgstr "Falls du existierende Templates modifizieren möchtest kopiere zu nach"
+
+#: admin/documentation.php:247
+msgid "The plugin will then first look in your theme directory. Further it is possible to design own templates. Assume you created a file <strong>sample1.php</strong>, to display datasets of a project. To use the template use the following tag."
+msgstr "Das Plugin wird zuerst nach Templates im Theme Verzeichnis suchen. Außerdem ist es möglich eigene Templates zu gestalten. Angenommen, du hast eine Datei <strong>sample1.php</strong> zur Anzeige der Datensätze eines Projektes. Um das Template zu verwenden, verwenden das folgende Tag"
+
+#: admin/documentation.php:249
+msgid "For single datasets templates must be named <strong>dataset-X.php</strong> and searchform <strong>search-X.php</strong>. The files are then loaded with the following tags."
+msgstr "Für einzelne Datensätze muss das Template <strong>dataset-X.php</strong> und für Suchformulare <strong>search-X.php</strong> heißen. Die Dateien werden dann mit folgendem Tag geladen."
+
+#: admin/documentation.php
+msgid "Global Search"
+msgstr "Globale Suche"
+
+#: admin/documentation.php
+msgid "The search widget allows searching simultaneously in all projects. In the widget settings a results page has to be defined. This can be either any page containing a project with shortcodes <strong>[project]</strong> or <strong>[testimonials]</strong>, which will automatically show global search results. Alternatively, a page can be created containing the shortcode <strong>[projectmanager_search]</strong>, which will not display anything, unless a global search has been queried."
+msgstr "Das Such-Widget ermöglicht die gleichzeitige Suche in allen Projekten. In den Widget Einstellungen muss eine Ergebnisseite definiert werden. Dies kann entweder eine Seite sein, die bereits ein Projekte mit dem Shortcode <strong>[project]</strong> oder <strong>[testimonials]</strong> beinhaltet, die dann automatisch globale Suchergebnisse anzeigen wird. Alternativ kann eine Seite mit dem shortcode <strong>[projectmanager_search]</strong> erstellt werden, die nichts anzeigt außer eine globale Suche wurde gestartet."
+
+#: admin/documentation.php:255
+msgid "Template Tags are functions that can be used in your Wordpress Theme to display the plugin data. Here is a brief listing of available tags. For details see file functions.php"
+msgstr "Template Tags sind Funktionen, die in deinem Wordpress Theme verwendet werden können, um Plugin Daten anzuzeigen. Nachfolgend eine kurze Liste verfügbarer Tags. Für weitere Details schaue in die Datei functions.php"
+
+#: admin/documentation.php:257
+msgid "display all datasets from a single project"
+msgstr "zeige alle Datensätze eines einzelnen Projektes"
+
+#: admin/documentation.php:258
+msgid "display a single dataset"
+msgstr "zeige einen einzelnen Datensatz"
+
+#: admin/documentation.php:259
+msgid "Display widget. <em>$number</em> is the widget number and <em>$instance</em> is an assoziative array of widget settings. See lib/widget.php function widget for details."
+msgstr "Zeige Widget. <em>$number</em> ist die Widget Numer und <em>$instance</em> ist ein assoziatives Array mit Widget Einstellungen. Sie lib/widget.php für Details"
+
+#: admin/documentation.php:260
+msgid "display the searchform. <em>$project_id</em> is the ID of the project."
+msgstr "Zeige das Suchformular. <em>$project_id</em> ist die ID des Projektes"
+
+#: admin/documentation.php:261
+msgid "display the selection bar. <em>$project_id</em> is the ID of the project."
+msgstr "Zeige die Auswahlleiste. <em>$project_id</em> ist die ID des Projektes"
+
+#: admin/documentation.php:262
+msgid "display the dataset form. <em>$project_id</em> is the ID of the project."
+msgstr "Zeige das Datensatz Eingabeformular. <em>$project_id</em> ist die ID des Projektes."
+
+#: admin/documentation.php:264
+msgid The variable <em>$args</em> is always an assoziative array of additional arguments with keys being the same as the shortcode attributes."
+msgstr "Die Varialbe <em>$args</em> ist immer ein assoziaties Array zusätzlicher Argumente mit Schlüsseln wie in den Shortcode Attributen."
+
+#: admin/documentation.php:268
+#, php-format
+msgid "ProjectManager has fine grained capabilities to control access to different areas of the administration panel. You could use <a href=\"%s\" target=\"_blank\">Capability Manager</a> to manage roles and capabilities. <em>Note</em>: Capabilities are not inherent."
+msgstr "ProjectManager hat feine Einstellungen für Zugangsberechtigungen, um auf verschiedene Bereiche des Administrationsbereiches zuzugreifen. Du kannst <a href=\"%s\" target=\"_blank\">Capability Manager</a> verwernden, um die Rollen und Zugangsberechtigungen zu verwalten. <em>Notiz</em>: Zugangsberechtigungen sind nicht hierarchisch."
+
+#: admin/documentation.php
+msgid "add and edit projects"
+msgstr "Projekte hinzufügen und bearbeiten"
+
+#: admin/documentation.php
+msgid "delete existing projects"
+msgstr "lösche vorhandene Projekte"
+
+#: admin/documentation.php
+msgid "allow access to global settings of ProjectManager"
+msgstr "Erlaube Zugang zu den globalen ProjectManager Einstellungen"
+
+#: admin/documentation.php
+msgid "allow access to FormField Panel"
+msgstr "Erlaube Zugang zu den Formularfeld Einstellungen"
+
+#: admin/documentation.php
+msgid "allow access to individual projects settinigs"
+msgstr "Erlaube Zugang zu Projekteinstellungen"
+
+#: admin/documentation.php
+msgid "access import/export panel"
+msgstr "Zugang zu Import/Export Seite"
+
+#: admin/documentation.php
+msgid "add datasets and edit own datasets"
+msgstr "Datensätze hinzufügen und eigene Datensätze bearbeiten"
+
+#: admin/documentation.php
+msgid "add datasets and edit all datasets and add WP User as dataset"
+msgstr "Datensätze hinzufügen und alle Datensätze bearbeiten"
+
+#: admin/documentation.php
+msgid "delete own datasets"
+msgstr "Lösche eigene Datensätze"
+
+#: admin/documentation.php
+msgid "delete any dataset"
+msgstr "Lösche alle Datensätze"
+
+#: admin/documentation.php
+msgid "browse projects in administration panel"
+msgstr "Durchsuche Projekte im Adminitrationspanel"
+
+#: admin/documentation.php
+msgid "allow usage of profile hook"
+msgstr "Erlaube Nutzung des Profil-Hooks"
+
+#: admin/documentation.php:286
+msgid "Hook dataset into profile page"
+msgstr "Füge Datensatz in Profilseite ein"
+
+#: admin/documentation.php:286
+msgid "Extended Profile"
+msgstr "Erweitertes Profil"
+
+#: admin/documentation.php:287
+msgid "Each dataset is assigned an owner who added it. This owner can be also changed by anybody with the capability <em>edit_other_datasets</em>. This makes it possible to use ProjectManager as extended WP User Profile by activating the profile hook option in the projects settings. When this option is activated the first dataset of the current user is loaded into the profile page and can be edited through their profile. For new users, a dataset is automatically generated upon registration if the default user group has the capability <em>projectmanager_user</em>."
+msgstr "Jeder Datensatz wird einem Besitzer zugeordnet. Dieser Besitzer kann von jedem mit der Berechtigung <em>edit_other_datasets</em> geändert werden. Das macht es möglich ProjectManager als erweitertes WP User Profil einzusetzen, indem die Option Datensatz in Profil einbinden aktiviert wird. Wenn diese Option aktiviert ist, wird der erste Datensatz des aktuellen Benutzers in die Profilseite geladen und kann dort editiert werden. Für neue Nutzer wird ein Datensatz bei der Registrierung automatisch erstellt, falls die Standardgruppe die Berechtigung <em>projectmanager_user</em> hat."
+
+#: admin/documentation.php:292
+msgid "If you want to use custom icons for the admin menu put them into the following folder in your theme directory"
+msgstr "Falls du eigene icons für das Administrationsmenu verwenden möchtest, kopiere sie in den folgenden Ordner in deinem Themeverzeichnis"
+
+#: admin/documentation.php:296
+msgid "You can also add custom Formfields via the filter projectmanager_formfields. First let us add the field."
+msgstr "Du kannst auch eigene Formularfelder über den Filter projectmanager_formfields hinzufügen. Zuerst fügen wir das Feld hinzu."
+
+#: admin/documentation.php:307
+msgid "The <em>callback</em> option is a function which gets the data for this field as it is not stored in the ProjectManager Database. <em>args</em> can be an optional assoziative array of arguments that are passed to the callback function. Finally we just need to get the data from somewhere."
+msgstr "Die <em>callback</em> Option ist eine Funktion, die die Daten für das Feld generiert, da diese nicht in der ProjectManager Datenbank gespeichert sind. <em>args</em> kann ein optionales assoziatives Array von Argumenten, die an die Callback Funktion weitergereicht werden. Zuletzt müssen wir nur noch die Daten von irgendwoher holen."
+
+#: admin/documentation.php:318
+msgid "HowTo"
+msgstr "HowTo"
+
+#: admin/documentation.php:319
+msgid "This section should give a short introduction to setting up and using ProjectManager. In addition <a href=\"http://randyhoyt.com/\" target=\"_blank\">Randy Hoyt</a> created a <a href=\"http://randyhoyt.com/wordpress/snippets/\" target=\"_blank\">Screencast</a> on the usage of ProjectManager. Thanks a lot."
+msgstr "Diese Sektion soll eine kurze Einführung in die Verwendung von ProjectManager geben. Zusätzlich hat <a href=\"http://randyhoyt.com/\" target=\"_blank\">Randy Hoyt</a> einen <a href=\"http://randyhoyt.com/wordpress/snippets/\" target=\"_blank\">Screencast</a> über die Verwendung von ProjectManager erstellt. Vielen Dank."
+
+#: admin/documentation.php:320 admin/documentation.php:321
+#, php-format
+msgid "After activation, there will be a new item in the admin menu. The first step is to <a href=\"%s\" class=\"thickbox\" rel=\"howto\">add a new project</a>. When you click on a specific project you will get to an <a href=\"%s\" class=\"thickbox\" rel=\"howto\">overview page displaying all datasets</a>. The screenshot already shows some example datasets. At first you should go to the <a href=\"%s\" class=\"thickbox\" rel=\"howto\">settings page</a>. The option <em>Top-level menu</em> will create an individual object in the admin menu. Activate the <em>Hook into profile option</em> to use ProjectManager as extended WP User Profile. Before adding datasets you need to setup the <a href=\"%s\" class=\"thickbox\" rel=\"howto\">formfields</a>. This is a very powerful feature of ProjectManager as it allows the design of custom input formular to have datasets with a variety of data. You can choose to display the field value on the startpage and also control display in the user profile. Further it is possible to order datasets by certain formfield values. After that you are set to <a href=\"%s\" class=\"thickbox\" rel=\"howto\">insert datasets</a>. It is possible to group datasets into different <a href=\"%s\" class=\"thickbox\" rel=\"howto\">categories</a> using the WP category system."
+msgstr "Nach Aktivierung wird es einen neuen Menupunkt im Adminmenu geben. Der erste Schritt ist <a href=\"%s\" class=\"thickbox\" rel=\"howto\">ein neues Projekt hinzuzufügen</a>. Wenn du auf ein bestimmtes Projekt klickts, wird dir eine <a href=\"%s\" class=\"thickbox\" rel=\"howto\">Übersichtsseite mit allen Datensätzen angezeigt</a>. Der Screenshot zeigt bereits einige Beispieldatensätze. Zuerst solltest du die <a href=\"%s\" class=\"thickbox\" rel=\"howto\">Einstellungsseite</a> aufrufen. Die Option <em>Top-level Menu</em> wird einen eigenen Menupunkt im Adminstrationsmenu erstellen. Aktiviere die Option <em>in Profil einbinden</em>, um ProjectManager als erweitertes Profil zu verwenden. Bevor du Datensätze hinzufügst, musst du <a href=\"%s\" class=\"thickbox\" rel=\"howto\">Formularelder</a> hinzufügen. Das ist ein sehr mächtiges Feature von ProjectManager, da es die Erstellung von benutzerspezifischen Formularen ermöglicht. Du kannst wahlweise die Daten der Formualfelder auf der Startseite anzeigen und auch die Anzeige im Nutzerprofil kontrollieren. Desweiteren ist es möglich die Datensätze nach bestimmten Feldern zu sortieren. Danach bist du bereit <a href=\"%s\" class=\"thickbox\" rel=\"howto\">Datensätze hinzuzufügen</a>. Es ist möglich Datensätze in <a href=\"%s\" class=\"thickbox\" rel=\"howto\">Kategorien</a> unter Verwendung des WP Kategoriesystems zu gruppieren."
+
+#: admin/documentation.php:322
+#, php-format
+msgid "The datasets of a project can be inserted into a page or post either by directly using the shortcodes which are described above or by using the <a href=\"%s\" class=\"thickbox\" rel=\"howto\">TinyMCE Button</a>. The button, however, only covers a few default parameter. One default template is <a href=\"%s\" class=\"thickbox\" rel=\"howto\">gallery</a> which displays the datasets in a multicolumn photogallery with a link to <a href=\"%s\" class=\"thickbox\" rel=\"howto\">individual datasets</a>. This template is especially useful for athlete profiles."
+msgstr "Die Datensätze eines Projektes können in eine Seite oder einen Beitrag, über Shortcodes oder mit Hilfe des <a href=\"%s\" class=\"thickbox\" rel=\"howto\">TinyMCE Button</a> eingefügt werden. Der Button muss nicht alle Parameter abdecken. Ein Standardtemplate ist die <a href=\"%s\" class=\"thickbox\" rel=\"howto\">Galerie</a>, die Datensätze in einer mehrspaltigen Fotogalerie mit einem Link zu <a href=\"%s\" class=\"thickbox\" rel=\"howto\">individuellen Datensätzen</a> anzeigt."
+
+#: admin/documentation.php:323
+#, php-format
+msgid "ProjectManager also supplies a <a href=\"%s\" class=\"thickbox\" rel=\"howto\">widget</a> and supports any number of widgets. It can be used to display a list of datasets in the sidebar, but also show a slideshow of datasets, e.g. athlete portraits."
+msgstr "ProjectManager stellt auch ein <a href=\"%s\" class=\"thickbox\" rel=\"howto\">widget</a> bereit und unterstützt beliebig viele davon. Es kann verwendet werden, um eine Liste Datensätze in der Seitenleiste oder eine Slideshow von Datensätzen, z.b. Sportlerportraits, anzuzeigen."
+
+#: admin/settings.php
+msgid "Frontend Datasetform"
+msgstr "Frontend Datensatzformular"
+
+#: admin/tinymce/window.php
+msgid "Submit Message"
+msgstr "Nachricht"
+
+#: admin/tinymce/window.php
+msgid "Submit Button Title"
+msgstr "Button Titel"
+
+#: admin/settings.php
+msgid "Send E-Mail Confirmation"
+msgstr "Sende E-Mail Bestätigung"
+
+#: admin/settings.php
+msgid "Don&rsquo;t send email confirmation"
+msgstr "Keine Bestätigungs E-Mail verschicken"
+
+#: admin/settings.php
+msgid "You have to add at least one email formfield to use this feature"
+msgstr "Du musst mindestens ein E-Mail Formularfeld hinzufügen, um dieses Feature zu nutzen"
+
+#: admin/settings.php
+msgid "Sender E-Mail"
+msgstr "Absender E-Mail"
+
+#: admin/settings.php
+msgid "This E-Mail will be also used to notify of new datasets"
+msgstr "Diese E-Mail wird für Benachrichtigung über neue Datensätze verwendet"
+
+#: admin/settings.php
+msgid "E-Mail Confirmation Subject"
+msgstr "Bestätigungsmail Betreff"
+
+#: admin/settings.php
+msgid "E-Mail Confirmation Text"
+msgstr "Bestätigungsmail Text"
+
+#: admin/settings.php
+msgid "Use placeholder [name] to insert the name"
+msgstr "Verwende [name] als Platzhalter um den Namen einzufügen"
+
+#: admin/settings.php
+msgid "Attach PDF to Confirmation"
+msgstr "Füge PDF an Bestätigung"
+
+#: admin/settings.php
+msgid "E-Mail Notification Subject"
+msgstr "E-Mail Benachrichtigung Betreff"
+
+#: admin/settings.php
+msgid "E-Mail Notification Text"
+msgstr "E-Mail Benachrichtigung Text"
+
+#: admin/settings.php
+msgid "Attach PDF to Notification"
+msgstr "Füge PDF an Benachrichtigung"
+
+#: admin/settings.php
+msgid "Notify me of new datasets"
+msgstr "Benachrichtige mich über neue Datensätze"
+
+#: admin/settings.php
+msgid "Captcha Settings"
+msgstr "Captcha Einstellungen"
+
+#: admin/settings.php
+msgid "Code Length"
+msgstr "Code Länge"
+
+#: admin/settings.php
+msgid "Code Letters"
+msgstr "Code Zeichen"
+
+#: admin/settings.php
+msgid "Number of Dots"
+msgstr "Anzahl Punkte"
+
+#: admin/settings.php
+msgid "Number of Lines"
+msgstr "Anzahl Linien"
+
+#: admin/settings.php
+msgid "You can easily create fancy slideshows of datasets using the <a href='%s' target='_blank'>Fancy Slideshows Plugin</a>. After installing and activating the plugin, come back here for slideshow configuration."
+msgstr "Du kannst leicht schicke slideshows von Datensätzen mit dem <a href='%s' target='_blank'>Fancy Slideshows Plugin</a> erstellen. Nach der Installation und Aktivierung des Plugins, komme hierher zurück um die Slideshows zu konfigurieren."
+
+#: admin/settings.php
+msgid "Specific Dataset IDs"
+msgstr "Bestimmte Datensatz IDs"
+
+#: admin/settings.php
+msgid "Separate IDs by comma"
+msgstr "Trenne IDs durch Komma"
+
+#: admin/settings.php
+msgid "World Map"
+msgstr "Weltkarte"
+
+#: admin/settings.php
+msgid "Dataset Label"
+msgstr "Datensatz Label"
+
+#: admin/settings.php
+msgid "Update Map Data"
+msgstr "Kartendaten aktualisieren"
+
+#: admin/admin.php:getMapUpdateSchedules()
+msgid "On page load"
+msgstr "Beim Laden der Seite"
+
+#: admin/admin.php:getMapUpdateSchedules()
+msgid "Manually Now"
+msgstr "Manuell jetzt"
+
+#: admin/admin.php:getMapUpdateSchedules()
+msgid "Once Hourly"
+msgstr "Einmal stündlich"
+
+#: admin/admin.php:getMapUpdateSchedules()
+msgid "Twice per day"
+msgstr "Zweimal täglich"
+
+#: admin/admin.php:getMapUpdateSchedules()
+msgid "Once Daily"
+msgstr "Einmal täglich"
+
+#: admin/admin.php:getMapUpdateSchedules()
+msgid "Once Weekly"
+msgstr "Einmal wöchentlich"
+
+#: admin/admin.php:getMapUpdateSchedules()
+msgid "Once a Month"
+msgstr "Einmal im Monat"
+
+#: admin/settings.php
+msgid "Last Updated:"
+msgstr "Zuletzt aktualisiert:"
+
+#: admin/settings.php
+msgid "Next scheduled update:"
+msgstr "Nächstes geplantes Update:"
+
+#: admin/settings.php
+msgid "Advanced Settings"
+msgstr "Fortgeschrittene Einstellungen"
+
+#: admin/settings.php
+msgid "Disable dataset editing"
+msgstr "Deaktiviere Datensatz Bearbeitung"
+
+#: admin/settings.php
+msgid "List unused media files"
+msgstr "Zeige ungenutzte Mediendateien"
+
+#: admin/admin.php:cleanUsedFiles()
+msgid "Unused media files deleted"
+msgstr "Ungenutzte Mediendateien gelöscht"
+
+#: admin/settings.php:cleanUsedFiles()
+msgid "Congratulations! You this project has no orphaned media files."
+msgstr "Glückwunsch! Du hast keine verwaisten Mediendatein"
+
+#: admin/settings.php:cleanUsedFiles()
+msgid "The following files do not do not seem to be used. If this is true you can subsequently delete them."
+msgstr "Die nachfolgenden Dateien scheinen nicht genutzt zu werden. Falls das zutrifft kannst du sie anschließend löschen."
+
+#: admin/settings.php:cleanUsedFiles()
+msgid "Delete unused media files"
+msgstr "Lösche ungenutze Mediendateien"
+
+#: admin/show-project.php
+msgid "%d datasets deleted"
+msgstr "%d Datensätze gelöscht"
+
+#: admin/show-project.php
+msgid "%d dataset deleted"
+msgstr "%d Datensatz gelöscht"
+
+#: admin/show-project.php
+msgid "%d dataset duplicated"
+msgstr "%d Datensatz dupliziert"
+
+#: admin/index.php
+msgid "%d projects deleted"
+msgstr "%d Projekte gelöscht"
+
+#: admin/index.php
+msgid "%d project deleted"
+msgstr "%d Projekt gelöscht"
+
+#: admin/show-project.php
+msgid "%d datasets duplicated"
+msgstr "%d Datensätze dupliziert"

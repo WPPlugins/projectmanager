@@ -1,0 +1,314 @@
+/*
+ * submenu
+ */
+.subsubsub.projectmanager-menu {
+	margin-bottom: 0.5em;
+}
+/* Breadcrumb navigation */
+p.projectmanager_breadcrumb {
+	margin: -1em 0 1em auto;
+}
+
+
+/*
+ * List tables
+ */
+.wp-list-table .column-order span.order-value {
+	display: none;
+}
+
+/*
+ * dataset-list table
+ */
+.dataset-list {
+	max-width: 100%;
+	margin: auto 0;
+	padding: 0;
+	clear: both;
+}
+.dataset-list .status-active {
+	color: #fff;
+	background: rgb(0, 153, 0) !important;
+	background: rgba(0, 153, 0, 0.5) !important;
+}
+.dataset-list .status-pending {
+	color: #fff;
+	background: rgb(255, 153, 0) !important;
+	background: rgba(255, 153, 0.5) !important;
+}
+
+
+/*
+ * Settings page
+ */
+.settings-blocks {
+	margin-top: 1em;
+}
+.settings-blocks h2 {
+	margin-bottom: 0;
+	display: block;
+}
+.settings-blocks .settings-block {
+	padding-top: 1em;
+}
+.settings-blocks .del_image {
+	margin-left: 0.5em;
+}
+.settings-blocks .form-input {
+	width: 100%;
+	max-width: 300px;
+}
+
+/*
+ * Import/Export
+ */
+.import-container h2 {
+	margin-bottom: 0;
+}
+.import-container .import-block {
+	padding-top: 1em;
+}
+
+img.middle { vertical-align: middle; }
+
+a.image_link { margin-left: 0.5em; border-bottom: none !important; }
+
+/* 
+ * Global Settings Page
+ */
+.colorbox {
+	display: inline-block;
+	margin-left: 5px;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #000;
+}
+
+/*
+ * Duplicated  datasets form
+ */
+form.dup-datasets select {
+	max-width: 10em;
+}
+
+/* Thickbox Content */
+div.thickbox_content { text-align: center; }
+div.thickbox_content input, div.thickbox_content textarea, div.thickbox_content select, div.thickbox_content .buttonbar { margin-top: 1em; }
+div.thickbox_content ul { margin: 1em auto auto 1em; }
+div.thickbox_content p { text-align: left; margin: 0; padding: 0}
+
+
+/* Dataset Form */
+.datasetform label {
+	font-weight: bold;
+}
+.datasetform .label-paragraph {
+	margin-left: 0;
+}
+
+ul.projectmanager-categorychecklist {
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+ul.projectmanager-categorychecklist li {
+	float: left;
+	margin-right: 0.5em;
+}
+ul.projectmanager-categorychecklist li label {
+	font-weight: normal;
+	float: none;
+	margin: 0 5px;
+	padding: 0;
+}
+ul.projectmanager-categorychecklist li input {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+
+/*
+ * Newsletter
+ */
+form.newsletter {
+	width: 100%;
+}
+form.newsletter input,
+form.newsletter textarea,
+form.newsletter select {
+	width: 40%;
+}
+
+ 
+/*--- Widget Control ---*/
+.projectmanager_widget_control p {
+	text-align: left;
+	clear: both;
+}
+.projectmanager_widget_control input {
+	border-width: 1px;
+	border-style: solid;
+	border-collapse: separate;
+	border-spacing: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.projectmanager_widget_control select {
+	display: block;
+	clear: both;
+	width: 100%;
+
+}
+.projectmanager_widget_control .form-input {
+	display: block;
+	clear: both;
+}
+.projectmanager_widget_control label {
+	width: auto;
+	clear: both;
+}
+.projectmanager_widget_control label.right {
+	float: none;
+	width: auto;
+	clear: none;
+	margin-left: 0.5em;
+}
+
+/*--- Formfields Table ---*/
+#formfields_table * {
+	font-size: 1em;
+}
+#formfields_table .column-primary {
+	min-width: 15%;
+}
+#formfields_table select,
+#formfields_table .column-options input {
+	width: 100%;
+}
+
+
+#projectmanager_form_fields input.label,
+#projectmanager_form_fields textarea.label {
+	width: 100%;
+	max-width: 300px;
+}
+
+/*
+ * jQuery UI Tabs
+ */
+.tablist {
+	display: none;
+}
+
+
+/*
+ * Responsive Styles
+ */
+ 
+@media screen and (max-device-width: 736px) {
+	/*ul.projectmanager-menu {
+		width: 100%;
+	}
+	ul.projectmanager-menu li,
+	ul.projectmanager-menu a {
+		display: block;
+		float: none;
+		width: 100%;
+		margin-bottom: 0.3em;
+	}
+*/
+	
+	form.newsletter input,
+	form.newsletter textarea,
+	form.newsletter select {
+		width: 100%;
+	}
+	
+	table.form-table {
+	}
+	table.form-table td  .form-input {
+		width: 100%;
+	}
+	
+	table.wp-list-table.projectmanager th.manage-column {
+		display: none;
+	}
+	table.wp-list-table.projectmanager th.column-primary,
+	table.wp-list-table.projectmanager th.check-column {
+		display: table-cell;
+	}
+	table.wp-list-table.projectmanager .column-actions {
+		display: none !important;
+	}
+	
+	table#formfields_table .the-list .form-input {
+		width: 100%;
+	}
+	
+	
+	table.sortable-table tbody tr:hover th,
+	table.sortable-table tbody tr:hover td {
+		border-top: none;
+		border-bottom: none;
+	}
+	table.sortable-table tbody th,
+	table.sortable-table tbody td {
+		background-color: #fff;
+	}
+	table.sortable-table tbody tr.alternate th,
+	table.sortable-table tbody tr.alternate td {
+		background-color: #f9f9f9;
+	}
+	
+	.settings-blocks .image-sizes {
+		display: block;
+		margin-bottom: 0.5em;
+		clear: both;
+	}
+	
+	p.projectmanager_breadcrumb {
+		margin: 0 0 1em auto;
+	}
+}
+
+
+/* Some print queries to allow nice printing of dataset details */
+@media print {
+	html, body, #wpwrap {
+		margin: 0;
+		padding: 0 !important;
+		background-color: #fff;
+	}
+	
+	#adminmenumain {	display: none; }
+	
+	#wpcontent {
+		margin: 0;
+		padding: 0;
+		background: #fff;
+	}
+	
+	#wpcontent #wpadminbar { display: none; }
+	#wpcontent  .wrap {
+		margin: 0;
+		background-color: #fff;
+	}
+	
+	.projectmanager_breadcrumb { display: none; }
+	
+	dl.projectmanager {
+	}
+	dl.projectmanager dt {
+		page-break-after: avoid !important;
+		page-break-inside: avoid !important;
+	}
+	dl.projectmanager dd {
+		page-break-before: avoid !important;
+		page-break-inside: avoid !important;
+	}
+	
+	#wpfooter { display: none; }
+}

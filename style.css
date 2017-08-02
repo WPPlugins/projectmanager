@@ -1,0 +1,990 @@
+/*--- Globals ---*/
+div.projectmanager-container { 
+	margin-bottom: 1em;
+}
+ul.projectmanager, ol.projectmanager {
+	clear: both;
+}
+ul.dataset-meta,
+ol.dataset-meta {
+	list-style-type: none;
+}
+ul.dataset-meta li,
+ol.dataset-meta li {
+	list-style-type: none;
+}
+
+
+/*
+ * Selection Menu
+ * 
+ * Template: selections.php
+ */
+.projectmanager-selections {
+	float: left;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	clear: both;
+}
+.projectmanager-selections select {
+	margin-right: 0.5em;
+	max-width: 200px;
+}
+
+/*
+ * List Output
+ *
+ * Template: list.php
+ */
+div.projectmanager-list {
+	clear: both;
+	margin-bottom: 1em;
+}
+dl.projectmanager {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+div.projectmanager-list dl.projectmanager {
+	border-bottom: 1px solid;
+}
+dl.projectmanager .dataset-image {
+	float: none;
+}
+dl.projectmanager dt {
+	font-weight: bold;
+}
+dl.projectmanager dd {
+	padding: 0.3em 0;
+	margin-left: 1.5em;
+}
+dl.projectmanager .image a {
+	border: 0;
+}
+
+
+/*
+ * Fancy List with jQuery Accordion function and single dataset
+ *
+ * Template: list-accordion.php/list-expandable.php, dataset.php
+ */
+div.projectmanager-list.accordion .list-header,
+div.projectmanager-list.expandable .list-header,
+div.dataset-container h3 {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	padding: 0.5em 0.5em 0.5em 1.5em;
+	-moz-border-top-left-radius: 4px;
+	-moz-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border: 1px solid;
+	border-bottom: 0;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-ms-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-o-box-shadow:0 1px 1px rgba(0,0,0,1);
+	box-shadow:0 1px 1px rgba(0,0,0,1);
+}
+div.projectmanager-list.accordion .list-header:hover,
+div.projectmanager-list.expandable .list-header:hover  {
+	
+}
+div.projectmanager-list.accordion .list-header.closed,
+div.projectmanager-list.expandable .list-header.closed {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+div.projectmanager-list.expandable .list-header.closed {
+	/*margin-bottom: 1em;*/
+}
+div.projectmanager-list.accordion .list-header .toggle-button,
+div.projectmanager-list.expandable .list-header .toggle-button {
+	float:right;
+	display:block;
+	height:18px;
+	width:17px;
+	border: 0;
+	background: transparent;
+	text-indent:-9999px;
+}
+div.projectmanager-list.accordion .list-header.closed .toggle-button,
+div.projectmanager-list.expandable .list-header.closed .toggle-button {
+	background:url("admin/icons/button.png") left no-repeat;
+}
+div.projectmanager-list.accordion .list-header.open .toggle-button,
+div.projectmanager-list.expandable .list-header.open .toggle-button {
+	background:url("admin/icons/button.png") right no-repeat;
+}
+div.projectmanager-list.accordion .list-header.open,
+div.projectmanager-list.expandable .list-header.open {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-border-top-left-radius: 4px;
+	-moz-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+div.projectmanager-list.accordion .list-content,
+div.projectmanager-list.expandable .list-content,
+div.dataset-container .dataset-content {
+	padding: 0.8em 1em;
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-ms-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-o-box-shadow:0 1px 1px rgba(0,0,0,1);
+	box-shadow:0 1px 1px rgba(0,0,0,1);
+	margin: 0 0 2px 0;
+	border: 1px solid;
+	width: 100%;
+}
+div.projectmanager-list.accordion .list-content.closed,
+div.projectmanager-list.expandable .list-content.closed {
+	display: none;
+}
+div.projectmanager-list.accordion .list-content dl.projectmanager,
+div.projectmanager-list.expandable .list-content dl.projectmanager {
+	border: 0;
+}
+
+/*
+ * Table Output
+ *
+ * Template: table.php, table-image.php
+ */
+table.projectmanager {
+	clear: both;
+	border: none;
+	width: 100%;
+	margin: 1em 0 1em 0;
+	padding: 0;
+	vertical-align: middle;
+}
+table.projectmanager .dataset-image {
+	float: none;
+}
+table.projectmanager th, table.projectmanager td {
+	padding: 3px 5px;
+	vertical-align: middle;
+}
+table.projectmanager th.image, table.projectmanager td.image {
+	text-align: center;
+}
+table.projectmanager img {
+	width: 100%;
+	height: auto;
+	max-width: 40px;
+}
+table.projectmanager ul {
+	list-style-type: none;
+}
+table.projectmanager ul li {
+	padding: 1px;
+}
+table.projectmanager td img {
+	width: 100%;
+	height: auto;
+	display: block;
+	vertical-align: middle;
+	margin: auto;
+}
+
+/*
+ * Gallery Output
+ *
+ * Template: gallery.php
+ */
+.dataset-gallery {
+	clear: both;
+	padding-top: 1em;
+}
+.dataset-gallery .cols {
+	width: 100%;
+}
+.dataset-gallery .cols:before, .cols:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+.dataset-gallery .fit,
+.dataset-gallery .fit .pm-gallery-item {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+.dataset-gallery .pm-gallery-item {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.dataset-gallery .gallery-image {
+	text-align: center;
+	margin-right: 1em;
+}
+.dataset-gallery .gallery-image a {
+	display: inline-block;
+	max-width: 100%;
+	width: auto;
+	margin: 0 auto;
+	border: 0;
+}
+.dataset-gallery .gallery-image img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border: 1px solid;
+	margin: 0.5em auto;
+	padding: 4px;
+	border: 1px solid;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-moz-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-ms-box-shadow:0 1px 1px rgba(0,0,0,1);
+	-o-box-shadow:0 1px 1px rgba(0,0,0,1);
+	box-shadow:0 1px 1px rgba(0,0,0,1);
+}
+.dataset-gallery .gallery-image img:hover {
+	padding: 0;
+	border: 5px solid;
+}
+.dataset-gallery .caption {
+	margin: 0.2em auto 1.5em auto;
+	font-size: 0.8em;
+}
+
+/*
+ * Single Dataset
+ *
+ * Template: dataset.php
+ */
+div.dataset {
+	clear: both;
+}
+div.dataset > p {
+	margin: 0.5em 0;
+}
+fieldset.dataset {
+	font-size: 1em;
+	border: 1px solid;
+	padding: 1em;
+	margin: 1em 0;
+}
+fieldset.dataset legend {
+	font-size: 1.1em;
+	padding: 0px 3px;
+	font-weight: bold;
+}
+fieldset.dataset .dataset-main-image,
+.dataset-container .dataset-main-image {
+	float: right;
+	padding: 2px;
+	margin-left: 1em;
+}
+fieldset.dataset .dataset-main-image a,
+.dataset-container .dataset-main-image a {
+	border: 0;
+}
+fieldset.dataset img,
+.dataset-container img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+fieldset.dataset img.dataset-header-image,
+.dataset-container img.dataset-header-image {
+	width: 100%;
+	display: block;
+	margin: 0 auto 1em auto;
+}
+div.dataset dt,
+fieldset.dataset dt {
+	font-weight: bold;
+}
+div.dataset dl,
+fieldset.dataset dl {
+}
+div.dataset dd,
+fieldset.dataset dd {
+}
+div.dataset dl .image a,
+fieldset.dataset dl .image a {
+	border: 0;
+}
+.dataset-container img.file-icon,
+fieldset.dataset img.file-icon {
+	width: 16px;
+	height: 16px;
+}
+.dataset-container {
+	margin: 1em 0;
+}
+.dataset-container h3 {
+	margin: 0 !important;
+	padding: 0.5em !important;
+	cursor: auto !important;
+}
+.dataset-container .dataset-content {
+	border: 1px solid;
+}
+.dataset-container .dataset-content:after,
+.leaguemanager-teamprofile .dataset-content:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+.dataset-navigation {
+	clear: both;
+}
+.dataset-navigation:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+.dataset-navigation .prev-dataset {
+	float: left;
+	width: 50%;
+	padding: 0;
+	margin: 0 0 1.5em 0;
+}
+.dataset-navigation .next-dataset {
+	float: right;
+	text-align: right;
+	width: 50%;
+	padding: 0;
+	margin: 0 0 1.5em 0;
+}
+
+	
+/*
+ * Dataset Form
+ *
+ * template: dataset-form.phhp
+ */
+.projectmanager-form {
+	margin-bottom: 1em;
+}
+.datasetform {
+	width: 100%;
+}
+.datasetform .input-container {
+	float: left;
+	margin-bottom: 0.7em;
+}
+.datasetform .input-container.grid-input .input-content {
+	padding-right: 1em;
+}
+.datasetform .input-container.clear {
+	clear: both;
+}
+.datasetform .input-container.fit .input-content {
+	padding-right: 0;
+}
+.datasetform .input-container.fit:before {
+	
+}
+.datasetform .input-container.fit:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+.datasetform .input-content {
+}
+.datasetform .form-input {
+	width: 100%;
+	max-width: 100%;
+	padding: 5px auto;
+}
+.datasetform .input-container.grid-input label {
+	width: auto;
+	float: none;
+}
+.datasetform .input-container.grid-input label:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+.datasetform .input-container.input-tinymce label {
+	float: none !important;
+	display: block !important;
+}
+.datasetform .file-options label {
+	float: none;
+}
+.datasetform .input-container.grid-input .file-options label:after {
+	display: inline !important;
+	clear: none !important;
+}
+.datasetform .input-container.grid-input .form-input,
+.datasetform .input-container .form-input.label-paragraph {
+	width: 100%;
+	max-width: initial;
+}
+.datasetform br {
+	clear: both;
+}
+.datasetform label {
+	text-align: left;
+	width: 8em;
+	float: left;
+	margin-bottom: 0em;
+	padding: 0.3em 0;
+}
+.datasetform label.input-checkbox {
+	padding: 0;
+}
+.datasetform p.input-paragraph {
+	font-weight: normal;
+}
+.datasetform label.label-paragraph {
+	display: block;
+	width: 100%;
+	float: none;
+	margin-bottom: 0.5em;
+	margin-left: 0;
+	font-weight: bold;
+}
+.datasetform ul.input-radio,
+.datasetform ul.input-checkbox {
+	margin: 0;
+	list-style: none;
+	padding-top: 0.3em;
+}
+.datasetform ul.input-radio li,
+.datasetform ul.input-checkbox li {
+	float: left;
+	margin: 0;
+	margin-right: 0.5em;
+}
+.datasetform ul.input-radio.input-newsletter li {
+	float: none;
+}
+.datasetform ul.input-radio input,
+.datasetform ul.input-checkbox input {
+	width: initial;
+	margin: 0;
+}
+.datasetform .radiolist label,
+.datasetform .checkboxlist label,
+.datasetform ul.input-radio  label,
+.datasetform ul.input-checkbox label {
+	display: inline;
+	margin: 0 3px;
+	padding: 0;
+	float: none;
+	font-weight: normal;
+}
+.datasetform input, .datasetform select {
+	margin-left: 0;
+}
+.datasetform input.checkbox-input,
+.datasetform input.radio-input {
+	padding: 0 5px;
+	max-width: 100px;
+}
+.datasetform h3 {
+	font-size: 1.3em;
+}
+.datasetform div.captcha {
+	clear: both;
+}
+.datasetform div.captcha img.captcha {
+	width: 200px;
+	height: 50px;
+	margin-right: 10px !important;
+	border: 1px solid;
+}
+.datasetform .captcha-image {
+	float: left;
+	margin-top: 0.3em;
+}
+.datasetform .captcha-image:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+.datasetform div.captcha .new-code {
+	margin: 0 0 0 8em !important;
+	padding: 0;
+	clear: both;
+}
+.datasetform div.captcha input {
+	width: 90px;
+	height: 50px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0.3em;
+}
+.datasetform p {
+	margin: 0;
+	padding: 0;
+}
+.datasetform.grid-input label.submit {
+	display: none;
+}
+.datasetform p.submit {
+	clear: both;
+	margin-top: 0.5em;
+}
+.datasetform .button {
+	margin: 0;
+	width: 300px;
+}
+.datasetform.grid-input .button {
+	display: block;
+	margin: 0 auto;
+}
+.datasetform .radiolist,
+.datasetform .input-radio,
+.datasetform .checkboxlist {
+	text-align: left;
+	list-style: none;
+	margin-left: 8em;
+}
+.datasetform .input-container.grid-input .checkboxlist,
+.datasetform .input-container.grid-input .radiolist,
+.datasetform.grid-input .radiolist,
+.datasetform.grid-input .checkboxlist {
+	margin-left: 0;
+}
+.datasetform .checkboxlist.label-paragraph,
+.datasetform .radiolist.label-paragraph {
+	margin-left: 0;
+	width: 100%;
+}
+.datasetform .radiolist li,
+.datasetform .checkboxlist li {
+	float: left;
+	margin-right: 1em;
+	list-style-type: none;
+}
+.datasetform .radiolist:after,
+.datasetform .checkboxlist:after {
+	content: " ";
+	clear: both;
+	display: table;
+}
+.datasetform .datepicker {
+	display: none;
+}
+
+/* TinyMCE Styles */
+/*.datasetform .wp-editor-tools {
+	border-bottom: 1px solid #f1f1f1;
+}
+.datasetform .mce-toolbar-grp,
+.datasetform .mce-edit-area,
+.datasetform .mce-statusbar {
+	border: 1px solid !important;
+}
+.datasetform .mce-statusbar {
+	border-top: 0 !important;
+}
+*/
+.datasetform .input-container.input-tinymce {
+	
+}
+.datasetform .form-input.input-tinymce {
+	padding: 5px;
+	border: 1px solid;
+	background-color: #f1f1f1;
+}
+
+/*
+ * Submit message boxes
+ */
+.box.error, .box.success {
+	text-align: left;
+}
+.box.error ul li, .box.success ul li {
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+}
+.box.error {
+	border: 1px solid #CC0000;
+	background-color: #F7D9D9;
+	}
+.box.success {
+	border: 1px solid #006600;
+	background-color: #C6DCC6;
+}
+.error {
+	clear: both;
+	text-align: center;
+	margin-top: 3em;
+	color: #c00;
+}
+
+/*
+ * Search
+ *
+ * Template: search-compact.php, search-extend.php
+ */
+.projectmanager-search-form {
+	margin-bottom: 1em !important;
+}
+.projectmanager-search-form:before, .projectmanager-search-form:afer {
+	content: " ";
+	display: table;
+	clear: both;
+}
+/*.projectmanager-search {
+	margin-bottom: 0.5em;
+}*/
+
+/*
+ * Testimonials list
+ *
+ * Template: testimonials-list.php
+ */
+div.testimonials {
+	clear: both;
+	margin-bottom: 2em;
+	padding: 0;
+}
+div.testimonials ol.testimonials-list {
+	margin-left: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div.testimonials ol.testimonials-list li {
+	border-bottom: 1px solid;
+	padding: 0.5em 0em;
+	margin: 0em 0.3em 1em 0;
+	clear: both;
+	width: 100%;
+	text-align: left;
+}
+div.testimonials ol.testimonials-list li p {
+	margin: 0.2em;
+}
+div.testimonials .comment {
+	font-style: italic;
+	text-align: left;
+}
+ol.testimonials-list .location {
+	text-align: right;
+	clear: both;
+}
+.testimonials img {
+	float: left;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
+
+.testimonials .sticky {
+}
+.testimonials .sticky  .testimonial .name a {
+	font-weight: 700;
+}
+
+/*
+ * Testimonials Intro and Gallery output
+ *
+ * Template: testimonials-intro.php, testimonials.php
+ */
+#testimonials-intro {
+	text-align: left;
+	width: 100%;
+}
+#testimonials-intro .testimonials-intro {
+	clear: both;
+	margin-bottom: 2em;
+}
+/*#testimonials-intro ul {
+	margin-left: 0;
+	list-style-type: none;
+}
+#testimonials-intro ul  li {
+	float: left;
+}*/
+#testimonials-intro .testimonial,
+.dataset-gallery .testimonial {
+	padding: 0.5em;
+	opacity: 1;
+	margin: 0.3em 0.3em 0.3em 0;
+}
+#testimonials-intro .testimonial p,
+.dataset-gallery .testimonial p {
+	margin: 0.2em;
+}
+#testimonials-intro .testimonial .comment,
+.dataset-gallery .testimonial .comment {
+	padding: 0.3em;
+	font-style: italic;
+	margin: 0;
+	border: 1px solid;
+	padding: 0.5em;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#testimonials-intro .testimonial img,
+.dataset-gallery .testimonial img {
+	float: left;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+}
+#testimonials-intro .supporter,
+.dataset-gallery .testimonial .supporter {
+	margin-top: 0.8em;
+}
+
+#testimonials-intro .cite .name, #testimonials-intro .cite .location,
+.dataset-gallery .testimonial .cite .name, .dataset-gallery .testimonial .cite .location {
+	display: block;
+	text-align: left;
+	margin: 0;
+}
+#testimonials-intro .cite.image .name, #testimonials-intro .cite.image .location,
+.dataset-gallery .testimonial .cite.image .name, .dataset-gallery .testimonial .cite.image .location {
+	margin-left: 70px;
+}
+#testimonials-intro .num-supporters {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+	margin-top: 1em;
+}
+#testimonials-intro .num-supporters .testimonials-join, #testimonials-intro .num-supporters .testimonials-list {
+	font-weight: normal;
+}
+.fit,
+.fit .testimonial {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+/*
+ * World Map
+ */
+.projectmanager_map {
+	position: relative;
+	/*overflow: auto;*/
+}
+.projectmanager_map svg {
+	margin: 0 auto;
+	display: block;
+}
+.projectmanager_map ul.num_datasets_countries {
+	list-style: none;
+	position: relative;
+	max-width: 400px;
+	margin-left: 0.5em;
+}
+.projectmanager_map ul.num_datasets_countries li {
+	list-style-type: none;
+	padding: 0.2em;
+	float: left;
+}
+
+
+/*
+ * Pagination
+ */
+.projectmanager-pagination.page-numbers {
+	clear: both;
+	text-align: center;
+	font-size: 1em;
+	margin: 1em 0;
+}
+.projectmanager-pagination.page-numbers a {
+	padding: 2px 5px 0 5px;
+	border: 1px solid;
+	border-bottom: none;
+}
+.projectmanager-pagination.page-numbers span {
+	font-weight: bold;
+}
+.projectmanager-pagination.page-numbers span.current {
+	font-weight: bold;
+	border: none;
+}
+
+	
+/**
+ * Widget List
+ */
+ul.projectmanager_widget {
+	margin-left: 1em;
+}
+
+ul.projectmanager_widget li {
+	margin: 0.5em 0;
+}
+	
+/*
+ * Thickbox
+ */
+.thickbox_popup {
+	
+}
+
+
+/*
+ * Responsive Styles
+ */
+@media screen and (max-device-width: 1024px) {
+}
+
+@media screen and (max-device-width: 736px) {
+	/* make one-column gallery layout on smartphones */
+	.dataset-gallery .pm-gallery-item {
+		width: 100% !important;
+		max-width: 100% !important;
+		float: none;
+		display: block;
+		margin-bottom: 0.3em;
+	}
+	
+	/* display selection dropdowns in one column */
+	.projectmanager-selections select,
+	.projectmanager-selections input.button {
+		display: block;
+		clear: both;
+		margin-bottom: 1em;
+	}
+	
+	/* Single dataset */
+	.dataset-container .dataset-main-image {
+		display: block;
+		width: 100%;
+	}
+	
+	/* make one-column list on smartphone */
+	#testimonials-intro .testimonials-intro {
+		/*margin-right: 1em;*/
+	}
+	#testimonials-intro .pm-gallery-item,
+	.testimonials .pm-gallery-item {
+		width: 100% !important;
+		float: none !important;
+		display: block;
+		border-bottom: 1px solid;
+	}
+	#testimonials-intro .testimonial .comment,
+	.pm-gallery-item .testimonial .comment {
+		box-shadow: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+	}
+	#testimonials-intro .cite,
+	.pm-gallery-item .testimonial .cite {
+		text-align: right;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	#testimonials-intro .cite .name, #testimonials-intro .cite .location,
+	.pm-gallery-item .testimonial .cite .name, .pm-gallery-item .testimonial .cite .location {
+		margin-left: 0;
+		display: block;
+	}
+	#testimonials-intro .num-supporters {
+		text-align: center;
+	}
+	#testimonials-intro .num-supporters span {
+		display: block;
+		margin: 0.2em 0;
+		clear: both;
+	}
+	
+	/*
+	 * dataset form
+	 */
+	.datasetform .input-container {
+		float: none;
+		width: 100% !important;
+		clear: both;
+	}
+	.datasetform .input-container .input-content {
+		padding-right: 0 !important;
+	}
+	.datasetform  .form-input {
+		width: 100%;
+		clear: both;
+	}
+	.datasetform .form-input-time,
+	.datasetform .form-input-date {
+		display: inline;
+	}
+	.datasetform .radio-input,
+	.datasetform .checkbox-input {
+		display: inline !important;
+		margin: 4px 0;
+	}
+	.datasetform label {
+		clear: both;
+		text-align: left;
+		width: auto;
+		float: none;
+		margin-bottom: 0.5em;
+	}
+	.datasetform .captcha label:after {
+		content: " ";
+		display: table; 
+		clear: both;
+	}
+	.datasetform .captcha-code {
+		width: 100%;
+	}
+	.datasetform .captcha-image {
+		width: 65%;
+		max-width: 65%;
+		margin-right: 5%;
+	}
+	.datasetform .captcha img {
+		clear: both;
+		display: inline;
+		margin-right: 0;
+	}
+	.datasetform .captcha input {
+		width: 30%;
+		max-width: 30%;
+		display: inline;
+	}
+	.datasetform .captcha p.new-code {
+		clear: both;
+		margin-left: 0 !important;
+	}
+	.datasetform .button {
+		width: 100%;
+	}
+}
+
+
+@media print {
+	div.projectmanager-list.accordion .list-header,
+	div.projectmanager-list.expandable .list-header,
+	/*div.dataset-container h3,*/
+	div.projectmanager-list.accordion .list-content,
+	div.projectmanager-list.expandable .list-content
+	/*div.dataset-container .dataset-content*/ {
+		border: 0;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		-ms-box-shadow: none;
+		o-box-shadow: none;
+		box-shadow: none;
+		border-radius: 0 !important;
+		display: block;
+		background-image: none;
+		background: white !important;
+	}
+	
+	.hide-print {
+		display: none;
+	}
+}

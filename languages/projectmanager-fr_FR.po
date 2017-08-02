@@ -1,0 +1,2686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Project Manager 3.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/projectmanager\n"
+"POT-Creation-Date: 2017-03-09 22:44+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Luc Capronnier <lcapronnier@yahoo.com>\n"
+"Language-Team: L Capronnier <lcapronnier@yahoo.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ projectmanager
+#: projectmanager.php:232 admin/admin.php:188 admin/admin.php:191
+msgid "Projects"
+msgstr "Projets"
+
+# @ projectmanager
+#: templates/testimonials.php:32 templates/testimonials-list.php:28
+#: templates/list-expandable-faq.php:27 templates/list-accordion-faq.php:27
+#: templates/table-image.php:28 templates/table.php:28 templates/list.php:24
+#: templates/gallery.php:34 templates/list-accordion.php:27
+#: templates/list-expandable.php:27 admin/show-project.php:181
+msgid "Nothing found"
+msgstr "Aucun résultat"
+
+# @ projectmanager
+#: templates/searchform.php:6 admin/show-project.php:26
+#: admin/show-project.php:46 lib/widget.php:219 lib/widget.php:221
+msgid "Search"
+msgstr "Recherche"
+
+# @ default
+#: templates/selections.php:12 admin/show-project.php:74
+msgid "View all categories"
+msgstr "Voir toutes les categories"
+
+#: templates/selections.php:34 admin/show-project.php:97
+#, php-format
+msgid "Filter by %s"
+msgstr "Filtrer par %s"
+
+# @ default
+#: templates/selections.php:42 admin/show-project.php:66
+#: admin/show-project.php:105 admin/categories.php:18 admin/formfields.php:19
+#: admin/index.php:17
+msgid "Apply"
+msgstr "Appliquer"
+
+# @ projectmanager
+#: templates/list-expandable-faq.php:14 templates/list-accordion-faq.php:14
+#: templates/list-accordion.php:14 templates/list-expandable.php:14
+msgid "Details"
+msgstr "Détails"
+
+# @ projectmanager
+#: templates/dataset-form.php:5
+msgid "Back to Formula"
+msgstr "Retour à la formule"
+
+#: templates/dataset-form.php:7
+msgid "Back to Homepage"
+msgstr "Retourner à la page d'accueil"
+
+# @ projectmanager
+#: templates/dataset-form.php:45 admin/dataset-form.php:62
+msgid "Day"
+msgstr "Jour"
+
+# @ projectmanager
+#: templates/dataset-form.php:52 admin/dataset-form.php:69
+msgid "Month"
+msgstr "Mois"
+
+# @ projectmanager
+#: templates/dataset-form.php:59 admin/dataset-form.php:76
+msgid "Year"
+msgstr "Année"
+
+# @ projectmanager
+#: templates/dataset-form.php:88 admin/settings.php:96
+#: admin/dataset-form.php:106
+msgid "Supported file types"
+msgstr "Types de fichiers supportés"
+
+# @ projectmanager
+#: templates/dataset-form.php:93 admin/dataset-form.php:111
+msgid "Current File"
+msgstr "Fichier actuel"
+
+# @ projectmanager
+#: templates/dataset-form.php:99 admin/dataset-form.php:117
+msgid "Delete File"
+msgstr "Supprimer le fichier"
+
+# @ projectmanager
+#: templates/dataset-form.php:100 admin/dataset-form.php:119
+msgid "Overwrite File"
+msgstr "Ecraser le fichier"
+
+#: templates/dataset-form.php:130
+msgid "Code"
+msgstr "Code"
+
+#: templates/dataset-form.php:137
+msgid "Try new code"
+msgstr "Essayer le nouveau code"
+
+#: templates/dataset-form.php:146
+msgid "Submit"
+msgstr "Envoyer"
+
+# @ projectmanager
+#: templates/dataset.php:4
+msgid "Back to list"
+msgstr "Retour à la liste"
+
+#: templates/dataset.php:10
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+# @ projectmanager
+#: templates/dataset.php:26
+msgid "Previous dataset"
+msgstr "Donnée préccédente"
+
+# @ projectmanager
+#: templates/dataset.php:29
+msgid "Next dataset"
+msgstr "Donnée suivante"
+
+#: templates/testimonials-intro.php:24
+#, php-format
+msgid ""
+"<span class='num'>%d</span> Supporters from <span class='num'>%d</span> "
+"Countries Already."
+msgstr ""
+"<span class='num'>%d</span> déjà supporter du pays <span class='num'>%d</"
+"span>."
+
+#: templates/testimonials-intro.php:26
+msgid "Become part of our cause."
+msgstr "Rejoignez notre cause."
+
+# @ projectmanager
+#: templates/testimonials-intro.php:29
+msgid "List of supporters."
+msgstr "Liste des supporters."
+
+# @ projectmanager
+#: admin/import.php:9 admin/admin.php:143 admin/admin.php:180
+msgid "Import/Export"
+msgstr "Importer / Exporter"
+
+# @ projectmanager
+#: admin/import.php:10
+msgid "Import & Export Data"
+msgstr "Importer / Exporter les données"
+
+# @ projectmanager
+#: admin/import.php:16 admin/import.php:23 admin/import.php:44
+msgid "Export Data"
+msgstr "Exporter les données"
+
+#: admin/import.php:17 admin/import.php:51
+msgid "Import Media"
+msgstr "Importer un média"
+
+# @ projectmanager
+#: admin/import.php:18 admin/import.php:65 admin/import.php:103
+msgid "Import Datasets"
+msgstr "Importer des données"
+
+# @ projectmanager
+#: admin/import.php:19 admin/import.php:116
+msgid "Import Project"
+msgstr "Importer  un projet"
+
+#: admin/import.php:26
+#, php-format
+msgid ""
+"Your media files are ready to <a href=\"%s\">download</a>. (Last modified: "
+"%s)"
+msgstr ""
+"Votre fichier média est prêt à être <a href=\"%s\">téléchargé</a>. (Dernière "
+"modification&nbsp;: %s)"
+
+#: admin/import.php:29
+msgid ""
+"You can export datasets in tab-delimited format or media files as zip archive"
+msgstr ""
+"Vous pouvez exporter les jeux de données dans un format délimité par des "
+"tabulations ou dans un fichier média sous la forme d'une archive ZIP."
+
+# @ projectmanager
+#: admin/import.php:38
+msgid "Datasets (CSV)"
+msgstr "Données (CSV)"
+
+# @ projectmanager
+#: admin/import.php:39
+msgid "Datasets (PDF)"
+msgstr "Données (PDF)"
+
+# @ projectmanager
+#: admin/import.php:40 admin/index.php:26 admin/index.php:35
+#: admin/tinymce/window.php:50 admin/tinymce/window.php:65
+#: admin/tinymce/window.php:165 admin/tinymce/window.php:189
+#: admin/tinymce/window.php:210 admin/tinymce/window.php:246
+#: admin/tinymce/window.php:351 lib/widget.php:27 lib/widget.php:125
+msgid "Project"
+msgstr "Projet"
+
+# @ projectmanager
+#: admin/import.php:41
+msgid "Media Files"
+msgstr "Fichiers de média"
+
+#: admin/import.php:53
+msgid "You can upload media files in zip format to the webserver"
+msgstr "Vouos pouvez charger des fichiers média au format ZIP sur le serveur"
+
+#: admin/import.php:59
+msgid "Upload Media"
+msgstr "Charger un média"
+
+# @ projectmanager
+#: admin/import.php:74 lib/project.php:1022
+msgid "File"
+msgstr "Fichier"
+
+# @ projectmanager
+#: admin/import.php:77
+msgid "Delimiter"
+msgstr "Séparateur"
+
+# @ projectmanager
+#: admin/import.php:77
+msgid "For tab delimited files use TAB as delimiter"
+msgstr ""
+"Pour les fichiers délimités par une tabulation, utiliser TAB comme séparateur"
+
+# @ projectmanager
+#: admin/import.php:80
+msgid "Column Assignment"
+msgstr "Choix de la colonne"
+
+# @ projectmanager
+#: admin/import.php:81
+msgid "All FormFields need to be assigned, also if some contain no data."
+msgstr "Tous les champs doivent être assignés même ceux sans données."
+
+# @ projectmanager
+#: admin/import.php:82
+msgid "Dates must have the format <strong>YYYY-MM-DD</strong>."
+msgstr "Format de dates obligatoire <strong>YYYY-MM-DD</strong>."
+
+# @ projectmanager
+#: admin/import.php:85 admin/import.php:89
+#, php-format
+msgid "Column %d"
+msgstr "Colonne %d"
+
+# @ default
+# @ projectmanager
+#: admin/import.php:85 admin/admin.php:141 admin/admin.php:175
+#: admin/admin.php:179 admin/admin.php:1610 admin/show-project.php:121
+#: admin/show-project.php:136 admin/categories.php:2 admin/categories.php:3
+#: admin/categories.php:22 admin/dataset-form.php:153 admin/index.php:49
+msgid "Categories"
+msgstr "Catégories"
+
+#: admin/import.php:85
+msgid "multiple categories separated by comma"
+msgstr "catégories multiples séparées par des virgules"
+
+# @ projectmanager
+#: admin/import.php:109
+msgid "Import Database"
+msgstr "Importer des données"
+
+# @ projectmanager
+# @ default
+#: admin/settings.php:10 admin/settings.php:12 admin/admin.php:139
+#: admin/admin.php:177 admin/admin.php:192 admin/admin.php:913
+#: admin/index.php:49
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/settings.php:25 admin/settings.php:35
+msgid "General"
+msgstr "Général"
+
+# @ projectmanager
+#: admin/settings.php:26 admin/settings.php:89
+msgid "Images"
+msgstr "Images"
+
+# @ projectmanager
+#: admin/settings.php:27 admin/settings.php:120
+msgid "Frontend Datasetform"
+msgstr "Formulaire de données"
+
+# @ projectmanager
+#: admin/settings.php:28 admin/settings.php:183
+msgid "Captcha Settings"
+msgstr "Paramètres du captcha"
+
+# @ projectmanager
+#: admin/settings.php:29 admin/settings.php:214 admin/documentation.php:12
+#: admin/documentation.php:39
+msgid "Slideshows"
+msgstr "Diaporama"
+
+#: admin/settings.php:30 admin/settings.php:247
+msgid "World Map"
+msgstr "Carte du monde"
+
+# @ projectmanager
+#: admin/settings.php:31 admin/settings.php:290
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+# @ projectmanager
+#: admin/settings.php:39 admin/categories.php:70 admin/index.php:72
+#: lib/widget.php:256 lib/project.php:1016 lib/project.php:1054
+msgid "Title"
+msgstr "Titre"
+
+# @ projectmanager
+#: admin/settings.php:42
+msgid "Datasets per page"
+msgstr "Données par page"
+
+#: admin/settings.php:42 admin/settings.php:234
+msgid "Set to 0 for no limit"
+msgstr "Mettre 0 pour aucune limite"
+
+# @ projectmanager
+#: admin/settings.php:45 admin/settings.php:219
+msgid "Sort Datasets"
+msgstr "Trier les données"
+
+# @ default
+# @ projectmanager
+#: admin/settings.php:53
+msgid "Sort Categories"
+msgstr "Trier par catégories"
+
+#: admin/settings.php:61
+msgid "Top-level Menu"
+msgstr "Menu principal"
+
+# @ projectmanager
+#: admin/settings.php:61
+msgid "Set this option to add a direct link in the navigation panel."
+msgstr "Activer cette option pour créer un lien dans le panneau de navigation"
+
+# @ projectmanager
+#: admin/settings.php:64
+msgid "Hook into Profile"
+msgstr "Lier au profil"
+
+# @ projectmanager
+#: admin/settings.php:67
+msgid "Menu Icon"
+msgstr "Icône de menu"
+
+# @ projectmanager
+#: admin/settings.php:77 admin/tinymce/window.php:271
+msgid "Number of Columns"
+msgstr "Nombre de colonnes"
+
+# @ projectmanager
+#: admin/settings.php:77
+msgid "Needed for multicolumn output, e.g. gallery"
+msgstr "Nécessaire pour un affichage en plusieurs colonnes, par ex galerie"
+
+#: admin/settings.php:80
+msgid "Scramble E-Mail Addresses on Website"
+msgstr "Cacher les adresses E-mail sur le site"
+
+#: admin/settings.php:80
+msgid ""
+"Activate this to replace @ and . with [at] and [dot] to secure e-mail "
+"addresses on website"
+msgstr ""
+"Activer pour remplacer @ et . par [at] et [dot] afin de masquer les adresses "
+"E-mail sur le site"
+
+# @ projectmanager
+#: admin/settings.php:93
+msgid "Default Image"
+msgstr "Image par défaut"
+
+# @ projectmanager
+#: admin/settings.php:97
+msgid "Current Image:"
+msgstr "Image actuelle&nbsp;:"
+
+# @ projectmanager
+# @ default
+#: admin/settings.php:97 admin/show-project.php:61 admin/categories.php:16
+#: admin/formfields.php:17 admin/index.php:15 admin/tinymce/window.php:38
+msgid "Delete"
+msgstr "Supprimer"
+
+# @ projectmanager
+#: admin/settings.php:101 lib/widget.php:148
+msgid "Tiny size"
+msgstr "Petite taille"
+
+# @ default
+#: admin/settings.php:101 admin/settings.php:104 admin/settings.php:107
+#: admin/settings.php:110
+msgid "Max Width"
+msgstr "Largeur maximale"
+
+# @ default
+#: admin/settings.php:101 admin/settings.php:104 admin/settings.php:107
+#: admin/settings.php:110
+msgid "Max Height"
+msgstr "Hauteur maximale"
+
+#: admin/settings.php:101 admin/settings.php:104 admin/settings.php:107
+#: admin/settings.php:110
+msgid "Crop image to exact dimensions"
+msgstr "Réduire l'image aux dimensions exactes"
+
+# @ projectmanager
+#: admin/settings.php:104 lib/widget.php:148
+msgid "Thumbnail size"
+msgstr "Taille de miniature"
+
+# @ projectmanager
+#: admin/settings.php:107 lib/widget.php:148
+msgid "Medium size"
+msgstr "Taille moyenne"
+
+#: admin/settings.php:110 lib/widget.php:148
+msgid "Large size"
+msgstr "Grande taille"
+
+#: admin/settings.php:113
+msgid "Regenerate Thumbnails"
+msgstr "Refaire les vignettes"
+
+#: admin/settings.php:113
+msgid "Regenerate Thumbnails Now"
+msgstr "Refaire le vignettes maintenant"
+
+#: admin/settings.php:113
+msgid ""
+"This will re-create all thumbnail images of this project. Depending on the "
+"number of images it could take some time."
+msgstr ""
+"Cette action recréera toutes les vignettes de ce projet. En fonction du "
+"nombre d'images, cela peut prendre du temp."
+
+#: admin/settings.php:124
+msgid "Submit Message"
+msgstr "Envoyer le message"
+
+#: admin/settings.php:128
+msgid "Require dataset activation"
+msgstr "Nécessite l'activation des données"
+
+#: admin/settings.php:131
+msgid "Requires sending an email confirmation"
+msgstr "Nécessite l'envoi d'un courriel de confirmation"
+
+#: admin/settings.php:132
+msgid ""
+"Use the tag [CONFIRMATION_LINK] in your confirmation text to insert the "
+"confirmation link."
+msgstr ""
+"Utiliser le tag [CONFIRMATION_LINK] dans votre message de confirmation pour "
+"y insérer le lien permetttant de confirmer."
+
+# @ projectmanager
+#: admin/settings.php:136 admin/settings.php:231 lib/widget.php:136
+msgid "Page"
+msgstr "Page"
+
+# @ default
+# @ projectmanager
+#: admin/settings.php:136 admin/settings.php:231 admin/tinymce/window.php:90
+msgid "None"
+msgstr "Néant"
+
+#: admin/settings.php:136
+msgid ""
+"The page is required for re-sending a onfirmation email from the admin panel"
+msgstr ""
+"Une page est requise pour ressoumettre le courriel de confirmation depuis le "
+"panneau d'administration"
+
+#: admin/settings.php:139 admin/show-project.php:64
+msgid "Send E-Mail Confirmation"
+msgstr "Envoyer un courriel de confirmation"
+
+#: admin/settings.php:142
+msgid "Don&rsquo;t send email confirmation"
+msgstr "Ne pas envoyer de courriel de confirmation"
+
+# @ projectmanager
+#: admin/settings.php:150
+msgid "Sender E-Mail"
+msgstr "E-mail de l'émetteur"
+
+#: admin/settings.php:151
+msgid "This E-Mail will be also used to notify of new datasets"
+msgstr ""
+"Cette adresse e-mail sera aussi utilisée pour prévenir de l'ajout de données"
+
+#: admin/settings.php:154
+msgid "E-Mail Confirmation Subject"
+msgstr "Sujet du courriel de confirmation"
+
+#: admin/settings.php:158
+msgid "E-Mail Confirmation Text"
+msgstr "Texte du courriel de confirmation"
+
+#: admin/settings.php:159
+msgid "Use placeholder [name] to insert the name"
+msgstr "Utiliser [name] pour insérer le nom"
+
+#: admin/settings.php:162
+msgid "Attach PDF to Confirmation"
+msgstr "Joindre le fichier PDF à la confirmation"
+
+# @ projectmanager
+#: admin/settings.php:165
+msgid "Notify me of new datasets"
+msgstr "Me prévenir lors de l'arrivée de nouvelles données"
+
+#: admin/settings.php:168
+msgid "E-Mail Notification Subject"
+msgstr "Sujet du courriel de notification"
+
+#: admin/settings.php:172
+msgid "E-Mail Notification Text"
+msgstr "Texte du courriel de notification"
+
+#: admin/settings.php:176
+msgid "Attach PDF to Notification"
+msgstr "Joindre le fichier PDF à la notification"
+
+#: admin/settings.php:187
+msgid "Use Captcha"
+msgstr "Utiliser un captcha"
+
+# @ projectmanager
+#: admin/settings.php:190
+msgid "Timeout"
+msgstr "Temps dépassé"
+
+#: admin/settings.php:191
+msgid "minutes"
+msgstr "minutes"
+
+#: admin/settings.php:194
+msgid "Code Length"
+msgstr "Longueur du code"
+
+#: admin/settings.php:198
+msgid "Code Letters"
+msgstr "Lettres du code"
+
+# @ projectmanager
+#: admin/settings.php:202
+msgid "Number of Dots"
+msgstr "Nombre de points"
+
+# @ projectmanager
+#: admin/settings.php:206
+msgid "Number of Lines"
+msgstr "Nombre de lignes"
+
+# @ projectmanager
+#: admin/settings.php:223 lib/widget.php:135
+msgid "Random"
+msgstr "Aléatoire"
+
+# @ projectmanager
+#: admin/settings.php:234 admin/tinymce/window.php:268
+msgid "Number of datasets"
+msgstr "Nombre de données"
+
+#: admin/settings.php:237
+msgid "Specific Dataset IDs"
+msgstr "ID du jeu de données spécifique"
+
+#: admin/settings.php:237
+msgid "Separate IDs by comma"
+msgstr "Séparer les ID par des virgules"
+
+#: admin/settings.php:241
+#, php-format
+msgid ""
+"You can easily create fancy slideshows of datasets using the <a href='%s' "
+"target='_blank'>Fancy Slideshows Plugin</a>. After installing and activating "
+"the plugin, come back here for slideshow configuration."
+msgstr ""
+"Vous pouvez facilement créer des diaporamas de vos données avec l'extension "
+"<a href='%s' target='_blank'>Fancy Slideshows</a>. Après avoir installer et "
+"activer l'extension, revenez ici pour la configuration du diaporama."
+
+# @ projectmanager
+#: admin/settings.php:252
+msgid "Formfield"
+msgstr "Champ"
+
+# @ projectmanager
+#: admin/settings.php:263
+msgid "Dataset Label"
+msgstr "Titre des données"
+
+#: admin/settings.php:268
+msgid "Update Map Data"
+msgstr "Mettre à jour la carte avec les données"
+
+# @ projectmanager
+#: admin/settings.php:276
+msgid "Last Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+#: admin/settings.php:277
+msgid "Next scheduled update:"
+msgstr "Prochaine mise à jour&nbsp;:"
+
+#: admin/settings.php:282 admin/tinymce/window.php:363
+#, php-format
+msgid ""
+"Powered by the <a href='%s' target='%s' title=Simplemaps'>Free World "
+"Continent Map</a> from <a href='%s' target='%s' "
+"title='Simplemaps'>simplemaps</a>, based on the <a href='%s' target='%s' "
+"title='Interactive-Maps Plugin'>Interactive-Maps Plugin</a>."
+msgstr ""
+"Grace à <a href='%s' target='%s' title=Simplemaps'>Free World Continent Map</"
+"a> de <a href='%s' target='%s' title='Simplemaps'>simplemaps</a>, basé sur "
+"l'extension <a href='%s' target='%s' title='Interactive-Maps "
+"Plugin'>Interactive-Maps</a>."
+
+#: admin/settings.php:284 admin/documentation.php:233
+#, php-format
+msgid ""
+"If you have at least one country formfield you can display a worldmap "
+"denoting the number of datasets by continents powered by the <a href='%s' "
+"target='%s' title=Simplemaps'>Free World Continent Map</a> from <a href='%s' "
+"target='%s' title='Simplemaps'>simplemaps</a>, based on the <a href='%s' "
+"target='%s' title='Interactive-Maps Plugin'>Interactive-Maps Plugin</a>."
+msgstr ""
+"Si vous avez défini au moins un champ de pays, vous pouvez afficher une "
+"carte du monde montrant le nombre de données par continent grace à <a "
+"href='%s' target='%s' title=Simplemaps'>Free World Continent Map</a> de <a "
+"href='%s' target='%s' title='Simplemaps'>simplemaps</a>, basé sur "
+"l'extension <a href='%s' target='%s' title='Interactive-Maps "
+"Plugin'>Interactive-Maps</a>."
+
+#: admin/settings.php:294
+msgid "Disable dataset editing"
+msgstr "Ne pas autoriser la modification des données"
+
+#: admin/settings.php:298
+msgid "List unused media files"
+msgstr "Recherche les fichiers média inutilisés"
+
+# @ projectmanager
+#: admin/settings.php:303
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: admin/admin.php:80
+#, php-format
+msgid ""
+"You can extend ProjectManager with fancy slideshows by using the <a "
+"href='%s' target='_blank'>Fancy Slideshows Plugin</a>. (<a href='%s'>Ignore</"
+"a>)"
+msgstr ""
+"Vous pouvez facilement créer des diaporamas de vos données avec l'extension "
+"<a href='%s' target='_blank'>Fancy Slideshows</a>.  (<a href='%s'>Ignorer</"
+"a>)"
+
+#: admin/admin.php:105 admin/admin.php:1344
+msgid "Once Weekly"
+msgstr "Une fois par semaine"
+
+#: admin/admin.php:110
+msgid "Once a month"
+msgstr "Une fois par mois"
+
+# @ projectmanager
+#: admin/admin.php:140 admin/admin.php:173 admin/formfields.php:2
+#: admin/formfields.php:4
+msgid "Form Fields"
+msgstr "Champs de formulaire"
+
+# @ projectmanager
+#: admin/admin.php:142 admin/admin.php:171 admin/admin.php:562
+#: admin/index.php:49
+msgid "Add Dataset"
+msgstr "Ajouter des données"
+
+# @ projectmanager
+#: admin/admin.php:169 admin/admin.php:191
+msgid "Overview"
+msgstr "Vue générale"
+
+# @ projectmanager
+#: admin/admin.php:194
+msgid "Documentation"
+msgstr "Documentation"
+
+#: admin/admin.php:211
+msgid "ProjectManager Latest Support News"
+msgstr "Dernières nouvelles du support de Project Manager"
+
+# @ projectmanager
+#: admin/admin.php:356
+#, php-format
+msgid "%d project deleted"
+msgid_plural "%d projects deleted"
+msgstr[0] "%d projet supprimé"
+msgstr[1] "%d projets supprimés"
+
+# @ projectmanager
+#: admin/admin.php:360 admin/admin.php:386 admin/admin.php:409
+#: admin/admin.php:483 admin/admin.php:499 admin/admin.php:644
+#: admin/admin.php:686 admin/admin.php:757 admin/admin.php:798
+#: admin/admin.php:1107 admin/admin.php:1136 admin/admin.php:1187
+#: admin/admin.php:1406 admin/admin.php:1504 admin/admin.php:1537
+#: admin/admin.php:1593 admin/admin.php:1709 admin/admin.php:1945
+#: admin/admin.php:1953 admin/admin.php:2103 admin/admin.php:2110
+#: admin/admin.php:2468 admin/admin.php:2716 admin/admin.php:2779
+#: admin/admin.php:2811 admin/admin.php:2842 admin/admin.php:2894
+#: admin/admin.php:2919 admin/admin.php:2940
+msgid "You don't have permission to perform this task"
+msgstr "Vous n'avez pas les permissions nécessaires pour effectuer cette tâche"
+
+# @ default
+#: admin/admin.php:367 admin/admin.php:521 admin/admin.php:547
+#: admin/admin.php:617 admin/admin.php:709 admin/admin.php:769
+#: admin/admin.php:843 admin/admin.php:878 admin/documentation.php:3
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les permissions pour voir cette page."
+
+#: admin/admin.php:400
+msgid "E-Mail confirmation has been sent"
+msgstr "Le courriel de confirmation a bien été expédié"
+
+#: admin/admin.php:402 admin/admin.php:469
+msgid ""
+"An error occured while trying to send E-Mail confirmation. Did you set the "
+"frontend page containing the dataset form?"
+msgstr ""
+"Une erreur est survenue lors de l'envoi du courriel de confirmation. Avez "
+"vous défini la page contenant le formulaire ?"
+
+# @ projectmanager
+#: admin/admin.php:435 admin/admin.php:439 admin/admin.php:451
+#: admin/admin.php:475 admin/admin.php:510
+msgid "You are not allowed to perform this task"
+msgstr "Vous n'avez pas les permissions nécessaires pour effectuer cette tâche"
+
+#: admin/admin.php:471
+#, php-format
+msgid "E-Mail confirmations have been sent to the following dataset IDs: %s"
+msgstr ""
+"Le courriel de confirmation a été envoyés avec les données suivantes IDs : %s"
+
+# @ projectmanager
+#: admin/admin.php:494
+#, php-format
+msgid "%d dataset deleted"
+msgid_plural "%d datasets deleted"
+msgstr[0] "%d donnée supprimée"
+msgstr[1] "%d données supprimées"
+
+# @ projectmanager
+#: admin/admin.php:505
+#, php-format
+msgid "%d dataset duplicated"
+msgid_plural "%d datasets duplicated"
+msgstr[0] "%d donnée copiée"
+msgstr[1] "%d données copiées"
+
+# @ projectmanager
+#: admin/admin.php:552
+msgid "Edit Dataset"
+msgstr "Modifier les données"
+
+#: admin/admin.php:602
+msgid ""
+"Image thumbnails regenerated. You should not reload this page, otherwise "
+"thumbnails will be again regenerated."
+msgstr ""
+"Les vignettes ont été refaites. Vous ne devez pas recharger cette page sinon "
+"les vignettes seront de nouveau refaites."
+
+# @ projectmanager
+#: admin/admin.php:692
+msgid "Formfields deleted"
+msgstr "Champ de formulaire supprimer"
+
+# @ projectmanager
+#: admin/admin.php:725
+msgid "Edit Category"
+msgstr "Modifier une catégorie"
+
+# @ projectmanager
+#: admin/admin.php:728
+msgid "Add Category"
+msgstr "Ajouter  une catégorie"
+
+# @ projectmanager
+#: admin/admin.php:753
+#, php-format
+msgid "%d category deleted"
+msgid_plural "%d categories deleted"
+msgstr[0] "%d catégorie supprimée"
+msgstr[1] "%d catégories supprimées"
+
+# @ leaguemanager
+# @ projectmanager
+#: admin/admin.php:870 admin/admin.php:1278
+msgid "Settings saved"
+msgstr "Paramètres enregistrés"
+
+# @ projectmanager
+#: admin/admin.php:895 admin/index.php:2 admin/index.php:21
+#: admin/tinymce/window.php:15
+msgid "Projectmanager"
+msgstr "ProjectManager"
+
+# @ projectmanager
+# @ leaguemanager
+#: admin/admin.php:1056 admin/admin.php:1088 admin/show-project.php:118
+#: admin/show-project.php:133 admin/categories.php:26 admin/categories.php:34
+#: admin/formfields.php:30 admin/formfields.php:49 admin/index.php:25
+#: admin/index.php:34 admin/tinymce/window.php:106 lib/project.php:2353
+msgid "ID"
+msgstr "ID"
+
+#: admin/admin.php:1056 admin/tinymce/window.php:107 lib/project.php:2353
+msgid "Custom Order"
+msgstr "Ordre personalisé"
+
+# @ projectmanager
+#: admin/admin.php:1056 admin/index.php:49 admin/tinymce/window.php:108
+#: admin/tinymce/window.php:276
+msgid "Formfields"
+msgstr "Champs"
+
+# @ projectmanager
+#: admin/admin.php:1072 admin/tinymce/window.php:113 lib/project.php:2370
+msgid "Ascending"
+msgstr "Ascendant"
+
+# @ projectmanager
+#: admin/admin.php:1072 admin/tinymce/window.php:114 lib/project.php:2370
+msgid "Descending"
+msgstr "Descendant"
+
+# @ projectmanager
+#: admin/admin.php:1088
+msgid "Name"
+msgstr "Nom"
+
+# @ projectmanager
+#: admin/admin.php:1117
+msgid "Project added"
+msgstr "Projet ajouté"
+
+# @ projectmanager
+#: admin/admin.php:1141
+msgid "Project updated"
+msgstr "Projet mis a jour"
+
+# @ projectmanager
+#: admin/admin.php:1223 admin/admin.php:2001 admin/admin.php:2673
+msgid "The file type is not supported."
+msgstr "Le type de fichier n'est pas supporté."
+
+#: admin/admin.php:1344
+msgid "On page load"
+msgstr "Au chargement de la page"
+
+#: admin/admin.php:1344
+msgid "Manually Now"
+msgstr "Manuellement maintenant"
+
+#: admin/admin.php:1344
+msgid "Once Hourly"
+msgstr "Une fois par heure"
+
+#: admin/admin.php:1344
+msgid "Twice per day"
+msgstr "Deux fois par jour"
+
+#: admin/admin.php:1344
+msgid "Once Daily"
+msgstr "Une fois par jour"
+
+#: admin/admin.php:1344
+msgid "Once a Month"
+msgstr "Une fois par mois"
+
+#: admin/admin.php:1411
+msgid ""
+"Dataset columns must not be separated by comma as multiple categories use "
+"this delimiter"
+msgstr ""
+"Les données dans les collones ne doivent pas être séparées par des virgules "
+"car la définition des catégories multiples utilise ce délimiter"
+
+# @ projectmanager
+#: admin/admin.php:1483
+#, php-format
+msgid "%d Datasets successfully imported"
+msgstr "%d données importées avec succès"
+
+# @ projectmanager
+#: admin/admin.php:1485
+msgid "The file is not readable"
+msgstr "Fichier illisible"
+
+# @ default
+#: admin/admin.php:1488 admin/admin.php:2644
+#, php-format
+msgid "The uploaded file could not be moved to %s."
+msgstr "Le fichier transféré ne peut pas être déplacé vers %s."
+
+# @ projectmanager
+#: admin/admin.php:1492
+msgid "The uploaded file seems to be empty"
+msgstr "Le fichier transféré parait vide"
+
+#: admin/admin.php:1511
+msgid "You have to select a media file in zip format"
+msgstr "Vous devez choisir un fichier média au format zip"
+
+# @ projectmanager
+#: admin/admin.php:1519
+msgid "Media file have been successfully imported"
+msgstr "Le fichier média a bien été importé"
+
+# @ default
+#: admin/admin.php:1523
+msgid "Media zip file could not be unpacked"
+msgstr "Le fichier zip ne peut pas être décompressé"
+
+#: admin/admin.php:1542
+msgid "You have to select a project export file in php format"
+msgstr "Vous devez choisir un fichier export de projet au format php"
+
+# @ projectmanager
+#: admin/admin.php:1553
+msgid "Project has been successfully imported"
+msgstr "Le projet a été importé avec succès"
+
+#: admin/admin.php:1686
+msgid "No media files found to export"
+msgstr "Aucun fichier de média trouvé à exporter"
+
+#: admin/admin.php:1831
+#, php-format
+msgid "Mandatory field %s is incorrect"
+msgstr "Le champ obligatoire %s est incorrect"
+
+#: admin/admin.php:1842 admin/admin.php:1847 admin/admin.php:1852
+#, php-format
+msgid "Mandatory field %s is missing"
+msgstr "Le champ obligatoire %s est manquant"
+
+#: admin/admin.php:1857
+#, php-format
+msgid "Mandatory field %s is empty"
+msgstr "Le champ obligatoire %s est vide"
+
+#: admin/admin.php:1867 admin/admin.php:1878
+#, php-format
+msgid "Provided %s `%s` is not a valid e-mail address"
+msgstr "La donnée saisie dans %s `%s` n'est pas une adresse e-mail valide"
+
+#: admin/admin.php:1869
+#, php-format
+msgid "Provided %s `%s` is not allowed"
+msgstr "La donnée saisie dans %s `%s` n'est pas autorisée"
+
+#: admin/admin.php:1885
+#, php-format
+msgid "Provided %s is longer than the allowed length of %s characters"
+msgstr ""
+"La donnée saisie %s est plus longue que le nombre %s de caractères autorisés"
+
+#: admin/admin.php:1892
+msgid "The following error occured while submitting the data"
+msgstr "L'erreur suivante est survenue lors de l'enregistrement des données"
+
+# @ projectmanager
+#: admin/admin.php:2071
+msgid "New dataset added to the database."
+msgstr "Nouvelles données ajoutées à la base de données."
+
+# @ projectmanager
+#: admin/admin.php:2198
+msgid "Dataset updated."
+msgstr "Données mises à jour."
+
+# @ projectmanager
+#: admin/admin.php:2253
+msgid "Dataset order saved"
+msgstr "Ordre des données enregistrer"
+
+#: admin/admin.php:2497
+msgid ""
+"Project thumbnails regenerated. You should not reload this page, otherwise "
+"thumbnails will be again regenerated."
+msgstr ""
+"Les vignettes ont été refaites. Vous ne devez pas recharger cette page sinon "
+"les vignettes seront de nouveau refaites."
+
+#: admin/admin.php:2560
+msgid "Unused media files deleted"
+msgstr "Les fichiers média inutiles ont été supprimés"
+
+#: admin/admin.php:2565
+msgid "Congratulations! This project has no orphaned media files."
+msgstr "Félicitations ! Ce projet n'a pas de fichiers média inutiles."
+
+#: admin/admin.php:2567
+msgid ""
+"The following files do not do not seem to be used. If this is true you can "
+"subsequently delete them."
+msgstr ""
+"Les fichiers suivants semble ne pas être utilisés. Si cela est vrai, vous "
+"pouvez les supprimer."
+
+#: admin/admin.php:2574
+msgid "Delete unused media files"
+msgstr "Supprimer les fichiers média inutilisés"
+
+# @ projectmanager
+#: admin/admin.php:2641
+msgid ""
+"File exists and is not uploaded. Set the overwrite option if you want to "
+"replace it."
+msgstr ""
+"Le fichier existe déjà et ne peut être transféré, activer l'option "
+"d'écrasement pour le remplacer."
+
+# @ projectmanager
+#: admin/admin.php:2878
+msgid "Form Fields updated"
+msgstr "Champ de formulaire mis à jour"
+
+# @ projectmanager
+#: admin/admin.php:2901
+msgid "Category added"
+msgstr "Catégorie ajoutée"
+
+# @ default
+# @ projectmanager
+#: admin/admin.php:2925
+msgid "Category edited"
+msgstr "Catégorie modifiée"
+
+#: admin/admin.php:3085
+msgid "Your session has expired"
+msgstr "Votre session est terminée"
+
+#: admin/admin.php:3087
+msgid "Something went wrong with the captcha"
+msgstr "Il y a eu un problème avec le captcha"
+
+#: admin/admin.php:3089
+msgid "Wrong Captcha Code"
+msgstr "Code du captcha incorrect"
+
+# @ projectmanager
+#: admin/admin.php:3104
+msgid "Dataset added to the database"
+msgstr "Nouvelles données ajoutées à la base de données"
+
+#: admin/admin.php:3114
+msgid "An error occured while trying to send E-Mail confirmation."
+msgstr "Une erreur est survenue lors de l'envoi du courriel de confirmation."
+
+#: admin/show-project.php:38
+msgid "Find duplicated datasets"
+msgstr "Rechercher les données dupliquées"
+
+# @ default
+#: admin/show-project.php:60 admin/categories.php:15 admin/formfields.php:16
+#: admin/index.php:14
+msgid "Bulk Actions"
+msgstr "Actions globales"
+
+# @ projectmanager
+#: admin/show-project.php:62
+msgid "Duplicate"
+msgstr "Copier"
+
+# @ projectmanager
+#: admin/show-project.php:63
+msgid "Save Order"
+msgstr "Enregister l'ordre"
+
+#: admin/show-project.php:119 admin/show-project.php:134
+msgid "Number"
+msgstr "Nombre"
+
+#: admin/show-project.php:125 admin/show-project.php:140
+msgid "Status"
+msgstr "Etat"
+
+# @ projectmanager
+#: admin/show-project.php:127 admin/show-project.php:142
+#: admin/categories.php:28 admin/categories.php:36
+msgid "Actions"
+msgstr "Actions"
+
+# @ default
+#: admin/show-project.php:167 admin/categories.php:47
+#: admin/tinymce/window.php:30
+msgid "Edit"
+msgstr "Modifier"
+
+#: admin/show-project.php:169
+msgid "View"
+msgstr "Voir"
+
+#: admin/show-project.php:170
+msgid "PDF"
+msgstr "PDF"
+
+#: admin/show-project.php:172
+msgid "Send E-mail Confirmation"
+msgstr "Envoyer un courriel de confirmation"
+
+# @ default
+#: admin/categories.php:22
+msgid "List of categories"
+msgstr "Liste des categories"
+
+# @ projectmanager
+#: admin/categories.php:27 admin/categories.php:35 admin/tinymce/window.php:87
+msgid "Category"
+msgstr "Catégorie"
+
+# @ projectmanager
+#: admin/settings-global.php:9
+msgid "Global Settings"
+msgstr "Paramètres généraux"
+
+# @ projectmanager
+#: admin/settings-global.php:18 admin/settings-global.php:23
+msgid "Color Scheme"
+msgstr "Couleur"
+
+#: admin/settings-global.php:19 admin/settings-global.php:48
+msgid "Dashboard Widget Support News"
+msgstr "Widget du tableau de bord pour les nouvelles du support"
+
+# @ projectmanager
+#: admin/settings-global.php:27
+msgid "Table Headers"
+msgstr "En-tête de tableau"
+
+# @ projectmanager
+#: admin/settings-global.php:30
+msgid "Table Rows"
+msgstr "Lignes"
+
+# @ projectmanager
+#: admin/settings-global.php:37
+msgid "Box Header"
+msgstr "En-tête de tableau"
+
+#: admin/settings-global.php:52
+msgid "Number of Support Threads"
+msgstr "Nombre de conversations du support"
+
+#: admin/settings-global.php:55
+msgid "Show Author"
+msgstr "Voir l'autheur"
+
+# @ projectmanager
+#: admin/settings-global.php:58
+msgid "Show Date"
+msgstr "Afficher la date"
+
+# @ projectmanager
+#: admin/settings-global.php:61
+msgid "Show Summary"
+msgstr "Afficher le résummé"
+
+# @ projectmanager
+#: admin/settings-global.php:69
+msgid "Save Preferences"
+msgstr "Enregistrer les paramètres"
+
+# @ projectmanager
+#: admin/upgrade.php:13
+msgid "Upgrade database structure..."
+msgstr "Mise à jour la structure de la base de données... "
+
+# @ projectmanager
+#: admin/upgrade.php:544
+msgid "finished"
+msgstr " terminé"
+
+# @ projectmanager
+#: admin/upgrade.php:564 admin/upgrade.php:583
+msgid "Upgrade ProjectManager"
+msgstr "Mise à jour de ProjectManager"
+
+# @ projectmanager
+#: admin/upgrade.php:565
+msgid ""
+"Your database for ProjectManager is out-of-date, and must be upgraded before "
+"you can continue."
+msgstr ""
+"Votre base de données de ProjectManager n'est pas à jour, veuillez procéder "
+"à une mise à jour avant de continuer."
+
+# @ projectmanager
+#: admin/upgrade.php:566
+msgid "The upgrade process may take a while, so please be patient."
+msgstr "La mise à jour peut prendre du temps, patientez SVP."
+
+# @ projectmanager
+#: admin/upgrade.php:567
+msgid "Start upgrade now"
+msgstr "Démarrer la mise à jour"
+
+# @ projectmanager
+#: admin/upgrade.php:585
+msgid "Upgrade successful"
+msgstr "Mise à jour réussie"
+
+# @ projectmanager
+#: admin/upgrade.php:586
+msgid "Continue"
+msgstr "Continuer"
+
+#: admin/dataset-form.php:9
+msgid "Sticky"
+msgstr "Coller"
+
+#: admin/dataset-form.php:10
+msgid "Set this option to show dataset on top of list"
+msgstr "Activer cette option pour voir la donnée en tête de liste"
+
+# @ projectmanager
+#: admin/dataset-form.php:135
+msgid ""
+"This Field has a callback attached which will get the data from somewhere "
+"else!"
+msgstr "Ce champ inclus une fonction pour chercher les données ailleurs!"
+
+#: admin/dataset-form.php:167
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: admin/dataset-form.php:168
+msgid "Nobody"
+msgstr "Personne"
+
+# @ projectmanager
+#: admin/formfields.php:20
+msgid "Add Form Field"
+msgstr "Ajouter un champ de formulaire"
+
+#: admin/formfields.php:21
+msgid "Download Formular as PDF"
+msgstr "Télécharger le formulaire comme un PDF"
+
+# @ projectmanager
+#: admin/formfields.php:23 admin/formfields.php:124
+msgid "Save Form Fields"
+msgstr "Enregistrer les champs"
+
+# @ projectmanager
+#: admin/formfields.php:31 admin/formfields.php:50 lib/project.php:1052
+msgid "Label"
+msgstr "Label"
+
+# @ projectmanager
+#: admin/formfields.php:32 admin/formfields.php:51
+msgid "Label Type"
+msgstr "Type de label"
+
+# @ projectmanager
+#: admin/formfields.php:33 admin/formfields.php:52
+msgid "Type"
+msgstr "Type"
+
+# @ projectmanager
+#: admin/formfields.php:34 admin/formfields.php:53 admin/tinymce/window.php:37
+msgid "Options"
+msgstr "Options"
+
+#: admin/formfields.php:35 admin/formfields.php:54
+msgid "Mandatory"
+msgstr "Obligatoire"
+
+#: admin/formfields.php:36 admin/formfields.php:55
+msgid "Unique"
+msgstr "Unique"
+
+#: admin/formfields.php:37 admin/formfields.php:56
+msgid "Private"
+msgstr "Priver"
+
+# @ projectmanager
+#: admin/formfields.php:38 admin/formfields.php:57
+msgid "Startpage"
+msgstr "Accueil"
+
+# @ projectmanager
+#: admin/formfields.php:39 admin/formfields.php:58
+msgid "Profile"
+msgstr "Profile"
+
+# @ projectmanager
+#: admin/formfields.php:40 admin/formfields.php:59 lib/project.php:2370
+msgid "Order"
+msgstr "Trier"
+
+# @ projectmanager
+#: admin/formfields.php:41 admin/formfields.php:60
+#: admin/tinymce/window.php:102 lib/project.php:2353
+msgid "Order By"
+msgstr "Trier par"
+
+# @ default
+# @ projectmanager
+#: admin/formfields.php:42 admin/formfields.php:61
+msgid "Width"
+msgstr "Largeur"
+
+#: admin/formfields.php:43 admin/formfields.php:62
+msgid "Linebreak"
+msgstr "Retour à la ligne"
+
+# @ projectmanager
+#: admin/formfields.php:97
+msgid "Choose Project"
+msgstr "Choisir un projet"
+
+#: admin/formfields.php:105
+msgid "For details on formfield options see the Documentation"
+msgstr "Pour le détail sur les options des champs, consulter la documentation"
+
+# @ default
+# @ projectmanager
+#: admin/dataset.php:6 admin/tinymce/window.php:375
+msgid "Insert"
+msgstr "Ajouter"
+
+# @ default
+# @ projectmanager
+#: admin/dataset.php:6 admin/tinymce/window.php:33
+#: admin/tinymce/window.php:371
+msgid "Cancel"
+msgstr "Annuler"
+
+# @ projectmanager
+#: admin/dataset.php:15
+msgid "Dataset Details"
+msgstr "Détails des données"
+
+# @ projectmanager
+#: admin/documentation.php:7
+msgid "ProjectManager Documentation"
+msgstr "Documentation de ProjectManager "
+
+# @ projectmanager
+#: admin/documentation.php:11 admin/documentation.php:26
+msgid "Formfield Options"
+msgstr "Options des champs"
+
+# @ projectmanager
+#: admin/documentation.php:13 admin/documentation.php:45
+msgid "Shortcodes"
+msgstr "Codes courts"
+
+# @ projectmanager
+#: admin/documentation.php:14 admin/documentation.php:353
+msgid "Templates"
+msgstr "Modèles"
+
+# @ projectmanager
+#: admin/documentation.php:15 admin/documentation.php:450
+msgid "Global Search"
+msgstr "Recherche globale"
+
+# @ projectmanager
+#: admin/documentation.php:16 admin/documentation.php:456
+msgid "Template Tags"
+msgstr "Etiquettes de modèles"
+
+# @ projectmanager
+#: admin/documentation.php:17 admin/documentation.php:471
+msgid "Access Control"
+msgstr "Contrôle d'accès"
+
+# @ projectmanager
+#: admin/documentation.php:18 admin/documentation.php:493
+msgid "Extended Profile"
+msgstr "Etendre les profiles"
+
+# @ projectmanager
+#: admin/documentation.php:19 admin/documentation.php:499
+msgid "Customization"
+msgstr "Personnalisation"
+
+# @ projectmanager
+#: admin/documentation.php:20 admin/documentation.php:529
+msgid "Export/Import"
+msgstr "Exporter / Importer"
+
+# @ projectmanager
+#: admin/documentation.php:21
+msgid "Howto"
+msgstr "Mode d'emploi"
+
+# @ projectmanager
+#: admin/documentation.php:25 admin/documentation.php:38
+#: admin/documentation.php:44 admin/documentation.php:352
+#: admin/documentation.php:449 admin/documentation.php:455
+#: admin/documentation.php:470 admin/documentation.php:492
+#: admin/documentation.php:498 admin/documentation.php:528
+#: admin/documentation.php:539
+msgid "Top"
+msgstr "Haut"
+
+#: admin/documentation.php:27
+msgid ""
+"Each formfield has an options field, which can be used to extend its "
+"functionality."
+msgstr ""
+"Chaque champ du formulaire a une option, qui peut être utilisée pour étendre "
+"les fonctionnalités."
+
+#: admin/documentation.php:28
+msgid ""
+"Formfields of types checkbox, radio or dropdown menu, the options field is "
+"used to specify the different options. Each option is separated by ;. For "
+"checkbox and radio lists you can also use a special option <em>Other</em>, "
+"which will trigger addition of a textfield so that users can input custom "
+"values"
+msgstr ""
+"Pour les champ de type case à cocher, bouton radio, liste déroulante le "
+"champ d'option est utilisé de manière différente. Chaque option est séparée "
+"par ;. Pour les cases à cocher et les radio boutons, il existe une option "
+"spéciale <em>Other</em>, qui permet l'ajout d'un champ texte permettant à "
+"l'utilisateur de saisir une valeur non prévue."
+
+#: admin/documentation.php:29
+msgid ""
+"Other formfield types have special options to extend their functionality as "
+"listed below"
+msgstr ""
+"Les autres types de champ qui ont des options spéciales pour étendre leurs "
+"fonctions sont décrits ci-dessous"
+
+#: admin/documentation.php:31
+msgid "max:XX allows limiting the number of allowed characters of the field"
+msgstr "max:XX permet de limiter le nombre maximum de caractère dans le champ"
+
+#: admin/documentation.php:32
+msgid ""
+"limit:XX allows generating text excerpts. This is especially useful for "
+"textfields or TinyMCE editor fields"
+msgstr ""
+"limit:XX permet de générer des résummés du champ. Cela est particulièrement "
+"utile pour les champs de type texte ou ceux avec l'éditeur TinyMCE"
+
+#: admin/documentation.php:33
+#, php-format
+msgid ""
+"slideshow:description is a special option for the <a href='%s' "
+"target='_blank'>Fancy Slideshows Plugin</a> to specify slideshow description "
+"fields."
+msgstr ""
+"slideshow:description est une option spéciale pour l'extension <a href='%s' "
+"target='_blank'>Fancy Slideshows</a> afin de définir la description du "
+"diaporama."
+
+#: admin/documentation.php:40
+#, php-format
+msgid ""
+"Fancy slideshows of individual projects data can be easily created in "
+"combination with the <a href='%s' target='_blank'>Fancy Slideshows Plugin</"
+"a>."
+msgstr ""
+"Des diaporamas de chaque données du projet peuvent être facilement créés en "
+"utilisant l'extension <a href='%s' target='_blank'>Fancy Slideshows</a>."
+
+# @ projectmanager
+#: admin/documentation.php:48
+msgid ""
+"The main shortcode is to display datasets of a project. The following shows "
+"a minimal example. A complete list of arguments is described in the table "
+"below."
+msgstr ""
+"Le code court principal permet d'afficher l'ensemble des données d'un "
+"projet. Le tableau suivant montre un exemple minimal. Une liste complète des "
+"arguments est décrite dans le tableau ci-dessous."
+
+# @ projectmanager
+#: admin/documentation.php:54 admin/documentation.php:141
+#: admin/documentation.php:172 admin/documentation.php:196
+#: admin/documentation.php:238 admin/documentation.php:276
+msgid "Parameter"
+msgstr "Paramètre"
+
+# @ projectmanager
+#: admin/documentation.php:55 admin/documentation.php:142
+#: admin/documentation.php:173 admin/documentation.php:197
+#: admin/documentation.php:239 admin/documentation.php:277
+#: admin/documentation.php:361
+msgid "Description"
+msgstr "Description"
+
+# @ projectmanager
+#: admin/documentation.php:56 admin/documentation.php:143
+#: admin/documentation.php:174 admin/documentation.php:198
+#: admin/documentation.php:240 admin/documentation.php:278
+msgid "Possible Values"
+msgstr "Valeurs possibles"
+
+# @ projectmanager
+#: admin/documentation.php:57 admin/documentation.php:144
+#: admin/documentation.php:175 admin/documentation.php:199
+#: admin/documentation.php:241 admin/documentation.php:279
+#: admin/tinymce/window.php:105 admin/tinymce/window.php:112
+msgid "Default"
+msgstr "Défaut"
+
+# @ projectmanager
+#: admin/documentation.php:58 admin/documentation.php:145
+#: admin/documentation.php:176 admin/documentation.php:200
+#: admin/documentation.php:242 admin/documentation.php:280
+#: admin/tinymce/window.php:323 admin/tinymce/window.php:337
+msgid "Optional"
+msgstr "Facultatif"
+
+# @ projectmanager
+#: admin/documentation.php:64 admin/documentation.php:151
+#: admin/documentation.php:182 admin/documentation.php:206
+#: admin/documentation.php:248 admin/documentation.php:286
+msgid "ID of Project"
+msgstr "ID du projet"
+
+# @ projectmanager
+#: admin/documentation.php:67 admin/documentation.php:154
+#: admin/documentation.php:185 admin/documentation.php:209
+#: admin/documentation.php:216 admin/documentation.php:251
+#: admin/documentation.php:258 admin/documentation.php:289
+#: admin/documentation.php:296 admin/documentation.php:303
+#: admin/documentation.php:310
+msgid "No"
+msgstr "Non"
+
+# @ projectmanager
+#: admin/documentation.php:71
+msgid "Template file used to display"
+msgstr "Modèle de fichier utilisé pour l'affichage"
+
+# @ projectmanager
+#: admin/documentation.php:72
+msgid ""
+"<em>table</em>, <em>table-image</em>, <em>gallery</em>, <em>list</em> or "
+"template file without extension"
+msgstr ""
+"<em>table</em>, <em>table d'image</em>, <em>galerie</em>, <em>liste</em> ou "
+"fichier de modèle sans extension"
+
+# @ projectmanager
+#: admin/documentation.php:74 admin/documentation.php:81
+#: admin/documentation.php:88 admin/documentation.php:95
+#: admin/documentation.php:102 admin/documentation.php:109
+#: admin/documentation.php:116 admin/documentation.php:123
+#: admin/documentation.php:130 admin/documentation.php:161
+#: admin/documentation.php:223 admin/documentation.php:265
+#: admin/documentation.php:317 admin/documentation.php:324
+#: admin/documentation.php:331 admin/documentation.php:338
+#: admin/documentation.php:345
+msgid "Yes"
+msgstr "Oui"
+
+# @ projectmanager
+#: admin/documentation.php:78
+msgid "Set this attribute to only display datasets of given category ID"
+msgstr ""
+"Définissez cet attribut pour n'afficher que les données d'une catégorie "
+"identifiée par son ID"
+
+# @ projectmanager
+#: admin/documentation.php:85
+msgid "order datasets by given field"
+msgstr "Trier les données par un champ choisi"
+
+# @ projectmanager
+#: admin/documentation.php:86
+msgid ""
+"<em>order</em>, <em>id</em>, <em>formfields_ID</em> (replace ID with "
+"respective ID or <em>rand</em>. <em>rand</em> must be used together with the "
+"results attribute to limit the number of datastes."
+msgstr ""
+"<em>commande</em>, <em>id</em>, <em>formfields_ID</em> (remplacer ID par "
+"leurs valeurs respectives ou <em>rand</em>. <em>rand</em> doit être utilisé "
+"conjointement avec les résultats pour limiter le nombre de données."
+
+# @ projectmanager
+#: admin/documentation.php:92
+msgid "Ordering of datasets"
+msgstr "Ordre des données"
+
+# @ projectmanager
+#: admin/documentation.php:99
+msgid "Toggle link to single dataset"
+msgstr "Lien pour afficher une seule donnée"
+
+# @ projectmanager
+#: admin/documentation.php:100
+msgid "<em>true</em>, <em>false</em>"
+msgstr "<em>vrai</em>, <em>faux</em>"
+
+# @ projectmanager
+#: admin/documentation.php:106
+msgid "Toggle display of selection forms for categories and dataset ordering"
+msgstr ""
+"Basculer l'affichage des formulaires de sélection des catégories et l'ordre "
+"des données"
+
+# @ projectmanager
+#: admin/documentation.php:113
+msgid "Limit number of datasets"
+msgstr "Limiter le nombre de données"
+
+# @ projectmanager
+#: admin/documentation.php:120
+msgid ""
+"Filter datasets for formfield ID. Must be used together with "
+"<em>field_value</em>."
+msgstr ""
+"Filtrer les données pour le champ ID. Doit être utilisé avec "
+"<em>field_value</em>."
+
+# @ projectmanager
+#: admin/documentation.php:127
+msgid ""
+"Filter datasets for formfield value. Must be used together with "
+"<em>field_id</em>."
+msgstr ""
+"Filtrer les données de la valeur du champ. Doit être utilisé avec "
+"<em>field_id</em>."
+
+# @ projectmanager
+#: admin/documentation.php:136
+msgid "A single dataset can be displayed with the following code"
+msgstr "Une seule donnée peut être affichée avec le code suivant"
+
+# @ projectmanager
+#: admin/documentation.php:158 admin/documentation.php:321
+msgid "Template to use"
+msgstr "Modèle à utiliser"
+
+# @ projectmanager
+#: admin/documentation.php:167
+msgid ""
+"It is possible to include the dataset input form with the following code"
+msgstr ""
+"Il est possible d'inclure le formulaire de saisie de données avec le code "
+"suivant"
+
+# @ projectmanager
+#: admin/documentation.php:191
+msgid "It is possible to include the number datasets or countries"
+msgstr "Il est possible d'inclure le nombre de données ou de pays"
+
+#: admin/documentation.php:213
+msgid "Database Field to retrieve counts for"
+msgstr "Champ pour récuperer le nombre de "
+
+#: admin/documentation.php:220
+msgid "additional text"
+msgstr "texte aditionnel"
+
+# @ projectmanager
+#: admin/documentation.php:229
+msgid ""
+"It is possible to include global search results page by simply putting the "
+"following shortcode into a page or post"
+msgstr ""
+"Il est possible d'inclure le résultat de la recherche en ajoutant simplement "
+"le code court dans une page ou un article"
+
+# @ projectmanager
+#: admin/documentation.php:255
+msgid "ID of country formfield"
+msgstr "ID du champ pays"
+
+# @ projectmanager
+#: admin/documentation.php:262
+msgid "Dataset label text"
+msgstr "Label text des données"
+
+# @ projectmanager
+#: admin/documentation.php:271
+msgid "It is possible to include testimonials"
+msgstr "Il est possible d'inclure des témoignages"
+
+#: admin/documentation.php:293
+msgid "Formfield ID containing comment"
+msgstr "ID du champ contenant les commentaires"
+
+#: admin/documentation.php:300
+msgid "Formfield ID containing country"
+msgstr "ID du champ contenant le pays"
+
+#: admin/documentation.php:307
+msgid "Formfield ID containing city"
+msgstr "ID du champ contenant la ville"
+
+#: admin/documentation.php:314
+msgid "Number of datasets to display in intro template"
+msgstr "Nombre de jeux de données à afficher dans le modèle d'introduction"
+
+# @ projectmanager
+#: admin/documentation.php:328
+msgid "Number of columns in intro template"
+msgstr "Nombre de colonnes de le modèle d'introduction"
+
+#: admin/documentation.php:335
+msgid "Page ID containing datasetform"
+msgstr "ID de la page contenant le formulaire"
+
+#: admin/documentation.php:342
+msgid "Page ID containing list of testimonials"
+msgstr "ID de la page contenant les témoignages"
+
+# @ projectmanager
+#: admin/documentation.php:354
+msgid ""
+"Templates are special files that are used to display plugin data in the "
+"website frontend. They reside in the following directory"
+msgstr ""
+"Les modèles sont des fichiers spéciaux qui sont utilisés pour afficher des "
+"données sur le site. Ils résident dans le répertoire suivant"
+
+# @ projectmanager
+#: admin/documentation.php:356
+msgid "The following table lists all available default templates"
+msgstr "Le tableau suivant donne tous les modèles disponibles par défaut"
+
+# @ projectmanager
+#: admin/documentation.php:360 admin/tinymce/window.php:76
+#: admin/tinymce/window.php:200 admin/tinymce/window.php:257
+msgid "Template"
+msgstr "Modèle"
+
+# @ projectmanager
+#: admin/documentation.php:367
+msgid "Tabular display of datasets"
+msgstr "Affichage de données sous forme de tableau"
+
+# @ projectmanager
+#: admin/documentation.php:372
+msgid "Show datasets as photo gallery"
+msgstr "Affichage de données comme une galerie de photos"
+
+# @ projectmanager
+#: admin/documentation.php:377
+msgid "List display of datasets"
+msgstr "Affichage de données sous forme de liste"
+
+#: admin/documentation.php:382
+msgid "List display of datasets with jQuery UI accordion funcionality"
+msgstr ""
+"Afficher les jeux de données sous forme de liste en utilisant  jQuery UI "
+"accordion"
+
+#: admin/documentation.php:386
+msgid "List display of datasets with jQuery expandable funcionality"
+msgstr ""
+"Afficher les jeux de données sous forme de liste en utilisant  jQuery "
+"expandable"
+
+#: admin/documentation.php:390
+msgid "As above, but specially for FAQ lists with only one descriptive field"
+msgstr ""
+"Comme ci-dessus mais plus spéciallement pour les FAQ avec un champ de "
+"description"
+
+# @ projectmanager
+#: admin/documentation.php:394
+msgid "Tabular display of datasets with small image"
+msgstr "Affichage de données sous forme de tableau avec de petites images"
+
+# @ projectmanager
+#: admin/documentation.php:399
+msgid "Display dropdown selections for categories and dataset sorting"
+msgstr ""
+"Utiliser des listes déroulantes pour sélectionner les catégories et les "
+"ordres de tri"
+
+# @ projectmanager
+#: admin/documentation.php:404
+msgid "Dataset input formular"
+msgstr "Formulaire de saisie de données"
+
+# @ projectmanager
+#: admin/documentation.php:408
+msgid "Search formular"
+msgstr "Formulaire de recherche"
+
+#: admin/documentation.php:413
+msgid "gallery view of datasets specifically for testimonials or petitions"
+msgstr ""
+"voir les données sous la forme d'une gallerie plus particulièrement pour les "
+"témoignages et les pétitions"
+
+#: admin/documentation.php:417
+msgid "list view of datasets specifically for testimonials or petitions"
+msgstr "vue sous la forme de liste pour les témoignages et les pétitions"
+
+#: admin/documentation.php:421
+msgid ""
+"landing page specifically for testimonials or petitions displaying random "
+"datasets"
+msgstr ""
+"page d'accueil pour les témoignages et les pétitions affichés de manière "
+"aléatoire"
+
+# @ projectmanager
+#: admin/documentation.php:425
+msgid "If you want to modify existing templates copy it to"
+msgstr "Si vous souhaitez modifier des modèles existants, copiez-les dans"
+
+# @ projectmanager
+#: admin/documentation.php:427
+msgid ""
+"The plugin will then first look in your theme directory. Further it is "
+"possible to design own templates. Assume you created a file <strong>sample1."
+"php</strong>, to display datasets of a project. To use the template use the "
+"following tag."
+msgstr ""
+"L'extension va d'abord regarder dans votre répertoire de thème. En outre, il "
+"est possible de concevoir ses propres modèles. Supposons que vous avez créé "
+"un fichier <strong>sample1.php</strong> , pour afficher les données d'un "
+"projet. Pour utiliser le modèle utilisez la balise suivante."
+
+# @ projectmanager
+#: admin/documentation.php:429
+msgid ""
+"For single datasets templates must be named <strong>dataset-X.php</strong>, "
+"dataset form <strong>dataset-form-X.php</strong> and testimonials "
+"<strong>testimonials-X</strong>. The files are then loaded with the "
+"following tags."
+msgstr ""
+"Pour les données uniques, les modèles doivent être nommés <strong>dataset-X."
+"php</strong>, les formulaires <strong>dataset-form-X.php</strong> et les "
+"témoignages <strong>testimonials-X</strong>. Les fichiers sont alors chargés "
+"avec les balises suivantes."
+
+#: admin/documentation.php:435
+msgid ""
+"You can add additional search paths for templates by using the filter "
+"<em>projectmanager_template_paths</em>"
+msgstr ""
+"Vous pouvez ajouter des chemins de recherche des modèles en utilisant le "
+"filtre <em>projectmanager_template_paths</em>"
+
+#: admin/documentation.php:451
+msgid ""
+"The search widget allows searching simultaneously in all projects. In the "
+"widget settings a results page has to be defined. This can be either any "
+"page containing a project with shortcodes <strong>[project]</strong> or "
+"<strong>[testimonials]</strong>, which will automatically show global search "
+"results. Alternatively, a page can be created containing the shortcode "
+"<strong>[projectmanager_search]</strong>, which will not display anything, "
+"unless a global search has been queried."
+msgstr ""
+"Le widget de recherche permet de rechercher dans tous les projets en même "
+"temps. Dans les paramètres du widget vous devez donner la page pour les "
+"résultats. Cette page peut contenir un code court <strong>[project]</strong> "
+"ou <strong>[testimonials]</strong>, qui affichera automatiquement les "
+"résultats de la recherche. Sinon, une page peut être crée avec comme contenu "
+"le code court <strong>[projectmanager_search]</strong>, et qui n'affichera "
+"rien sauf les résultats d'une recherche."
+
+# @ projectmanager
+#: admin/documentation.php:457
+msgid ""
+"Template Tags are functions that can be used in your Wordpress Theme to "
+"display the plugin data. Here is a brief listing of available tags. For "
+"details see file functions.php"
+msgstr ""
+"Les balises de modèles sont des fonctions qui peuvent être utilisées dans "
+"votre thème Wordpress pour afficher les données. Voici une brève liste des "
+"balises disponibles. Pour plus de détails voir le fichier functions.php"
+
+# @ projectmanager
+#: admin/documentation.php:459
+msgid "display all datasets from a single project"
+msgstr "Afficher toutes les données d'un projet"
+
+# @ projectmanager
+#: admin/documentation.php:460
+msgid "display a single dataset"
+msgstr "Afficher une seule donnée"
+
+# @ projectmanager
+#: admin/documentation.php:461
+msgid ""
+"Display widget. <em>$number</em> is the widget number and <em>$instance</em> "
+"is an assoziative array of widget settings. See lib/widget.php function "
+"widget for details."
+msgstr ""
+"Widget d'affichage. <em>$number</em> est le nombre de widgets et <em>"
+"$instance</em> est un tableau de paramètres de widgets. Voir lib/widget.php "
+"pour plus de détails."
+
+# @ projectmanager
+#: admin/documentation.php:462
+msgid "display the searchform. <em>$project_id</em> is the ID of the project."
+msgstr ""
+"Affichage du formulaire de recherche. <em>$project_id</em> est l'ID du "
+"projet."
+
+# @ projectmanager
+#: admin/documentation.php:463
+msgid ""
+"display the selection bar. <em>$project_id</em> is the ID of the project."
+msgstr ""
+"Affichage de la barre de sélection. <em>$project_id</em> est l'ID du projet."
+
+# @ projectmanager
+#: admin/documentation.php:464
+msgid ""
+"display the dataset form. <em>$project_id</em> is the ID of the project."
+msgstr ""
+"Affichage du formulaire de données. <em>$project_id</em> est l'ID du projet."
+
+# @ projectmanager
+#: admin/documentation.php:466
+msgid ""
+"The variable <em>$args</em> is always an assoziative array of additional "
+"arguments with keys being the same as the shortcode attributes."
+msgstr ""
+"La variable <em>$args</em> est toujours un tableau associatif d'arguments "
+"supplémentaires, les clés étant les mêmes que les attributs des codes courts."
+
+# @ projectmanager
+#: admin/documentation.php:472
+#, php-format
+msgid ""
+"ProjectManager has fine grained capabilities to control access to different "
+"areas of the administration panel. You could use <a href=\"%s\" target="
+"\"_blank\">Capability Manager</a> to manage roles and capabilities. "
+"<em>Note</em>: Capabilities are not inherent."
+msgstr ""
+"ProjectManager a la capacité de contrôler finement l'accès aux différentes "
+"zones du panneau d'administration. Vous pouvez utiliser <a href=\"%s\" "
+"target=\"_blank\">Capability Manager</a> pour gérer les rôles et les droits. "
+"<em>Note</em> : les droits ne sont pas inhérents."
+
+#: admin/documentation.php:474
+msgid "add and edit projects"
+msgstr "ajouter et modifier les projets"
+
+#: admin/documentation.php:475
+msgid "delete existing projects"
+msgstr "supprimer les projets existants"
+
+# @ projectmanager
+#: admin/documentation.php:476
+msgid "allow access to global settings of ProjectManager"
+msgstr "permet l'accès au paramètres généraux de ProjetcManager"
+
+#: admin/documentation.php:477
+msgid "allow access to FormField Panel"
+msgstr "autoriser l'accès au panneau du formulaire"
+
+#: admin/documentation.php:478
+msgid "allow access to individual projects settinigs"
+msgstr "autoriser l'accès au paramètres des projets"
+
+#: admin/documentation.php:479
+msgid "add and edit categories"
+msgstr "ajouter et modifier les catégories"
+
+# @ projectmanager
+#: admin/documentation.php:480
+msgid "export and import data"
+msgstr "Importer / Exporter les données"
+
+# @ projectmanager
+#: admin/documentation.php:481
+msgid "add datasets and edit own datasets"
+msgstr "ajouter des données et modifier ses données"
+
+#: admin/documentation.php:482
+msgid "add datasets and edit all datasets and add WP User as dataset"
+msgstr ""
+"ajouter des jeux de données, modifier les jeux de données et ajouter les "
+"utilisateurs de WP comme jeux de données"
+
+# @ projectmanager
+#: admin/documentation.php:483
+msgid "add more than one dataset"
+msgstr "ajouter plus d'un jeu de donnéesdat"
+
+# @ projectmanager
+#: admin/documentation.php:484
+msgid "delete own datasets"
+msgstr "supprimer ses données"
+
+# @ projectmanager
+#: admin/documentation.php:485
+msgid "delete any dataset"
+msgstr "supprimer n'importe qu'elle donnée"
+
+#: admin/documentation.php:486
+msgid "browse projects in administration panel"
+msgstr "parcourir les projet dans le panneau d'administration"
+
+#: admin/documentation.php:487
+msgid "allow usage of profile hook"
+msgstr "autoriser l'utilisation de hook sur les profils"
+
+# @ projectmanager
+#: admin/documentation.php:494
+msgid ""
+"Each dataset is assigned an owner who added it. This owner can be also "
+"changed by anybody with the capability <em>edit_other_datasets</em>. This "
+"makes it possible to use ProjectManager as extended WP User Profile by "
+"activating the profile hook option in the projects settings. When this "
+"option is activated the first dataset of the current user is loaded into the "
+"profile page and can be edited through their profile. For new users, a "
+"dataset is automatically generated upon registration if the default user "
+"group has the capability <em>projectmanager_user</em>."
+msgstr ""
+"Chaque donnée appartient à celui qui l'a ajoutée. Ce propriétaire peut être "
+"également modifié par toute personne ayant la capacité de "
+"<em>edit_other_datasets.</em> Il est donc possible d'utiliser ProjectManager "
+"avec un profil d'utilisateur WP étendu en activant l'option Profil Modifié "
+"dans les paramètres des projets. Lorsque cette option est activée, le "
+"premier jeu de données de l'utilisateur actuel est chargé dans la page de "
+"profil et peut être modifié dans le profil. Les administrateurs peuvent "
+"également ajouter des données pour d'autres utilisateurs de WP en utilisant "
+"le bouton à côté du nom de la donnée lorsque vous ajoutez un nouvel ensemble "
+"de données. Pour les nouveaux utilisateurs, un ensemble de données est "
+"généré automatiquement lors de l'inscription si le groupe d'utilisateurs par "
+"défaut a la capacité de <em>projectmanager_user.</em>"
+
+# @ projectmanager
+#: admin/documentation.php:501
+msgid ""
+"If you want to use custom icons for the admin menu put them into the "
+"following folder in your theme directory"
+msgstr ""
+"Si vous désirez utiliser des icônes personnelles dans les menus "
+"d'administration, mettez les dans le répertoire suivant de votre thème"
+
+# @ projectmanager
+#: admin/documentation.php:505
+msgid ""
+"You can also add custom Formfields via the filter projectmanager_formfields. "
+"First let us add the field."
+msgstr ""
+"Vous pouvez également ajouter des champs via le filtre "
+"projectmanager_formfields. Tout d'abord nous devons ajouter le champ."
+
+# @ projectmanager
+#: admin/documentation.php:516
+msgid ""
+"The <em>callback</em> option is a function which gets the data for this "
+"field as it is not stored in the ProjectManager Database. <em>args</em> can "
+"be an optional assoziative array of arguments that are passed to the "
+"callback function. Finally we just need to get the data from somewhere."
+msgstr ""
+"L'option <em>callback</em> est une fonction qui récupère les données pour ce "
+"champ car il n'est pas stocké dans la base de données ProjectManager. "
+"<em>Args</em> est une table optionnelle d'arguments qui sont passés à la "
+"fonction de rappel. Enfin, nous avons juste besoin d'obtenir les données de "
+"quelque part."
+
+#: admin/documentation.php:530
+msgid ""
+"There are multiple possibilities for data export and import as listed below"
+msgstr ""
+"Il existe de nombreuses possibilités pour exporter ou importer les données, "
+"qui sont décrites ci-dessous"
+
+#: admin/documentation.php:532
+msgid ""
+"You can export datasets as tab-separated (CSV) or PDF files. Datasets in tab-"
+"separated format can be opened in Excel and also imported into another "
+"project."
+msgstr ""
+"Vous pouvez exporter les données dans un fichier délimité par des "
+"tabulations (CSV) ou en PDF. Les fichiers CSV peuvent être ouverts dans "
+"Excel ou importer dans un autre projet."
+
+#: admin/documentation.php:533
+msgid ""
+"Media files of a project can be exported as zip file and also imported into "
+"another project"
+msgstr ""
+"Les fichiers média d'un projet peuvent être exportés dans un ZIP et ainsi "
+"être importé dans un autre projet"
+
+#: admin/documentation.php:534
+msgid ""
+"Complete projects can be also exported. This will generate a PHP file with "
+"MySQL queries to import the whole project including all settings and "
+"formfields. Simply create a new project and directly continue to project "
+"import."
+msgstr ""
+"Les projets peuvent aussi être exportés. Cela générera un fichier PHP avec "
+"des requêtes MySQL pour importer le projet avec ses paramètres et ses "
+"formulaires. Créer simplement un projet puis aller dans la partie import."
+
+# @ projectmanager
+#: admin/documentation.php:540
+msgid "HowTo"
+msgstr "Comment faire"
+
+# @ projectmanager
+#: admin/documentation.php:541
+msgid ""
+"This section should give a short introduction to setting up and using "
+"ProjectManager. In addition <a href=\"http://randyhoyt.com/\" target=\"_blank"
+"\">Randy Hoyt</a> created a <a href=\"http://randyhoyt.com/wordpress/"
+"snippets/\" target=\"_blank\">Screencast</a> on the usage of ProjectManager. "
+"Thanks a lot."
+msgstr ""
+"Cette section donne une courte introduction à la configuration et "
+"l'utilisation de ProjectManager. En outre <a href=\"http://randyhoyt.com/\" "
+"target=\"_blank\">Randy Hoyt</a> a écrit une <a href=\"http://randyhoyt.com/"
+"wordpress/snippets/\" target=\"_blank\">présentation</a> sur l'utilisation "
+"de ProjectManager. Merci beaucoup."
+
+# @ projectmanager
+#: admin/documentation.php:542
+#, php-format
+msgid ""
+"After activation, there will be a new item in the admin menu. The first step "
+"is to <a href=\"%s\" class=\"thickbox\" rel=\"howto\">add a new project</a>. "
+"When you click on a specific project you will get to an <a href=\"%s\" class="
+"\"thickbox\" rel=\"howto\">overview page displaying all datasets</a>. The "
+"screenshot already shows some example datasets. At first you should go to "
+"the <a href=\"%s\" class=\"thickbox\" rel=\"howto\">settings page</a>. The "
+"option <em>Top-level menu</em> will create an individual object in the admin "
+"menu. Activate the <em>Hook into profile option</em> to use ProjectManager "
+"as extended WP User Profile. Before adding datasets you need to setup the <a "
+"href=\"%s\" class=\"thickbox\" rel=\"howto\">formfields</a>. This is a very "
+"powerful feature of ProjectManager as it allows the design of custom input "
+"formular to have datasets with a variety of data. You can choose to display "
+"the field value on the startpage and also control display in the user "
+"profile. Further it is possible to order datasets by certain formfield "
+"values. After that you are set to <a href=\"%s\" class=\"thickbox\" rel="
+"\"howto\">insert datasets</a>. It is possible to group datasets into "
+"different <a href=\"%s\" class=\"thickbox\" rel=\"howto\">categories</a> "
+"using the WP category system."
+msgstr ""
+"Après activation, il y aura un nouvel élément dans le menu d'administration. "
+"La première étape consiste à <a href=\"%s\" class=\"thickbox\">ajouter un "
+"nouveau projet</a> . Lorsque vous cliquez sur un projet spécifique, vous "
+"obtiendrez une <a href=\"%s\" class=\"thickbox\">page d'aperçu affichant "
+"toutes les données</a> . La capture d'écran montre déjà des données comme "
+"exemple. Au début, vous devriez aller à la <a href=\"%s\" class=\"thickbox"
+"\">page des paramètres</a> . L'option <em>Menu principal</em> permettra de "
+"créer un objet individuel dans le menu d'administration. Activez l'option "
+"<em>Données modifiables depuis le profil</em> pour utiliser ProjectManager "
+"en tant qu'utilisateur étendu WP. Avant d'ajouter des données, vous avez "
+"besoin de configurer le <a href=\"%s\" class=\"thickbox\">formulaire</a> . "
+"C'est une fonctionnalité très puissante de ProjectManager car elle permet la "
+"conception de formulaires de saisie personnalisés afin d'avoir des ensembles "
+"de données avec une grande variété de données. Vous pouvez choisir "
+"d'afficher la valeur du champ sur la page de démarrage et commander "
+"l'affichage dans le profil de l'utilisateur. En outre, il est possible de "
+"trier les données pour certaines valeurs de champs de formulaires. Après "
+"cela vous êtes prêt à <a href=\"%s\" class=\"thickbox\">insérer des données</"
+"a> . Il est possible de grouper les données dans les différentes <a href=\"%s"
+"\" class=\"thickbox\">catégories</a> en utilisant le système de catégories "
+"WP."
+
+# @ projectmanager
+#: admin/documentation.php:543
+#, php-format
+msgid ""
+"The datasets of a project can be inserted into a page or post either by "
+"directly using the shortcodes which are described above or by using the <a "
+"href=\"%s\" class=\"thickbox\" rel=\"howto\">TinyMCE Button</a>. The button, "
+"however, only covers a few default parameter. One default template is <a "
+"href=\"%s\" class=\"thickbox\" rel=\"howto\">gallery</a> which displays the "
+"datasets in a multicolumn photogallery with a link to <a href=\"%s\" class="
+"\"thickbox\" rel=\"howto\">individual datasets</a>. This template is "
+"especially useful for athlete profiles."
+msgstr ""
+"Les données d'un projet peuvent être insérées dans une page ou un article "
+"soit en utilisant directement les codes courts qui sont décrits ci-dessus ou "
+"en utilisant le <a href=\"%s\" class=\"thickbox\">bouton TinyMCE</a> . Le "
+"bouton, toutefois, ne couvre que quelques-un des paramètres par défaut. Un "
+"modèle par défaut est <a href=\"%s\" class=\"thickbox\">la galerie</a> qui "
+"affiche les données dans une galerie de photos multi-colonnes avec un lien "
+"vers <a href=\"%s\" class=\"thickbox\">les données individuelles</a> . Ce "
+"modèle est particulièrement utile pour les profils d'athlètes."
+
+# @ projectmanager
+#: admin/documentation.php:544
+#, php-format
+msgid ""
+"ProjectManager also supplies a <a href=\"%s\" class=\"thickbox\" rel=\"howto"
+"\">widget</a> and supports any number of widgets. It can be used to display "
+"a list of datasets in the sidebar, but also show a slideshow of datasets, e."
+"g. athlete portraits."
+msgstr ""
+"ProjectManager fournit également un <a href=\"%s\" class=\"thickbox"
+"\">widget</a> et supporte un certain nombre de widgets. Il peut être utilisé "
+"pour afficher une liste des ensembles de données dans la barre latérale, "
+"mais aussi montrer un diaporama des ensembles de données, par exemple, les "
+"portraits des athlètes."
+
+# @ projectmanager
+#: admin/documentation.php:545
+#, php-format
+msgid ""
+"ProjectManager also supports <a href=\"%s\" class=\"thickbox\" rel=\"howto"
+"\">AJAX editing</a> of dataset values by clicking on the pencil symbol next "
+"to the field value on the overview page. <a href=\"%s\" class=\"thickbox\" "
+"rel=\"howto\">E-Mail and URL</a> fields have a special syntax to add the "
+"values with a certain text."
+msgstr ""
+"ProjectManager prend également en charge <a href=\"%s\" class=\"thickbox"
+"\">la modification via AJAX</a> des données en cliquant sur le symbole de "
+"crayon à côté de la valeur du champ sur la page de présentation. Les champs "
+"<a href=\"%s\" class=\"thickbox\">E-Mail et URL</a> ont une syntaxe spéciale "
+"pour ajouter les valeurs avec un certain texte."
+
+# @ projectmanager
+#: admin/index.php:21
+msgid "List of Projects"
+msgstr "Liste des projets"
+
+# @ projectmanager
+#: admin/index.php:27 admin/index.php:36 admin/tinymce/window.php:224
+msgid "Datasets"
+msgstr "Données"
+
+# @ projectmanager
+#: admin/index.php:28 admin/index.php:37
+msgid "Action"
+msgstr "Action"
+
+# @ projectmanager
+#: admin/index.php:70 admin/index.php:76
+msgid "Add Project"
+msgstr "Ajouter un projet"
+
+# @ default
+#: admin/tinymce/window.php:31
+msgid "Post"
+msgstr "Article"
+
+# @ default
+#: admin/tinymce/window.php:32
+msgid "Save"
+msgstr "Enregistrer"
+
+# @ default
+#: admin/tinymce/window.php:34
+msgid "Please wait..."
+msgstr "Patienter svp..."
+
+# @ default
+#: admin/tinymce/window.php:35
+msgid "Page Revisions"
+msgstr "Versions des pages"
+
+# @ default
+#: admin/tinymce/window.php:36
+msgid "Insert time"
+msgstr "Heure d'ajout"
+
+# @ projectmanager
+#: admin/tinymce/window.php:51 admin/tinymce/window.php:144
+msgid "Dataset"
+msgstr "Données"
+
+# @ projectmanager
+#: admin/tinymce/window.php:52
+msgid "Search Form"
+msgstr "Formulaire de recherche"
+
+# @ projectmanager
+#: admin/tinymce/window.php:53
+msgid "Dataset Form"
+msgstr "Formulaire de données"
+
+#: admin/tinymce/window.php:54
+msgid "Counter"
+msgstr "Compteur"
+
+#: admin/tinymce/window.php:55
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: admin/tinymce/window.php:56
+msgid "Map"
+msgstr "Carte"
+
+# @ projectmanager
+#: admin/tinymce/window.php:68 admin/tinymce/window.php:168
+#: admin/tinymce/window.php:192 admin/tinymce/window.php:213
+#: admin/tinymce/window.php:249 admin/tinymce/window.php:354
+msgid "No Project"
+msgstr "Aucun projet"
+
+# @ projectmanager
+#: admin/tinymce/window.php:78 admin/tinymce/window.php:259 lib/widget.php:270
+msgid "Gallery"
+msgstr "Galerie"
+
+# @ projectmanager
+#: admin/tinymce/window.php:78 lib/widget.php:270
+msgid "Table"
+msgstr "Table"
+
+#: admin/tinymce/window.php:78 lib/widget.php:270
+msgid "Table with Image"
+msgstr "Table avec une image"
+
+#: admin/tinymce/window.php:78 admin/tinymce/window.php:259
+msgid "List"
+msgstr "Liste"
+
+#: admin/tinymce/window.php:78
+msgid "jQuery UI Accordion"
+msgstr "jQuery UI Accordion"
+
+#: admin/tinymce/window.php:78
+msgid "Expandable List"
+msgstr "Liste modifiable"
+
+#: admin/tinymce/window.php:78
+msgid "jQuery UI Accordion FAQ"
+msgstr "FAQ de jQuery UI Accordion"
+
+#: admin/tinymce/window.php:78
+msgid "Expandable FAQ"
+msgstr "FAQ extensible"
+
+# @ projectmanager
+#: admin/tinymce/window.php:119 admin/tinymce/window.php:341
+msgid "Show Selections"
+msgstr "Montrer la sélection"
+
+# @ projectmanager
+#: admin/tinymce/window.php:123
+msgid "Show Searchform"
+msgstr "Montrer le formulaire de recherche"
+
+#: admin/tinymce/window.php:127
+msgid "Limit"
+msgstr "Limite"
+
+# @ projectmanager
+#: admin/tinymce/window.php:130
+msgid "Show all datasets"
+msgstr "Afficher toutes les données"
+
+# @ projectmanager
+#: admin/tinymce/window.php:176 lib/widget.php:126
+msgid "Display"
+msgstr "Affichage"
+
+# @ projectmanager
+#: admin/tinymce/window.php:178
+msgid "Extended Version"
+msgstr "Version étendue"
+
+# @ projectmanager
+#: admin/tinymce/window.php:179
+msgid "Compact Version"
+msgstr "Version compacte"
+
+# @ projectmanager
+#: admin/tinymce/window.php:221
+msgid "Count Field"
+msgstr "Champ contenant le nombre"
+
+# @ default
+# @ projectmanager
+#: admin/tinymce/window.php:225
+msgid "Countries"
+msgstr "Pays"
+
+# @ projectmanager
+#: admin/tinymce/window.php:236
+msgid "Optional Text"
+msgstr "Text facultatif"
+
+#: admin/tinymce/window.php:259
+msgid "Intro"
+msgstr "Intro"
+
+#: admin/tinymce/window.php:279
+msgid "Comment"
+msgstr "Commentaire"
+
+#: admin/tinymce/window.php:289 lib/project.php:1029
+msgid "Country"
+msgstr "Pays"
+
+#: admin/tinymce/window.php:299
+msgid "City"
+msgstr "Ville"
+
+#: admin/tinymce/window.php:311
+msgid "Signing Page ID"
+msgstr "ID de la page d'enregistrement"
+
+#: admin/tinymce/window.php:321
+msgid "or"
+msgstr "ou"
+
+#: admin/tinymce/window.php:322
+msgid "Anker on same page"
+msgstr "Rester sur la page"
+
+#: admin/tinymce/window.php:327
+msgid "Supporter Page ID"
+msgstr "ID de la page des supporters"
+
+#: lib/pdf.php:97
+#, php-format
+msgid "Dataset Details - ID %d"
+msgstr "Détail des données - ID %d"
+
+#: lib/pdf.php:181
+msgid "Multiple selections possible"
+msgstr "Sélection multiple possible"
+
+# @ projectmanager
+#: lib/map.php:89
+msgid "South America"
+msgstr "Amérique du sud"
+
+# @ projectmanager
+#: lib/map.php:90
+msgid "North America"
+msgstr "Amérique du nord"
+
+#: lib/map.php:91
+msgid "Europe"
+msgstr "Europe"
+
+#: lib/map.php:92
+msgid "Africa"
+msgstr "Afrique"
+
+#: lib/map.php:93
+msgid "North Asia"
+msgstr "Asie du nord"
+
+#: lib/map.php:94
+msgid "South Asia"
+msgstr "Asie du sud"
+
+#: lib/map.php:95
+msgid "Middle East"
+msgstr "Centre est"
+
+#: lib/map.php:96
+msgid "Oceania"
+msgstr "Océanie"
+
+#: lib/dataset.php:785
+msgid "More..."
+msgstr "Plus..."
+
+# @ projectmanager
+#: lib/shortcodes.php:80
+#, php-format
+msgid "Could not load template %s.php"
+msgstr "Impossible de charger le modèle  %s.php"
+
+# @ projectmanager
+#: lib/shortcodes.php:178
+msgid "Confirmation successful"
+msgstr "Mise à jour réussie"
+
+#: lib/shortcodes.php:180
+msgid "Confirmation failed"
+msgstr "Echec de la confirmation"
+
+# @ projectmanager
+#: lib/widget.php:26
+msgid "Display datasets from ProjectManager"
+msgstr "Afficher les données de ProjectManager"
+
+# @ projectmanager
+#: lib/widget.php:128
+msgid "All"
+msgstr "Tous"
+
+# @ projectmanager
+#: lib/widget.php:137
+msgid "Image size"
+msgstr "Taille de l'image"
+
+# @ projectmanager
+#: lib/widget.php:148
+msgid "Full size"
+msgstr "Grande taille"
+
+# @ projectmanager
+#: lib/widget.php:190
+msgid "Global Search for ProjectManager"
+msgstr "recherche globale dans ProjectManager"
+
+# @ projectmanager
+#: lib/widget.php:191 lib/widget.php:252
+msgid "ProjectManager Search"
+msgstr "Recherche de ProjectManager"
+
+#: lib/widget.php:257
+msgid "Results Page"
+msgstr "Page de résultats"
+
+#: lib/widget.php:258
+msgid "Format"
+msgstr "Format"
+
+# @ projectmanager
+#: lib/project.php:987
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Affichage %s&#8211;%s de %s"
+
+# @ projectmanager
+#: lib/project.php:1010
+msgid "Dataset Name"
+msgstr "Nom des données"
+
+# @ projectmanager
+#: lib/project.php:1011
+msgid "Text"
+msgstr "Texte"
+
+# @ projectmanager
+#: lib/project.php:1012
+msgid "Textfield"
+msgstr "Champ de texte"
+
+# @ projectmanager
+#: lib/project.php:1013
+msgid "TinyMCE Editor"
+msgstr "Editeur TinyMCE "
+
+# @ projectmanager
+#: lib/project.php:1014
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: lib/project.php:1015 lib/project.php:1053
+msgid "Paragraph"
+msgstr "Paragraphe"
+
+# @ projectmanager
+#: lib/project.php:1017
+msgid "Date"
+msgstr "Date"
+
+# @ projectmanager
+#: lib/project.php:1018
+msgid "URL"
+msgstr "URL"
+
+# @ projectmanager
+#: lib/project.php:1019
+msgid "Selection"
+msgstr "Sélection"
+
+# @ projectmanager
+#: lib/project.php:1020
+msgid "Checkbox List"
+msgstr "Liste de Checkbox"
+
+# @ projectmanager
+#: lib/project.php:1021
+msgid "Radio List"
+msgstr "Boutons radio"
+
+# @ projectmanager
+#: lib/project.php:1023
+msgid "Dataset Image"
+msgstr "Image des données"
+
+# @ projectmanager
+#: lib/project.php:1024
+msgid "Title Image"
+msgstr "Titre de l'image"
+
+# @ projectmanager
+#: lib/project.php:1025
+msgid "Image"
+msgstr "Image"
+
+# @ projectmanager
+#: lib/project.php:1026
+msgid "Video"
+msgstr "Vidéo"
+
+# @ projectmanager
+#: lib/project.php:1027
+msgid "Numeric"
+msgstr "Numérique"
+
+# @ projectmanager
+#: lib/project.php:1028
+msgid "Currency"
+msgstr "Monnaie"
+
+#: lib/project.php:1030
+msgid "Signature"
+msgstr "Signature"
+
+# @ projectmanager
+#: lib/project.php:1031
+msgid "Internal Link"
+msgstr "Lien interne"
+
+# @ projectmanager
+#: lib/project.php:1032
+msgid "Time"
+msgstr "Heure"
+
+# @ projectmanager
+#: lib/project.php:1033
+msgid "WP User"
+msgstr "Utilisateur"
+
+#: lib/project.php:1173
+#, php-format
+msgid "Maximum of %d characters"
+msgstr "Maximum de %d caractères"
+
+# @ projectmanager
+#: lib/project.php:1875
+#, php-format
+msgid "%s &mdash; Search: %d of %d"
+msgstr "%s &mdash; Recherche&nbsp;: %d  de %d"
+
+# @ projectmanager
+#: lib/project.php:1877
+#, php-format
+msgid "Search: %d of %d"
+msgstr "Recherche: %d de %d"
+
+# @ projectmanager
+#: lib/project.php:2199
+#, php-format
+msgid "No datasets found in Project %s"
+msgstr "Aucune donnée dans le projet %s"

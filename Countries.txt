@@ -1,0 +1,243 @@
+Name	Code	Code2	RegionCode	RegionName
+Afghanistan	AFG	AF	ME	Middle East
+Åland Islands	ALA	AX	EU	Europe
+Albania	ALB	AL	EU	Europe
+Algeria	DZA	DZ	AF	Africa
+American Samoa	ASM	AS	OC	Oceania
+Andorra	AND	AD	EU	Europe
+Angola	AGO	AO	AF	Africa
+Anguilla	AIA	AI	SA	South America
+Antigua and Barbuda	ATG	AG	SA	South America
+Argentina	ARG	AR	SA	South America
+Armenia	ARM	AM	EU	Europe
+Aruba	ABW	AW	SA	South America
+Australia	AUS	AU	OC	Oceania
+Austria	AUT	AT	EU	Europe
+Azerbaijan	AZE	AZ	ME	Middle East
+Bahamas	BHS	BS	SA	South America
+Bahrain	BHR	BH	ME	Middle East
+Bangladesh	BGD	BD	SS	South Asia
+Barbados	BRB	BB	SA	South America
+Belarus	BLR	BY	EU	Europe
+Belgium	BEL	BE	EU	Europe
+Belize	BLZ	BZ	SA	South America
+Benin	BEN	BJ	AF	Africa
+Bermuda	BMU	BM	NA	North America
+Bhutan	BTN	BT	SS	South Asia
+Bolivia (Plurinational State of)	BOL	BO	SA	South America
+Bonaire, Sint Eustatius and Saba	BES		SA	South America
+Bosnia and Herzegovina	BIH	BA	EU	Europe
+Botswana	BWA	BW	AF	Africa
+Brazil	BRA	BR	SA	South America
+British Virgin Islands	VGB	VG	SA	South America
+Brunei Darussalam	BRN	BN	OC	Oceania
+Bulgaria	BGR	BG	EU	Europe
+Burkina Faso	BFA	BF	AF	Africa
+Burundi	BDI	BI	AF	Africa
+Cabo Verde	CPV	CV	AF	Africa
+Cambodia	KHM	KH	SS	South Asia
+Cameroon	CMR	CM	AF	Africa
+Canada	CAN	CA	NA	North America
+Cayman Islands	CYM	KY	SA	South America
+Central African Republic	CAF	CF	AF	Africa
+Chad	TCD	TD	AF	Africa
+Channel Islands			EU	Europe
+Chile	CHL	CL	SA	South America
+China	CHN	CN	SS	South Asia
+China, Hong Kong Special Administrative Region	HKG	HK	SS	South Asia
+China, Macao Special Administrative Region	MAC	MO	SS	South Asia
+Colombia	COL	CO	SA	South America
+Comoros	COM	KM	AF	Africa
+Congo	COG	CG	AF	Africa
+Cook Islands	COK	CK	OC	Oceania
+Costa Rica	CRI	CR	SA	South America
+Côte d'Ivoire	CIV	CI	AF	Africa
+Croatia	HRV	HR	EU	Europe
+Cuba	CUB	CU	SA	South America
+Curaçao	CUW	CW	SA	South America
+Cyprus	CYP	CY	EU	Europe
+Czech Republic	CZE	CZ	EU	Europe
+Democratic People's Republic of Korea	PRK	KP	SS	South Asia
+Democratic Republic of the Congo	COD	CD	AF	Africa
+Denmark	DNK	DK	EU	Europe
+Djibouti	DJI	DJ	AF	Africa
+Dominica	DMA	DM	SA	South America
+Dominican Republic	DOM	DO	SA	South America
+Ecuador	ECU	EC	SA	South America
+Egypt	EGY	EG	AF	Africa
+El Salvador	SLV	SV	SA	South America
+Equatorial Guinea	GNQ	GQ	AF	Africa
+Eritrea	ERI	ER	AF	Africa
+Estonia	EST	EE	EU	Europe
+Ethiopia	ETH	ET	AF	Africa
+Faeroe Islands	FRO	FO	EU	Europe
+Falkland Islands (Malvinas)	FLK	FK	SA	South America
+Fiji	FJI	FJ	OC	Oceania
+Finland	FIN	FI	EU	Europe
+France	FRA	FR	EU	Europe
+French Guiana	GUF	GF	SA	South America
+French Polynesia	PYF	PF	OC	Oceania
+Gabon	GAB	GA	AF	Africa
+Gambia	GMB	GM	AF	Africa
+Georgia	GEO	GE	EU	Europe
+Germany	DEU	DE	EU	Europe
+Ghana	GHA	GH	AF	Africa
+Gibraltar	GIB	GI	EU	Europe
+Greece	GRC	GR	EU	Europe
+Greenland	GRL	GL	NA	North America
+Grenada	GRD	GD	SA	South America
+Guadeloupe	GLP	GP	SA	South America
+Guam	GUM	GU	OC	Oceania
+Guatemala	GTM	GT	SA	South America
+Guernsey	GGY	GG	EU	Europe
+Guinea	GIN	GN	AF	Africa
+Guinea-Bissau	GNB	GW	AF	Africa
+Guyana	GUY	GY	SA	South America
+Haiti	HTI	HT	SA	South America
+Holy See	VAT	VA	EU	Europe
+Honduras	HND	HN	SA	South America
+Hungary	HUN	HU	EU	Europe
+Iceland	ISL	IS	EU	Europe
+India	IND	IN	SS	South Asia
+Indonesia	IDN	ID	OC	Oceania
+Iran (Islamic Republic of)	IRN	IR	ME	Middle East
+Iraq	IRQ	IQ	ME	Middle East
+Ireland	IRL	IE	EU	Europe
+Isle of Man	IMN	IM	EU	Europe
+Israel	ISR	IL	ME	Middle East
+Italy	ITA	IT	EU	Europe
+Jamaica	JAM	JM	SA	South America
+Japan	JPN	JP	SS	South Asia
+Jersey	JEY	JE	EU	Europe
+Jordan	JOR	JO	ME	Middle East
+Kazakhstan	KAZ	KZ	NS	North Asia
+Kenya	KEN	KE	AF	Africa
+Kiribati	KIR	KI	OC	Oceania
+Kuwait	KWT	KW	ME	Middle East
+Kyrgyzstan	KGZ	KG	ME	Middle East
+Lao People's Democratic Republic	LAO	LA	SS	South Asia
+Latvia	LVA	LV	EU	Europe
+Lebanon	LBN	LB	ME	Middle East
+Lesotho	LSO	LS	AF	Africa
+Liberia	LBR	LR	AF	Africa
+Libya	LBY	LY	AF	Africa
+Liechtenstein	LIE	LI	EU	Europe
+Lithuania	LTU	LT	EU	Europe
+Luxembourg	LUX	LU	EU	Europe
+Madagascar	MDG	MG	AF	Africa
+Malawi	MWI	MW	AF	Africa
+Malaysia	MYS	MY	OC	Oceania
+Maldives	MDV	MV	SS	South Asia
+Mali	MLI	ML	AF	Africa
+Malta	MLT	MT	EU	Europe
+Marshall Islands	MHL	MH	OC	Oceania
+Martinique	MTQ	MQ	SA	South America
+Mauritania	MRT	MR	AF	Africa
+Mauritius	MUS	MU	AF	Africa
+Mayotte	MYT	YT	AF	Africa
+Mexico	MEX	MX	NA	North America
+Micronesia (Federated States of)	FSM	FM	OC	Oceania
+Monaco	MCO	MC	EU	Europe
+Mongolia	MNG	MN	NS	North Asia
+Montenegro	MNE	ME	EU	Europe
+Montserrat	MSR	MS	SA	South America
+Morocco	MAR	MA	AF	Africa
+Mozambique	MOZ	MZ	AF	Africa
+Myanmar	MMR	MM	SS	South Asia
+Namibia	NAM	NA	AF	Africa
+Nauru	NRU	NR	OC	Oceania
+Nepal	NPL	NP	SS	South Asia
+Netherlands	NLD	NL	EU	Europe
+New Caledonia	NCL	NC	OC	Oceania
+New Zealand	NZL	NZ	OC	Oceania
+Nicaragua	NIC	NI	SA	South America
+Niger	NER	NE	AF	Africa
+Nigeria	NGA	NG	AF	Africa
+Niue	NIU	NU	OC	Oceania
+Norfolk Island	NFK	NF	OC	Oceania
+Northern Mariana Islands	MNP	MP	OC	Oceania
+Norway	NOR	NO	EU	Europe
+Oman	OMN	OM	ME	Middle East
+Pakistan	PAK	PK	ME	Middle East
+Palau	PLW	PW	OC	Oceania
+Palestine	PSE	PS	ME	Middle East
+Panama	PAN	PA	SA	South America
+Papua New Guinea	PNG	PG	OC	Oceania
+Paraguay	PRY	PY	SA	South America
+Peru	PER	PE	SA	South America
+Philippines	PHL	PH	SS	South Asia
+Pitcairn	PCN	PN	OC	Oceania
+Poland	POL	PL	EU	Europe
+Portugal	PRT	PT	EU	Europe
+Puerto Rico	PRI	PR	SA	South America
+Qatar	QAT	QA	ME	Middle East
+Republic of Korea	KOR	KR	SS	South Asia
+Republic of Moldova	MDA	MD	EU	Europe
+Réunion	REU	RE	AF	Africa
+Romania	ROU	RO	EU	Europe
+Russian Federation	RUS	RU	NS	North Asia
+Rwanda	RWA	RW	AF	Africa
+Saint Barthélemy	BLM	BL	SA	South America
+Saint Helena	SHN	SH	AF	Africa
+Saint Kitts and Nevis	KNA	KN	SA	South America
+Saint Lucia	LCA	LC	SA	South America
+Saint Martin (French part)	MAF	MF	SA	South America
+Saint Pierre and Miquelon	SPM	PM	NA	North America
+Saint Vincent and the Grenadines	VCT	VC	SA	South America
+Samoa	WSM	WS	OC	Oceania
+San Marino	SMR	SM	EU	Europe
+Sao Tome and Principe	STP	ST	AF	Africa
+Sark			EU	Europe
+Saudi Arabia	SAU	SA	ME	Middle East
+Senegal	SEN	SN	AF	Africa
+Serbia	SRB	RS	EU	Europe
+Seychelles	SYC	SC	AF	Africa
+Sierra Leone	SLE	SL	AF	Africa
+Singapore	SGP	SG	SS	South Asia
+Sint Maarten (Dutch part)	SXM	SX	SA	South America
+Slovakia	SVK	SK	EU	Europe
+Slovenia	SVN	SI	EU	Europe
+Solomon Islands	SLB	SB	OC	Oceania
+Somalia	SOM	SO	AF	Africa
+South Africa	ZAF	ZA	AF	Africa
+South Sudan	SSD	SS	AF	Africa
+Spain	ESP	ES	EU	Europe
+Sri Lanka	LKA	LK	SS	South Asia
+Sudan	SDN	SD	AF	Africa
+Suriname	SUR	SR	SA	South America
+Svalbard and Jan Mayen Islands	SJM	SJ	EU	Europe
+Swaziland	SWZ	SZ	AF	Africa
+Sweden	SWE	SE	EU	Europe
+Switzerland	CHE	CH	EU	Europe
+Syrian Arab Republic	SYR	SY	ME	Middle East
+Taiwan	TWN	TW	SS	South Asia
+Tajikistan	TJK	TJ	ME	Middle East
+Thailand	THA	TH	SS	South Asia
+The former Yugoslav Republic of Macedonia	MKD	MK	EU	Europe
+Timor-Leste	TLS	TL	OC	Oceania
+Togo	TGO	TG	AF	Africa
+Tokelau	TKL	TK	OC	Oceania
+Tonga	TON	TO	OC	Oceania
+Trinidad and Tobago	TTO	TT	SA	South America
+Tunisia	TUN	TN	AF	Africa
+Turkey	TUR	TR	EU	Europe
+Turkmenistan	TKM	TM	ME	Middle East
+Turks and Caicos Islands	TCA	TC	SA	South America
+Tuvalu	TUV	TV	OC	Oceania
+Uganda	UGA	UG	AF	Africa
+Ukraine	UKR	UA	EU	Europe
+United Arab Emirates	ARE	AE	ME	Middle East
+United Kingdom of Great Britain and Northern Ireland	GBR	GB	EU	Europe
+United Republic of Tanzania	TZA	TZ	AF	Africa
+United States of America	USA	US	NA	North America
+United States Virgin Islands	VIR	VI	SA	South America
+Uruguay	URY	UY	SA	South America
+Uzbekistan	UZB	ZU	ME	Middle East
+Vanuatu	VUT	VU	OC	Oceania
+Venezuela (Bolivarian Republic of)	VEN	VE	SA	South America
+Viet Nam	VNM	VN	SS	South Asia
+Wallis and Futuna Islands	WLF	WF	OC	Oceania
+Western Sahara	ESH	EH	AF	Africa
+Yemen	YEM	YE	ME	Middle East
+Zambia	ZMB	ZM	AF	Africa
+Zimbabwe	ZWE	ZW	AF	Africa

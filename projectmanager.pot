@@ -1,0 +1,1661 @@
+# ProjectManager POT file.
+# Copyright (C) 2017 Kolja Schleich
+# This file is distributed under the same license as the WordPress package.
+# Creation Date: 2017-05-25 21:26:19
+
+#projectmanager.php: 201
+msgid "ID"
+msgstr ""
+
+#projectmanager.php: 204
+msgid "Title"
+msgstr ""
+
+#projectmanager.php: 205
+msgid "Add Dataset"
+msgstr ""
+
+#projectmanager.php: 211
+msgid "Datasets"
+msgstr ""
+
+#projectmanager.php: 307
+msgid "Projects"
+msgstr ""
+
+#admin/admin.php: 87
+msgid "You can extend ProjectManager with fancy slideshows by using the <a href='%s' target='_blank'>Fancy Slideshows Plugin</a>. (<a href='%s'>Ignore</a>)"
+msgstr ""
+
+#admin/admin.php: 113
+msgid "Once Weekly"
+msgstr ""
+
+#admin/admin.php: 118
+msgid "Once a month"
+msgstr ""
+
+#admin/admin.php: 148
+msgid "Settings"
+msgstr ""
+
+#admin/admin.php: 149
+msgid "Form Fields"
+msgstr ""
+
+#admin/admin.php: 150
+msgid "Categories"
+msgstr ""
+
+#admin/admin.php: 152
+msgid "Newsletter"
+msgstr ""
+
+#admin/admin.php: 153
+msgid "Import/Export"
+msgstr ""
+
+#admin/admin.php: 180
+msgid "Overview"
+msgstr ""
+
+#admin/admin.php: 202
+msgid "Documentation"
+msgstr ""
+
+#admin/admin.php: 218
+msgid "ProjectManager Latest Support News"
+msgstr ""
+
+#admin/admin.php: 372
+msgid "You don't have permission to perform this task"
+msgstr ""
+
+#admin/admin.php: 412
+msgid "E-Mail confirmation has been sent"
+msgstr ""
+
+#admin/admin.php: 414
+msgid "An error occured while trying to send E-Mail confirmation. Did you set the frontend page containing the dataset form?"
+msgstr ""
+
+#admin/admin.php: 432
+msgid "You are not allowed to perform this task"
+msgstr ""
+
+#admin/admin.php: 497
+msgid "E-Mail confirmations have been sent to the following dataset IDs: %s"
+msgstr ""
+
+#admin/admin.php: 580
+msgid "Edit Dataset"
+msgstr ""
+
+#admin/admin.php: 634
+msgid "Image thumbnails regenerated. You should not reload this page, otherwise thumbnails will be again regenerated."
+msgstr ""
+
+#admin/admin.php: 721
+msgid "Formfields deleted"
+msgstr ""
+
+#admin/admin.php: 753
+msgid "Edit Category"
+msgstr ""
+
+#admin/admin.php: 756
+msgid "Add Category"
+msgstr ""
+
+#admin/admin.php: 892
+msgid "You have to add at least one email formfield to use this feature"
+msgstr ""
+
+#admin/admin.php: 946
+msgid "Projectmanager"
+msgstr ""
+
+#admin/admin.php: 1052
+msgid "None"
+msgstr ""
+
+#admin/admin.php: 1066
+msgid "Formfields"
+msgstr ""
+
+#admin/admin.php: 1081
+msgid "Descending"
+msgstr ""
+
+#admin/admin.php: 1096
+msgid "Name"
+msgstr ""
+
+#admin/admin.php: 1125
+msgid "Project added"
+msgstr ""
+
+#admin/admin.php: 1155
+msgid "Project updated"
+msgstr ""
+
+#admin/admin.php: 1250
+msgid "The file type is not supported."
+msgstr ""
+
+#admin/admin.php: 1311
+msgid "Settings saved"
+msgstr ""
+
+#admin/admin.php: 1378
+msgid "Once a Month"
+msgstr ""
+
+#admin/admin.php: 1443
+msgid "Dataset columns must not be separated by comma as multiple categories use this delimiter"
+msgstr ""
+
+#admin/admin.php: 1515
+msgid "%d Datasets successfully imported"
+msgstr ""
+
+#admin/admin.php: 1517
+msgid "The file is not readable"
+msgstr ""
+
+#admin/admin.php: 1524
+msgid "The uploaded file seems to be empty"
+msgstr ""
+
+#admin/admin.php: 1542
+msgid "You have to select a media file in zip format"
+msgstr ""
+
+#admin/admin.php: 1550
+msgid "Media file have been successfully imported"
+msgstr ""
+
+#admin/admin.php: 1554
+msgid "Media zip file could not be unpacked"
+msgstr ""
+
+#admin/admin.php: 1572
+msgid "You have to select a project export file in php format"
+msgstr ""
+
+#admin/admin.php: 1583
+msgid "Project has been successfully imported"
+msgstr ""
+
+#admin/admin.php: 1715
+msgid "No media files found to export"
+msgstr ""
+
+#admin/admin.php: 1859
+msgid "Mandatory field %s is incorrect"
+msgstr ""
+
+#admin/admin.php: 1870
+msgid "Mandatory field %s is missing"
+msgstr ""
+
+#admin/admin.php: 1885
+msgid "Mandatory field %s is empty"
+msgstr ""
+
+#admin/admin.php: 1895
+msgid "Provided %s `%s` is not a valid e-mail address"
+msgstr ""
+
+#admin/admin.php: 1897
+msgid "Provided %s `%s` is not allowed"
+msgstr ""
+
+#admin/admin.php: 1913
+msgid "Provided %s is longer than the allowed length of %s characters"
+msgstr ""
+
+#admin/admin.php: 1920
+msgid "The following error occured while submitting the data"
+msgstr ""
+
+#admin/admin.php: 2100
+msgid "New dataset added to the database."
+msgstr ""
+
+#admin/admin.php: 2243
+msgid "Dataset updated."
+msgstr ""
+
+#admin/admin.php: 2305
+msgid "Dataset order saved"
+msgstr ""
+
+#admin/admin.php: 2559
+msgid "Project thumbnails regenerated. You should not reload this page, otherwise thumbnails will be again regenerated."
+msgstr ""
+
+#admin/admin.php: 2621
+msgid "Unused media files deleted"
+msgstr ""
+
+#admin/admin.php: 2626
+msgid "Congratulations! This project has no orphaned media files."
+msgstr ""
+
+#admin/admin.php: 2628
+msgid "The following files do not do not seem to be used. If this is true you can subsequently delete them."
+msgstr ""
+
+#admin/admin.php: 2635
+msgid "Delete unused media files"
+msgstr ""
+
+#admin/admin.php: 2705
+msgid "File exists and is not uploaded. Set the overwrite option if you want to replace it."
+msgstr ""
+
+#admin/admin.php: 2942
+msgid "Form Fields updated"
+msgstr ""
+
+#admin/admin.php: 2971
+msgid "Category added"
+msgstr ""
+
+#admin/admin.php: 2994
+msgid "Category edited"
+msgstr ""
+
+#admin/admin.php: 3154
+msgid "Your session has expired"
+msgstr ""
+
+#admin/admin.php: 3156
+msgid "Something went wrong with the captcha"
+msgstr ""
+
+#admin/admin.php: 3158
+msgid "Wrong Captcha Code"
+msgstr ""
+
+#admin/admin.php: 3173
+msgid "Dataset added to the database"
+msgstr ""
+
+#admin/categories.php: 48
+msgid "Category"
+msgstr ""
+
+#admin/categories.php: 49
+msgid "Actions"
+msgstr ""
+
+#admin/categories.php: 67
+msgid "Edit"
+msgstr ""
+
+#admin/dataset-form.php: 37
+msgid "Sticky"
+msgstr ""
+
+#admin/dataset-form.php: 38
+msgid "Set this option to show dataset on top of list"
+msgstr ""
+
+#admin/dataset-form.php: 65
+msgid "Owner"
+msgstr ""
+
+#admin/dataset-form.php: 66
+msgid "Nobody"
+msgstr ""
+
+#admin/dataset.php: 3
+msgid "Dataset Details"
+msgstr ""
+
+#admin/documentation.php: 7
+msgid "ProjectManager Documentation"
+msgstr ""
+
+#admin/documentation.php: 12
+msgid "Formfield Options"
+msgstr ""
+
+#admin/documentation.php: 13
+msgid "Slideshows"
+msgstr ""
+
+#admin/documentation.php: 14
+msgid "Shortcodes"
+msgstr ""
+
+#admin/documentation.php: 15
+msgid "Templates"
+msgstr ""
+
+#admin/documentation.php: 16
+msgid "Global Search"
+msgstr ""
+
+#admin/documentation.php: 17
+msgid "Template Tags"
+msgstr ""
+
+#admin/documentation.php: 18
+msgid "Access Control"
+msgstr ""
+
+#admin/documentation.php: 19
+msgid "Extended Profile"
+msgstr ""
+
+#admin/documentation.php: 20
+msgid "Customization"
+msgstr ""
+
+#admin/documentation.php: 21
+msgid "Export/Import"
+msgstr ""
+
+#admin/documentation.php: 22
+msgid "Howto"
+msgstr ""
+
+#admin/documentation.php: 29
+msgid "Top"
+msgstr ""
+
+#admin/documentation.php: 31
+msgid "Each formfield has an options field, which can be used to extend its functionality."
+msgstr ""
+
+#admin/documentation.php: 32
+msgid "Formfields of types checkbox, radio or dropdown menu, the options field is used to specify the different options. Each option is separated by ;. For checkbox and radio lists you can also use a special option <em>Other</em>, which will trigger addition of a textfield so that users can input custom values"
+msgstr ""
+
+#admin/documentation.php: 33
+msgid "Other formfield types have special options to extend their functionality as listed below"
+msgstr ""
+
+#admin/documentation.php: 35
+msgid "max:XX allows limiting the number of allowed characters of the field"
+msgstr ""
+
+#admin/documentation.php: 36
+msgid "limit:XX allows generating text excerpts. This is especially useful for textfields or TinyMCE editor fields"
+msgstr ""
+
+#admin/documentation.php: 37
+msgid "slideshow:description is a special option for the <a href='%s' target='_blank'>Fancy Slideshows Plugin</a> to specify slideshow description fields."
+msgstr ""
+
+#admin/documentation.php: 46
+msgid "Fancy slideshows of individual projects data can be easily created in combination with the <a href='%s' target='_blank'>Fancy Slideshows Plugin</a>."
+msgstr ""
+
+#admin/documentation.php: 55
+msgid "The main shortcode is to display datasets of a project. The following shows a minimal example. A complete list of arguments is described in the table below."
+msgstr ""
+
+#admin/documentation.php: 61
+msgid "Parameter"
+msgstr ""
+
+#admin/documentation.php: 62
+msgid "Description"
+msgstr ""
+
+#admin/documentation.php: 63
+msgid "Possible Values"
+msgstr ""
+
+#admin/documentation.php: 64
+msgid "Default"
+msgstr ""
+
+#admin/documentation.php: 65
+msgid "Optional"
+msgstr ""
+
+#admin/documentation.php: 84
+msgid "$value['desc']"
+msgstr ""
+
+#admin/documentation.php: 85
+msgid "$value['values']"
+msgstr ""
+
+#admin/documentation.php: 87
+msgid "$value['optional']"
+msgstr ""
+
+#admin/documentation.php: 94
+msgid "A single dataset can be displayed with the following code"
+msgstr ""
+
+#admin/documentation.php: 124
+msgid "It is possible to include the dataset input form with the following code"
+msgstr ""
+
+#admin/documentation.php: 153
+msgid "It is possible to include the number datasets or countries"
+msgstr ""
+
+#admin/documentation.php: 184
+msgid "It is possible to include global search results page by simply putting the following shortcode into a page or post"
+msgstr ""
+
+#admin/documentation.php: 188
+msgid "If you have at least one country formfield you can display a worldmap denoting the number of datasets by continents powered by the <a href='%s' target='%s' title=Simplemaps'>Free World Continent Map</a> from <a href='%s' target='%s' title='Simplemaps'>simplemaps</a>, based on the <a href='%s' target='%s' title='Interactive-Maps Plugin'>Interactive-Maps Plugin</a>."
+msgstr ""
+
+#admin/documentation.php: 219
+msgid "It is possible to include testimonials"
+msgstr ""
+
+#admin/documentation.php: 261
+msgid "Templates are special files that are used to display plugin data in the website frontend. They reside in the following directory"
+msgstr ""
+
+#admin/documentation.php: 263
+msgid "The following table lists all available default templates"
+msgstr ""
+
+#admin/documentation.php: 267
+msgid "Template"
+msgstr ""
+
+#admin/documentation.php: 290
+msgid "$template['desc']"
+msgstr ""
+
+#admin/documentation.php: 296
+msgid "If you want to modify existing templates copy it to"
+msgstr ""
+
+#admin/documentation.php: 298
+msgid "The plugin will then first look in your theme directory. Further it is possible to design own templates. Assume you created a file <strong>sample1.php</strong>, to display datasets of a project. To use the template use the following tag."
+msgstr ""
+
+#admin/documentation.php: 300
+msgid "For single datasets templates must be named <strong>dataset-X.php</strong>, dataset form <strong>dataset-form-X.php</strong> and testimonials <strong>testimonials-X</strong>. The files are then loaded with the following tags."
+msgstr ""
+
+#admin/documentation.php: 324
+msgid "The search widget allows searching simultaneously in all projects. In the widget settings a results page has to be defined. This can be either any page containing a project with shortcodes <strong>[project]</strong> or <strong>[testimonials]</strong>, which will automatically show global search results. Alternatively, a page can be created containing the shortcode <strong>[projectmanager_search]</strong>, which will not display anything, unless a global search has been queried."
+msgstr ""
+
+#admin/documentation.php: 332
+msgid "Template Tags are functions that can be used in your Wordpress Theme to display the plugin data. Here is a brief listing of available tags. For details see file functions.php"
+msgstr ""
+
+#admin/documentation.php: 334
+msgid "display all datasets from a single project"
+msgstr ""
+
+#admin/documentation.php: 335
+msgid "display a single dataset"
+msgstr ""
+
+#admin/documentation.php: 336
+msgid "Display widget. <em>$number</em> is the widget number and <em>$instance</em> is an assoziative array of widget settings. See lib/widget.php function widget for details."
+msgstr ""
+
+#admin/documentation.php: 337
+msgid "display the searchform. <em>$project_id</em> is the ID of the project."
+msgstr ""
+
+#admin/documentation.php: 338
+msgid "display the selection bar. <em>$project_id</em> is the ID of the project."
+msgstr ""
+
+#admin/documentation.php: 339
+msgid "display the dataset form. <em>$project_id</em> is the ID of the project."
+msgstr ""
+
+#admin/documentation.php: 341
+msgid "The variable <em>$args</em> is always an assoziative array of additional arguments with keys being the same as the shortcode attributes."
+msgstr ""
+
+#admin/documentation.php: 349
+msgid "ProjectManager has fine grained capabilities to control access to different areas of the administration panel. You could use <a href=\"%s\" target=\"_blank\">Capability Manager</a> to manage roles and capabilities. <em>Note</em>: Capabilities are not inherent."
+msgstr ""
+
+#admin/documentation.php: 351
+msgid "add and edit projects"
+msgstr ""
+
+#admin/documentation.php: 352
+msgid "delete existing projects"
+msgstr ""
+
+#admin/documentation.php: 353
+msgid "allow access to global settings of ProjectManager"
+msgstr ""
+
+#admin/documentation.php: 354
+msgid "allow access to FormField Panel"
+msgstr ""
+
+#admin/documentation.php: 355
+msgid "allow access to individual projects settinigs"
+msgstr ""
+
+#admin/documentation.php: 356
+msgid "add and edit categories"
+msgstr ""
+
+#admin/documentation.php: 357
+msgid "export and import data"
+msgstr ""
+
+#admin/documentation.php: 358
+msgid "add datasets and edit own datasets"
+msgstr ""
+
+#admin/documentation.php: 359
+msgid "add datasets and edit all datasets and add WP User as dataset"
+msgstr ""
+
+#admin/documentation.php: 360
+msgid "add more than one dataset"
+msgstr ""
+
+#admin/documentation.php: 361
+msgid "delete own datasets"
+msgstr ""
+
+#admin/documentation.php: 362
+msgid "delete any dataset"
+msgstr ""
+
+#admin/documentation.php: 363
+msgid "browse projects in administration panel"
+msgstr ""
+
+#admin/documentation.php: 364
+msgid "allow usage of profile hook"
+msgstr ""
+
+#admin/documentation.php: 365
+msgid "Download datasets as PDF"
+msgstr ""
+
+#admin/documentation.php: 366
+msgid "Send Confirmation E-Mails from admin panel"
+msgstr ""
+
+#admin/documentation.php: 367
+msgid "Save custom dataset order"
+msgstr ""
+
+#admin/documentation.php: 376
+msgid "Each dataset is assigned an owner who added it. This owner can be also changed by anybody with the capability <em>edit_other_datasets</em>. This makes it possible to use ProjectManager as extended WP User Profile by activating the profile hook option in the projects settings. When this option is activated the first dataset of the current user is loaded into the profile page and can be edited through their profile. For new users, a dataset is automatically generated upon registration if the default user group has the capability <em>projectmanager_user</em>."
+msgstr ""
+
+#admin/documentation.php: 385
+msgid "If you want to use custom icons for the admin menu put them into the following folder in your theme directory"
+msgstr ""
+
+#admin/documentation.php: 389
+msgid "You can also add custom Formfields via the filter projectmanager_formfields. First let us add the field."
+msgstr ""
+
+#admin/documentation.php: 400
+msgid "The <em>callback</em> option is a function which gets the data for this field as it is not stored in the ProjectManager Database. <em>args</em> can be an optional assoziative array of arguments that are passed to the callback function. Finally we just need to get the data from somewhere."
+msgstr ""
+
+#admin/documentation.php: 416
+msgid "There are multiple possibilities for data export and import as listed below"
+msgstr ""
+
+#admin/documentation.php: 418
+msgid "You can export datasets as tab-separated (CSV) or PDF files. Datasets in tab-separated format can be opened in Excel and also imported into another project."
+msgstr ""
+
+#admin/documentation.php: 419
+msgid "Media files of a project can be exported as zip file and also imported into another project"
+msgstr ""
+
+#admin/documentation.php: 420
+msgid "Complete projects can be also exported. This will generate a PHP file with MySQL queries to import the whole project including all settings and formfields. Simply create a new project and directly continue to project import."
+msgstr ""
+
+#admin/documentation.php: 426
+msgid "HowTo"
+msgstr ""
+
+#admin/documentation.php: 429
+msgid "This section should give a short introduction to setting up and using ProjectManager. In addition <a href=\"http://randyhoyt.com/\" target=\"_blank\">Randy Hoyt</a> created a <a href=\"http://randyhoyt.com/wordpress/snippets/\" target=\"_blank\">Screencast</a> on the usage of ProjectManager. Thanks a lot."
+msgstr ""
+
+#admin/documentation.php: 430
+msgid "After activation, there will be a new item in the admin menu. The first step is to <a href=\"%s\" class=\"thickbox\" rel=\"howto\">add a new project</a>. When you click on a specific project you will get to an <a href=\"%s\" class=\"thickbox\" rel=\"howto\">overview page displaying all datasets</a>. The screenshot already shows some example datasets. At first you should go to the <a href=\"%s\" class=\"thickbox\" rel=\"howto\">settings page</a>. The option <em>Top-level menu</em> will create an individual object in the admin menu. Activate the <em>Hook into profile option</em> to use ProjectManager as extended WP User Profile. Before adding datasets you need to setup the <a href=\"%s\" class=\"thickbox\" rel=\"howto\">formfields</a>. This is a very powerful feature of ProjectManager as it allows the design of custom input formular to have datasets with a variety of data. You can choose to display the field value on the startpage and also control display in the user profile. Further it is possible to order datasets by certain formfield values. After that you are set to <a href=\"%s\" class=\"thickbox\" rel=\"howto\">insert datasets</a>. It is possible to group datasets into different <a href=\"%s\" class=\"thickbox\" rel=\"howto\">categories</a> using the WP category system."
+msgstr ""
+
+#admin/documentation.php: 431
+msgid "The datasets of a project can be inserted into a page or post either by directly using the shortcodes which are described above or by using the <a href=\"%s\" class=\"thickbox\" rel=\"howto\">TinyMCE Button</a>. The button, however, only covers a few default parameter. One default template is <a href=\"%s\" class=\"thickbox\" rel=\"howto\">gallery</a> which displays the datasets in a multicolumn photogallery with a link to <a href=\"%s\" class=\"thickbox\" rel=\"howto\">individual datasets</a>. This template is especially useful for athlete profiles."
+msgstr ""
+
+#admin/documentation.php: 432
+msgid "ProjectManager also supplies a <a href=\"%s\" class=\"thickbox\" rel=\"howto\">widget</a> and supports any number of widgets. It can be used to display a list of datasets in the sidebar, but also show a slideshow of datasets, e.g. athlete portraits."
+msgstr ""
+
+#admin/documentation.php: 433
+msgid "ProjectManager also supports <a href=\"%s\" class=\"thickbox\" rel=\"howto\">AJAX editing</a> of dataset values by clicking on the pencil symbol next to the field value on the overview page. <a href=\"%s\" class=\"thickbox\" rel=\"howto\">E-Mail and URL</a> fields have a special syntax to add the values with a certain text."
+msgstr ""
+
+#admin/formfields.php: 20
+msgid "Add Form Field"
+msgstr ""
+
+#admin/formfields.php: 21
+msgid "Download Formular as PDF"
+msgstr ""
+
+#admin/formfields.php: 29
+msgid "Label"
+msgstr ""
+
+#admin/formfields.php: 30
+msgid "Label Type"
+msgstr ""
+
+#admin/formfields.php: 31
+msgid "Type"
+msgstr ""
+
+#admin/formfields.php: 32
+msgid "Options"
+msgstr ""
+
+#admin/formfields.php: 33
+msgid "Parent"
+msgstr ""
+
+#admin/formfields.php: 34
+msgid "Mandatory"
+msgstr ""
+
+#admin/formfields.php: 35
+msgid "Unique"
+msgstr ""
+
+#admin/formfields.php: 36
+msgid "Private"
+msgstr ""
+
+#admin/formfields.php: 37
+msgid "Startpage"
+msgstr ""
+
+#admin/formfields.php: 38
+msgid "Profile"
+msgstr ""
+
+#admin/formfields.php: 39
+msgid "Order"
+msgstr ""
+
+#admin/formfields.php: 40
+msgid "Order By"
+msgstr ""
+
+#admin/formfields.php: 41
+msgid "Width"
+msgstr ""
+
+#admin/formfields.php: 42
+msgid "Linebreak"
+msgstr ""
+
+#admin/formfields.php: 87
+msgid "Save Form Fields"
+msgstr ""
+
+#admin/import.php: 13
+msgid "Import & Export Data"
+msgstr ""
+
+#admin/import.php: 21
+msgid "Export Data"
+msgstr ""
+
+#admin/import.php: 22
+msgid "Import Media"
+msgstr ""
+
+#admin/import.php: 23
+msgid "Import Datasets"
+msgstr ""
+
+#admin/import.php: 24
+msgid "Import Project"
+msgstr ""
+
+#admin/import.php: 31
+msgid "Your media files are ready to <a href=\"%s\">download</a>. (Last modified: %s)"
+msgstr ""
+
+#admin/import.php: 40
+msgid "Datasets (CSV)"
+msgstr ""
+
+#admin/import.php: 41
+msgid "Datasets (PDF)"
+msgstr ""
+
+#admin/import.php: 42
+msgid "Project"
+msgstr ""
+
+#admin/import.php: 43
+msgid "Media Files"
+msgstr ""
+
+#admin/import.php: 45
+msgid "You can export datasets in tab-delimited format or media files as zip archive"
+msgstr ""
+
+#admin/import.php: 60
+msgid "You can upload media files in zip format to the webserver"
+msgstr ""
+
+#admin/import.php: 62
+msgid "Upload Media"
+msgstr ""
+
+#admin/import.php: 77
+msgid "File"
+msgstr ""
+
+#admin/import.php: 80
+msgid "For tab delimited files use TAB as delimiter"
+msgstr ""
+
+#admin/import.php: 83
+msgid "Column Assignment"
+msgstr ""
+
+#admin/import.php: 84
+msgid "All FormFields need to be assigned, also if some contain no data."
+msgstr ""
+
+#admin/import.php: 85
+msgid "Dates must have the format <strong>YYYY-MM-DD</strong>."
+msgstr ""
+
+#admin/import.php: 88
+msgid "multiple categories separated by comma"
+msgstr ""
+
+#admin/import.php: 92
+msgid "Column %d"
+msgstr ""
+
+#admin/import.php: 112
+msgid "Import Database"
+msgstr ""
+
+#admin/index.php: 13
+msgid "Add Project"
+msgstr ""
+
+#admin/index.php: 48
+msgid "Action"
+msgstr ""
+
+#admin/settings-global.php: 9
+msgid "Global Settings"
+msgstr ""
+
+#admin/settings-global.php: 18
+msgid "Color Scheme"
+msgstr ""
+
+#admin/settings-global.php: 19
+msgid "Dashboard Widget Support News"
+msgstr ""
+
+#admin/settings-global.php: 27
+msgid "Table Headers"
+msgstr ""
+
+#admin/settings-global.php: 30
+msgid "Table Rows"
+msgstr ""
+
+#admin/settings-global.php: 37
+msgid "Box Header"
+msgstr ""
+
+#admin/settings-global.php: 52
+msgid "Number of Support Threads"
+msgstr ""
+
+#admin/settings-global.php: 55
+msgid "Show Author"
+msgstr ""
+
+#admin/settings-global.php: 58
+msgid "Show Date"
+msgstr ""
+
+#admin/settings-global.php: 61
+msgid "Show Summary"
+msgstr ""
+
+#admin/settings-global.php: 69
+msgid "Save Preferences"
+msgstr ""
+
+#admin/settings.php: 29
+msgid "General"
+msgstr ""
+
+#admin/settings.php: 30
+msgid "Images"
+msgstr ""
+
+#admin/settings.php: 31
+msgid "Frontend Datasetform"
+msgstr ""
+
+#admin/settings.php: 32
+msgid "Captcha Settings"
+msgstr ""
+
+#admin/settings.php: 34
+msgid "World Map"
+msgstr ""
+
+#admin/settings.php: 35
+msgid "Advanced Settings"
+msgstr ""
+
+#admin/settings.php: 47
+msgid "Set this option to prevent display of any project data in the frontend"
+msgstr ""
+
+#admin/settings.php: 50
+msgid "Set to 0 for no limit"
+msgstr ""
+
+#admin/settings.php: 53
+msgid "Sort Datasets"
+msgstr ""
+
+#admin/settings.php: 61
+msgid "Sort Categories"
+msgstr ""
+
+#admin/settings.php: 69
+msgid "Category Selections"
+msgstr ""
+
+#admin/settings.php: 72
+msgid "Multiple Selections"
+msgstr ""
+
+#admin/settings.php: 73
+msgid "Only Single Category"
+msgstr ""
+
+#admin/settings.php: 79
+msgid "Set this option to add a direct link in the navigation panel."
+msgstr ""
+
+#admin/settings.php: 82
+msgid "Set this option to add first user-owned dataset to profile edit page"
+msgstr ""
+
+#admin/settings.php: 85
+msgid "Menu Icon"
+msgstr ""
+
+#admin/settings.php: 95
+msgid "Needed for multicolumn output, e.g. gallery"
+msgstr ""
+
+#admin/settings.php: 98
+msgid "Activate this to replace @ and . with [at] and [dot] to secure e-mail addresses on website"
+msgstr ""
+
+#admin/settings.php: 101
+msgid "The Project page is used by the slideshow and maybe other plugins to set links"
+msgstr ""
+
+#admin/settings.php: 104
+msgid "Parent Project"
+msgstr ""
+
+#admin/settings.php: 137
+msgid "Default Image"
+msgstr ""
+
+#admin/settings.php: 140
+msgid "Supported file types"
+msgstr ""
+
+#admin/settings.php: 141
+msgid "Delete"
+msgstr ""
+
+#admin/settings.php: 145
+msgid "Max Width' ) ?>&#160;</label><input type=\"number\" step=\"1\" min=\"0\" class=\"small-text\" name=\"settings[tiny_size][width]\" id=\"tiny_width\" value=\"<?php echo $project->tiny_size['width'] ?>\" /></span> <span class=\"image-sizes\"><label for=\"tiny_height\"><?php _e( 'Max Height' ) ?>&#160;</label><input type=\"number\" step=\"1\" min=\"0\" class=\"small-text\" name=\"settings[tiny_size][height]\" id=\"tiny_height\" value=\"<?php echo $project->tiny_size['height'] ?>\" /></span><p><input type=\"checkbox\" value=\"1\" name=\"settings[crop_image][tiny]\" <?php checked( 1, $project->crop_image['tiny'] ) ?> id=\"crop_image_tiny\" /><label for=\"crop_image_tiny\"><?php _e( 'Crop image to exact dimensions"
+msgstr ""
+
+#admin/settings.php: 148
+msgid "Max Width' ) ?>&#160;</label><input type=\"number\" step=\"1\" min=\"0\" class=\"small-text\" name=\"settings[thumb_size][width]\" id=\"thumb_width\" value=\"<?php echo $project->thumb_size['width'] ?>\" /></span> <span class=\"image-sizes\"><label for=\"thumb_height\"><?php _e( 'Max Height' ) ?>&#160;</label><input type=\"number\" step=\"1\" min=\"0\" class=\"small-text\" name=\"settings[thumb_size][height]\" id=\"thumb_height\" value=\"<?php echo $project->thumb_size['height'] ?>\" /></span><p><input type=\"checkbox\" value=\"1\" name=\"settings[crop_image][thumb]\" <?php checked( 1, $project->crop_image['thumb'] ) ?> id=\"crop_image_thumb\" /><label for=\"crop_image_thumb\"><?php _e( 'Crop image to exact dimensions"
+msgstr ""
+
+#admin/settings.php: 151
+msgid "Max Width' ) ?>&#160;</label><input type=\"number\" step=\"1\" min=\"0\" class=\"small-text\" id=\"medium_width\" name=\"settings[medium_size][width]\" value=\"<?php echo $project->medium_size['width'] ?>\" /></span> <span class=\"image-sizes\"><label for=\"medium_height\"><?php _e( 'Max Height' ) ?>&#160;</label> <input type=\"number\" step=\"1\" min=\"0\" class=\"small-text\" id=\"medium_height\" name=\"settings[medium_size][height]\" value=\"<?php echo $project->medium_size['height'] ?>\" /></span><p><input type=\"checkbox\" value=\"1\" name=\"settings[crop_image][medium]\" <?php checked( 1, $project->crop_image['medium'] ) ?> id=\"crop_image_medium\" /><label for=\"crop_image_medium\"><?php _e( 'Crop image to exact dimensions"
+msgstr ""
+
+#admin/settings.php: 154
+msgid "Max Width' ) ?>&#160;</label><input type=\"number\" step=\"1\" min=\"0\" class=\"small-text\" id=\"large_width\" name=\"settings[large_size][width]\" value=\"<?php echo $project->large_size['width'] ?>\" /></span> <span class=\"image-sizes\"><label for=\"large_height\"><?php _e( 'Max Height' ) ?>&#160;</label> <input type=\"number\" step=\"1\" min=\"0\" class=\"small-text\" id=\"large_height\" name=\"settings[large_size][height]\" value=\"<?php echo $project->large_size['height'] ?>\" /></span><p><input type=\"checkbox\" value=\"1\" name=\"settings[crop_image][large]\" <?php checked( 1, $project->crop_image['large'] ) ?> id=\"crop_image_large\" /><label for=\"crop_image_large\"><?php _e( 'Crop image to exact dimensions"
+msgstr ""
+
+#admin/settings.php: 157
+msgid "This will re-create all thumbnail images of this project. Depending on the number of images it could take some time."
+msgstr ""
+
+#admin/settings.php: 168
+msgid "Submit Message"
+msgstr ""
+
+#admin/settings.php: 172
+msgid "Require dataset activation"
+msgstr ""
+
+#admin/settings.php: 175
+msgid "Requires sending an email confirmation"
+msgstr ""
+
+#admin/settings.php: 176
+msgid "Use the tag [CONFIRMATION_LINK] in your confirmation text to insert the confirmation link."
+msgstr ""
+
+#admin/settings.php: 180
+msgid "The page is required for re-sending a onfirmation email from the admin panel"
+msgstr ""
+
+#admin/settings.php: 183
+msgid "Send E-Mail Confirmation"
+msgstr ""
+
+#admin/settings.php: 186
+msgid "Don&rsquo;t send email confirmation"
+msgstr ""
+
+#admin/settings.php: 194
+msgid "Sender E-Mail"
+msgstr ""
+
+#admin/settings.php: 195
+msgid "This E-Mail will be also used to notify of new datasets"
+msgstr ""
+
+#admin/settings.php: 198
+msgid "E-Mail Confirmation Subject"
+msgstr ""
+
+#admin/settings.php: 202
+msgid "E-Mail Confirmation Text"
+msgstr ""
+
+#admin/settings.php: 203
+msgid "Use placeholder [name] to insert the name"
+msgstr ""
+
+#admin/settings.php: 206
+msgid "Attach PDF to Confirmation"
+msgstr ""
+
+#admin/settings.php: 209
+msgid "Notify me of new datasets"
+msgstr ""
+
+#admin/settings.php: 212
+msgid "E-Mail Notification Subject"
+msgstr ""
+
+#admin/settings.php: 216
+msgid "E-Mail Notification Text"
+msgstr ""
+
+#admin/settings.php: 220
+msgid "Attach PDF to Notification"
+msgstr ""
+
+#admin/settings.php: 231
+msgid "Use Captcha"
+msgstr ""
+
+#admin/settings.php: 234
+msgid "Timeout"
+msgstr ""
+
+#admin/settings.php: 235
+msgid "minutes"
+msgstr ""
+
+#admin/settings.php: 238
+msgid "Code Length"
+msgstr ""
+
+#admin/settings.php: 242
+msgid "Code Letters"
+msgstr ""
+
+#admin/settings.php: 246
+msgid "Number of Dots"
+msgstr ""
+
+#admin/settings.php: 250
+msgid "Number of Lines"
+msgstr ""
+
+#admin/settings.php: 267
+msgid "Random"
+msgstr ""
+
+#admin/settings.php: 278
+msgid "Separate IDs by comma"
+msgstr ""
+
+#admin/settings.php: 282
+msgid "You can easily create fancy slideshows of datasets using the <a href='%s' target='_blank'>Fancy Slideshows Plugin</a>. After installing and activating the plugin, come back here for slideshow configuration."
+msgstr ""
+
+#admin/settings.php: 293
+msgid "Formfield"
+msgstr ""
+
+#admin/settings.php: 304
+msgid "Dataset Label"
+msgstr ""
+
+#admin/settings.php: 309
+msgid "Update Map Data"
+msgstr ""
+
+#admin/settings.php: 317
+msgid "Last Updated:"
+msgstr ""
+
+#admin/settings.php: 318
+msgid "Next scheduled update:"
+msgstr ""
+
+#admin/settings.php: 323
+msgid "Powered by the <a href='%s' target='%s' title=Simplemaps'>Free World Continent Map</a> from <a href='%s' target='%s' title='Simplemaps'>simplemaps</a>, based on the <a href='%s' target='%s' title='Interactive-Maps Plugin'>Interactive-Maps Plugin</a>."
+msgstr ""
+
+#admin/settings.php: 335
+msgid "Disable dataset editing"
+msgstr ""
+
+#admin/settings.php: 339
+msgid "List unused media files"
+msgstr ""
+
+#admin/settings.php: 345
+msgid "Save Settings"
+msgstr ""
+
+#admin/show-project.php: 42
+msgid "Find duplicated datasets"
+msgstr ""
+
+#admin/show-project.php: 68
+msgid "Duplicate"
+msgstr ""
+
+#admin/show-project.php: 69
+msgid "Save Order"
+msgstr ""
+
+#admin/show-project.php: 80
+msgid "View all categories"
+msgstr ""
+
+#admin/show-project.php: 103
+msgid "Filter by %s"
+msgstr ""
+
+#admin/show-project.php: 144
+msgid "Status"
+msgstr ""
+
+#admin/show-project.php: 170
+msgid "Number"
+msgstr ""
+
+#admin/show-project.php: 179
+msgid "$dataset->status"
+msgstr ""
+
+#admin/show-project.php: 186
+msgid "Nothing found"
+msgstr ""
+
+#admin/upgrade.php: 13
+msgid "Upgrade database structure..."
+msgstr ""
+
+#admin/upgrade.php: 305
+msgid "Dataset Image"
+msgstr ""
+
+#admin/upgrade.php: 583
+msgid "finished"
+msgstr ""
+
+#admin/upgrade.php: 604
+msgid "Upgrade ProjectManager"
+msgstr ""
+
+#admin/upgrade.php: 605
+msgid "Your database for ProjectManager is out-of-date, and must be upgraded before you can continue."
+msgstr ""
+
+#admin/upgrade.php: 606
+msgid "The upgrade process may take a while, so please be patient."
+msgstr ""
+
+#admin/upgrade.php: 607
+msgid "Start upgrade now"
+msgstr ""
+
+#admin/upgrade.php: 625
+msgid "Upgrade successful"
+msgstr ""
+
+#admin/upgrade.php: 626
+msgid "Continue"
+msgstr ""
+
+#admin/dataset-form-field.php: 8
+msgid "Browse Media"
+msgstr ""
+
+#admin/dataset-form-field.php: 19
+msgid "Day"
+msgstr ""
+
+#admin/dataset-form-field.php: 26
+msgid "Month"
+msgstr ""
+
+#admin/dataset-form-field.php: 33
+msgid "Year"
+msgstr ""
+
+#admin/dataset-form-field.php: 63
+msgid "$label"
+msgstr ""
+
+#admin/dataset-form-field.php: 86
+msgid "Delete File"
+msgstr ""
+
+#admin/dataset-form-field.php: 87
+msgid "Overwrite File"
+msgstr ""
+
+#admin/formfields-row.php: 30
+msgid "Choose Project"
+msgstr ""
+
+#admin/formfields-row.php: 34
+msgid "For details on formfield options see the Documentation"
+msgstr ""
+
+#admin/newsletter.php: 3
+msgid "Send Newsletter"
+msgstr ""
+
+#admin/newsletter.php: 12
+msgid "From Name"
+msgstr ""
+
+#admin/newsletter.php: 16
+msgid "From E-Mail"
+msgstr ""
+
+#admin/newsletter.php: 20
+msgid "Receiver E-Mail Field"
+msgstr ""
+
+#admin/newsletter.php: 30
+msgid "Subject"
+msgstr ""
+
+#admin/newsletter.php: 34
+msgid "Message"
+msgstr ""
+
+#admin/tinymce/window.php: 51
+msgid "Dataset"
+msgstr ""
+
+#admin/tinymce/window.php: 52
+msgid "Search Form"
+msgstr ""
+
+#admin/tinymce/window.php: 53
+msgid "Dataset Form"
+msgstr ""
+
+#admin/tinymce/window.php: 54
+msgid "Counter"
+msgstr ""
+
+#admin/tinymce/window.php: 55
+msgid "Testimonials"
+msgstr ""
+
+#admin/tinymce/window.php: 56
+msgid "Map"
+msgstr ""
+
+#admin/tinymce/window.php: 68
+msgid "No Project"
+msgstr ""
+
+#admin/tinymce/window.php: 78
+msgid "Expandable FAQ"
+msgstr ""
+
+#admin/tinymce/window.php: 107
+msgid "Custom Order"
+msgstr ""
+
+#admin/tinymce/window.php: 113
+msgid "Ascending"
+msgstr ""
+
+#admin/tinymce/window.php: 119
+msgid "Show Selections"
+msgstr ""
+
+#admin/tinymce/window.php: 123
+msgid "Show Searchform"
+msgstr ""
+
+#admin/tinymce/window.php: 127
+msgid "Limit"
+msgstr ""
+
+#admin/tinymce/window.php: 130
+msgid "Show all datasets"
+msgstr ""
+
+#admin/tinymce/window.php: 176
+msgid "Display"
+msgstr ""
+
+#admin/tinymce/window.php: 178
+msgid "Extended Version"
+msgstr ""
+
+#admin/tinymce/window.php: 179
+msgid "Compact Version"
+msgstr ""
+
+#admin/tinymce/window.php: 221
+msgid "Count Field"
+msgstr ""
+
+#admin/tinymce/window.php: 225
+msgid "Countries"
+msgstr ""
+
+#admin/tinymce/window.php: 236
+msgid "Optional Text"
+msgstr ""
+
+#admin/tinymce/window.php: 259
+msgid "Gallery"
+msgstr ""
+
+#admin/tinymce/window.php: 268
+msgid "Number of datasets"
+msgstr ""
+
+#admin/tinymce/window.php: 271
+msgid "Number of Columns"
+msgstr ""
+
+#admin/tinymce/window.php: 279
+msgid "Comment"
+msgstr ""
+
+#admin/tinymce/window.php: 289
+msgid "Country"
+msgstr ""
+
+#admin/tinymce/window.php: 299
+msgid "City"
+msgstr ""
+
+#admin/tinymce/window.php: 311
+msgid "Signing Page ID"
+msgstr ""
+
+#admin/tinymce/window.php: 321
+msgid "or"
+msgstr ""
+
+#admin/tinymce/window.php: 322
+msgid "Anker on same page"
+msgstr ""
+
+#admin/tinymce/window.php: 327
+msgid "Supporter Page ID"
+msgstr ""
+
+#admin/tinymce/window.php: 371
+msgid "Cancel"
+msgstr ""
+
+#admin/tinymce/window.php: 375
+msgid "Insert"
+msgstr ""
+
+#lib/pdf.php: 119
+msgid "Dataset Details - ID %d"
+msgstr ""
+
+#lib/pdf.php: 217
+msgid "Multiple selections possible"
+msgstr ""
+
+#lib/pdf.php: 241
+msgid "$option"
+msgstr ""
+
+#lib/project.php: 1063
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#lib/project.php: 1069
+msgid "%s Datasets"
+msgstr ""
+
+#lib/project.php: 1090
+msgid "Dataset Name"
+msgstr ""
+
+#lib/project.php: 1091
+msgid "Text"
+msgstr ""
+
+#lib/project.php: 1092
+msgid "Textfield"
+msgstr ""
+
+#lib/project.php: 1093
+msgid "TinyMCE Editor"
+msgstr ""
+
+#lib/project.php: 1094
+msgid "E-Mail"
+msgstr ""
+
+#lib/project.php: 1095
+msgid "Paragraph"
+msgstr ""
+
+#lib/project.php: 1097
+msgid "Date"
+msgstr ""
+
+#lib/project.php: 1098
+msgid "URL"
+msgstr ""
+
+#lib/project.php: 1099
+msgid "Selection"
+msgstr ""
+
+#lib/project.php: 1100
+msgid "Checkbox List"
+msgstr ""
+
+#lib/project.php: 1101
+msgid "Radio List"
+msgstr ""
+
+#lib/project.php: 1102
+msgid "Newsletter Options"
+msgstr ""
+
+#lib/project.php: 1105
+msgid "Title Image"
+msgstr ""
+
+#lib/project.php: 1106
+msgid "Image"
+msgstr ""
+
+#lib/project.php: 1107
+msgid "Video"
+msgstr ""
+
+#lib/project.php: 1108
+msgid "Numeric"
+msgstr ""
+
+#lib/project.php: 1109
+msgid "Currency"
+msgstr ""
+
+#lib/project.php: 1111
+msgid "Signature"
+msgstr ""
+
+#lib/project.php: 1112
+msgid "Internal Link"
+msgstr ""
+
+#lib/project.php: 1113
+msgid "Time"
+msgstr ""
+
+#lib/project.php: 1114
+msgid "WP User"
+msgstr ""
+
+#lib/project.php: 1115
+msgid "WP Media"
+msgstr ""
+
+#lib/project.php: 1362
+msgid "Maximum of %d characters"
+msgstr ""
+
+#lib/project.php: 2161
+msgid "%s &mdash; Search: %d of %d"
+msgstr ""
+
+#lib/project.php: 2163
+msgid "Search: %d of %d"
+msgstr ""
+
+#lib/project.php: 2481
+msgid "No datasets found in Project %s"
+msgstr ""
+
+#lib/project.php: 2598
+msgid "$option_name"
+msgstr ""
+
+#lib/shortcodes.php: 81
+msgid "Could not load template %s.php"
+msgstr ""
+
+#lib/shortcodes.php: 202
+msgid "Confirmation successful"
+msgstr ""
+
+#lib/shortcodes.php: 204
+msgid "Confirmation failed"
+msgstr ""
+
+#lib/widget.php: 32
+msgid "Display datasets from ProjectManager"
+msgstr ""
+
+#lib/widget.php: 133
+msgid "All"
+msgstr ""
+
+#lib/widget.php: 141
+msgid "Page"
+msgstr ""
+
+#lib/widget.php: 142
+msgid "Image Size"
+msgstr ""
+
+#lib/widget.php: 154
+msgid "Full size"
+msgstr ""
+
+#lib/widget.php: 196
+msgid "Global Search for ProjectManager"
+msgstr ""
+
+#lib/widget.php: 197
+msgid "ProjectManager Search"
+msgstr ""
+
+#lib/widget.php: 224
+msgid "Search"
+msgstr ""
+
+#lib/widget.php: 262
+msgid "Results Page"
+msgstr ""
+
+#lib/widget.php: 263
+msgid "Format"
+msgstr ""
+
+#lib/widget.php: 275
+msgid "Table with Image"
+msgstr ""
+
+#lib/dataset.php: 968
+msgid "More..."
+msgstr ""
+
+#lib/dataset.php: 1058
+msgid "View"
+msgstr ""
+
+#lib/dataset.php: 1062
+msgid "PDF"
+msgstr ""
+
+#lib/map.php: 97
+msgid "South America"
+msgstr ""
+
+#lib/map.php: 98
+msgid "North America"
+msgstr ""
+
+#lib/map.php: 99
+msgid "Europe"
+msgstr ""
+
+#lib/map.php: 100
+msgid "Africa"
+msgstr ""
+
+#lib/map.php: 101
+msgid "North Asia"
+msgstr ""
+
+#lib/map.php: 102
+msgid "South Asia"
+msgstr ""
+
+#lib/map.php: 103
+msgid "Middle East"
+msgstr ""
+
+#lib/map.php: 104
+msgid "Oceania"
+msgstr ""
+
+#lib/map.php: 125
+msgid "stripslashes($country->name)"
+msgstr ""
+
+#lib/map.php: 187
+msgid "stripslashes($this->countries[$key]['name'])"
+msgstr ""
+
+#templates/dataset-form.php: 3
+msgid "$this->getMessage()"
+msgstr ""
+
+#templates/dataset-form.php: 5
+msgid "Back to Formula"
+msgstr ""
+
+#templates/dataset-form.php: 7
+msgid "Back to Homepage"
+msgstr ""
+
+#templates/dataset-form.php: 30
+msgid "Code"
+msgstr ""
+
+#templates/dataset-form.php: 37
+msgid "Try new code"
+msgstr ""
+
+#templates/dataset-form.php: 46
+msgid "Submit"
+msgstr ""
+
+#templates/dataset.php: 4
+msgid "Back to list"
+msgstr ""
+
+#templates/dataset.php: 10
+msgid "%s"
+msgstr ""
+
+#templates/dataset.php: 26
+msgid "Previous dataset"
+msgstr ""
+
+#templates/dataset.php: 29
+msgid "Next dataset"
+msgstr ""
+
+#templates/list-accordion-faq.php: 14
+msgid "Details"
+msgstr ""
+
+#templates/testimonials-intro.php: 24
+msgid "<span class='num'>%d</span> Supporters from <span class='num'>%d</span> Countries Already."
+msgstr ""
+
+#templates/testimonials-intro.php: 26
+msgid "Become part of our cause."
+msgstr ""
+
+#templates/testimonials-intro.php: 29
+msgid "List of supporters."
+msgstr ""
+
